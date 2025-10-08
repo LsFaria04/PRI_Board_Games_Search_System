@@ -1,4 +1,5 @@
 import pandas as pd
+import html
 
 
 def load_data():
