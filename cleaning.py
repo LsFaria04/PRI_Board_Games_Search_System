@@ -56,6 +56,8 @@ def clean_null_values(df):
     #Remove null categories
     df = df[df["categories"].notna()]
 
+    df = df[df["minage"].notna()]
+
     return df
 
 def aggregate_columns(df):
