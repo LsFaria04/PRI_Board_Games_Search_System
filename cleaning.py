@@ -78,7 +78,7 @@ def main() :
     df = load_data()
 
     #Clean the columns that will not be used
-    df = clean_columns(df, ["type", "rank_boardgame","ranks_other", "median"])
+    df = clean_columns(df, ["type", "rank_boardgame","ranks_other", "median", "image", "thumbnail"])
     df = clean_outliers(df)
     df = clean_null_values(df)
     df = aggregate_columns(df)
