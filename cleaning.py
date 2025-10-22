@@ -1,4 +1,5 @@
 import pandas as pd
+import html
 
 
 def load_data():
@@ -14,6 +15,10 @@ def load_data():
     
     return df
 
+def clean_html_chars(df, columns):
+    for column in columns:
+        df[column] = df[column].apply(lambda x: html.unescape(x) if isinstance(x, str) else x)
+    return df
 def clean_columns(df, cols_name):
     '''
     Cleans the columns that are not relevant passed as argument
@@ -82,6 +87,7 @@ def main() :
     df = clean_outliers(df)
     df = clean_null_values(df)
     df = aggregate_columns(df)
+    df = clean_html_chars(df, ["name","alt_names","yearpublished","description","publishers","designers","artists","categories","mechanics","families","expansions","poll_suggested_numplayers","poll_playerage","poll_language_dependence"])
 
     #Create a csv file with the resulting results for a second analisis
     df.to_csv("cleaned_data.csv", index = False)
