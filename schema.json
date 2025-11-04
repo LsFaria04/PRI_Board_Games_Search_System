@@ -1,0 +1,40 @@
+{
+  "replace-field": [
+    {"name":"id","type":"string","stored":false,"indexed":true,"required":true},
+
+    {"name":"name","type":"text_en","stored":true,"indexed":true},
+    {"name":"alt_names","type":"text_en","stored":true,"indexed":true,"multiValued":true},
+    {"name":"description","type":"text_en","stored":true,"indexed":true},
+
+    {"name":"yearpublished","type":"pint","stored":true,"indexed":true},
+    {"name":"minplayers","type":"pint","stored":true,"indexed":true},
+    {"name":"maxplayers","type":"pint","stored":true,"indexed":true},
+    {"name":"playingtime","type":"pint","stored":true,"indexed":true},
+    {"name":"minage","type":"pint","stored":true,"indexed":true},
+
+    {"name":"publishers","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"designers","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"artists","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"categories","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"mechanics","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"families","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"expansions","type":"string","stored":true,"indexed":true,"multiValued":true},
+
+    {"name":"poll_suggested_numplayers","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"poll_playerage","type":"string","stored":true,"indexed":true,"multiValued":true},
+    {"name":"poll_language_dependence","type":"string","stored":true,"indexed":true,"multiValued":true},
+
+    {"name":"usersrated","type":"plong","stored":false,"indexed":true},
+    {"name":"average","type":"pfloat","stored":false,"indexed":true},
+    {"name":"bayesaverage","type":"pfloat","stored":true,"indexed":true},
+    {"name":"stddev","type":"pfloat","stored":false,"indexed":true},
+
+    {"name":"owned","type":"plong","stored":true,"indexed":true},
+    {"name":"trading","type":"plong","stored":true,"indexed":true},
+    {"name":"wanting","type":"plong","stored":true,"indexed":true},
+    {"name":"wishing","type":"plong","stored":true,"indexed":true},
+
+    {"name":"numweights","type":"plong","stored":false,"indexed":true},
+    {"name":"averageweight","type":"pfloat","stored":true,"indexed":true}
+  ]
+}
