@@ -78,6 +78,13 @@ def aggregate_columns(df):
     df = df.drop(["maxplaytime", "minplaytime"], axis = 1)
     return df
 
+def separete_into_array(df, columns):
+    for col in columns:
+        df[col] = df[col].apply(
+            lambda x: [s.strip() for s in x.split(',')] if isinstance(x, str) else x
+        )
+    return df
+
 def main() :
     #Load the data from the csv files
     df = load_data()
@@ -91,6 +98,10 @@ def main() :
 
     #Create a csv file with the resulting results for a second analisis
     df.to_csv("cleaned_data.csv", index = False)
+
+    #Separates the strings into a list of strings to use in the final json file 
+    df = separete_into_array(df, ["alt_names", "publishers","designers","artists","categories","mechanics","families","expansions"])
+    print(df["publishers"].iloc[0])
 
     #Create a json file with the information of the boards after the cleaning (representation of the documents)
     df.to_json("final_data.json", orient = "records", index = False)
