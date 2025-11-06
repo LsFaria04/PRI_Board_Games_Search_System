@@ -1,9 +1,9 @@
 {
-  "replace-field": [
+  "add-field": [
     {"name":"id","type":"string","stored":false,"indexed":true,"required":true},
 
     {"name":"name","type":"text_en","stored":true,"indexed":true},
-    {"name":"alt_names","type":"text_en","stored":true,"indexed":true,"multiValued":true},
+    {"name":"alt_names","type":"string","stored":true,"indexed":true,"multiValued":true},
     {"name":"description","type":"text_en","stored":true,"indexed":true},
 
     {"name":"yearpublished","type":"pint","stored":true,"indexed":true},
