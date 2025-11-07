@@ -78,11 +78,93 @@ def aggregate_columns(df):
     df = df.drop(["maxplaytime", "minplaytime"], axis = 1)
     return df
 
-def separete_into_array(df, columns):
+def separate_into_array(df, columns):
     for col in columns:
         df[col] = df[col].apply(
             lambda x: [s.strip() for s in x.split(',')] if isinstance(x, str) else x
         )
+    return df
+
+def get_best_poll_suggested_players(poll_data):
+    """Get the entry with the best recommendation quality (Best > Recommended > Not Recommended)
+    If multiple entries have the same quality, pick the one with more votes"""
+    if pd.isna(poll_data) or poll_data == "" or not isinstance(poll_data, str):
+        return None
+    
+    # Priority: Best = 3, Recommended = 2, Not Recommended = 1
+    recommendation_priority = {
+        'Best': 3,
+        'Recommended': 2,
+        'Not Recommended': 1
+    }
+    
+    best_priority = 0
+    best_votes = 0
+    best_entry = None
+    
+    for entry in poll_data.split(';'):
+        try:
+            entry = entry.strip()
+            player_count_and_rec = entry[:entry.rindex('(')] 
+            votes = int(entry[entry.rindex('(') + 1 : entry.rindex(')')])
+            
+            # Get recommendation part (after the colon)
+            if ':' in player_count_and_rec:
+                recommendation = player_count_and_rec.split(':', 1)[1].strip()
+            else:
+                continue
+            
+            # Get priority for this recommendation
+            priority = recommendation_priority.get(recommendation, 0)
+            
+            # Keep this entry if it has better priority, or same priority but more votes
+            if priority > best_priority or (priority == best_priority and votes > best_votes):
+                best_priority = priority
+                best_votes = votes
+                best_entry = entry
+        except:
+            continue
+    
+    return best_entry if best_priority > 0 else None
+
+def get_highest_poll_playerage(poll_data):
+    """Get only the entry with the highest vote count"""
+    if pd.isna(poll_data) or poll_data == "" or not isinstance(poll_data, str):
+        return None
+    
+    max_votes = 0
+    best_entry = None
+    
+    for entry in poll_data.split(';'):
+        try:
+            entry = entry.strip()
+            if '(' in entry and ')' in entry:
+                votes = int(entry[entry.rindex('(') + 1 : entry.rindex(')')])
+            elif ':' in entry:
+                votes = int(entry[entry.rindex(':') + 1 :].strip())
+            else:
+                continue
+                
+            if votes > max_votes:
+                max_votes = votes
+                best_entry = entry
+        except:
+            continue
+    
+    return best_entry if max_votes > 0 else None
+
+def clean_poll_columns(df):
+    '''
+    Keep only the entry with the best recommendation quality for each poll column.
+    For poll_suggested_numplayers: prioritizes Best > Recommended > Not Recommended
+    For poll_playerage: keeps the entry with highest votes
+    Since poll_language_dependence is already a single string value and doesn't need filtering
+    If all entries have 0 votes, set to null.
+    '''
+
+    df['poll_suggested_numplayers'] = df['poll_suggested_numplayers'].apply(get_best_poll_suggested_players)
+    df['poll_playerage'] = df['poll_playerage'].apply(get_highest_poll_playerage)
+
     return df
 
 def main() :
@@ -95,13 +177,14 @@ def main() :
     df = clean_null_values(df)
     df = aggregate_columns(df)
     df = clean_html_chars(df, ["name","alt_names","yearpublished","description","publishers","designers","artists","categories","mechanics","families","expansions","poll_suggested_numplayers","poll_playerage","poll_language_dependence"])
+    df = clean_poll_columns(df)
 
     #Create a csv file with the resulting results for a second analisis
     df.to_csv("cleaned_data.csv", index = False)
 
     #Separates the strings into a list of strings to use in the final json file 
-    df = separete_into_array(df, ["alt_names", "publishers","designers","artists","categories","mechanics","families","expansions"])
-    print(df["publishers"].iloc[0])
+    df = separate_into_array(df, ["alt_names", "publishers","designers","artists","categories","mechanics","families","expansions"])
+    print(df[["poll_suggested_numplayers","poll_playerage"]].head(5))
 
     #Create a json file with the information of the boards after the cleaning (representation of the documents)
     df.to_json("final_data.json", orient = "records", index = False)
