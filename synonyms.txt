@@ -1,0 +1,22 @@
+boardgame, tabletop, game
+expansion, addon, supplement
+mechanic, rule, gameplay
+category, genre, theme
+designer, author, creator
+publisher, company, studio
+artist, illustrator
+
+solo, singleplayer, 1-player
+multiplayer, multi-player, 2+ players
+coop, cooperative
+competitive, versus, vs
+
+rating, score, grade
+average, mean
+bayesaverage, weightedaverage
+
+bgg, boardgamegeek
+ttg, tabletopgame
+rpg, roleplayinggame
+ccg, collectiblecardgame
+lfg, lookingforgame
