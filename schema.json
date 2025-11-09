@@ -21,6 +21,44 @@
             "expand": "true"
           },
           {
+            "class" : "solr.StopFilterFactory", 
+            "words" : "stopwords.txt",
+            "ignoreCase" : "true"
+          },
+          {
+            "class": "solr.ASCIIFoldingFilterFactory",
+            "preserveOriginal":true
+          }
+        ]
+      }
+    },
+    {
+      "name": "text_exact_extra_boost",
+      "class": "solr.TextField",
+      "positionIncrementGap": "10",
+      "analyzer": {
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          {
+            "class": "solr.LowerCaseFilterFactory"
+          },
+          {
+            "class": "solr.EnglishMinimalStemFilterFactory"
+          },
+          {
+            "class": "solr.SynonymFilterFactory",
+            "synonyms": "synonyms.txt",
+            "ignoreCase": "true",
+            "expand": "true"
+          },
+          {
+            "class" : "solr.StopFilterFactory", 
+            "words" : "stopwords.txt",
+            "ignoreCase" : "true"
+          },
+          {
             "class": "solr.ASCIIFoldingFilterFactory",
             "preserveOriginal":true
           }
@@ -51,8 +89,6 @@
     }
   ],
   "add-field": [
-    {"name":"id","type":"string","stored":false,"indexed":true,"required":true},
-
     {"name":"name","type":"text_exact_boost","stored":true,"indexed":true},
     {"name":"alt_names","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"description","type":"text_boost","stored":true,"indexed":true},
@@ -66,10 +102,10 @@
     {"name":"publishers","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"designers","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"artists","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
-    {"name":"categories","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
-    {"name":"mechanics","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
-    {"name":"families","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
-    {"name":"expansions","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"categories","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"mechanics","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"families","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"expansions","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
 
     {"name":"poll_suggested_numplayers","type":"string","stored":true,"indexed":true,"multiValued":false},
     {"name":"poll_playerage","type":"string","stored":true,"indexed":true,"multiValued":false},
