@@ -1,0 +1,8 @@
+{
+    "query": "brass",
+    "fields": "id, score, name",
+    "params": {
+        "defType": "edismax",
+        "qf": "name alt_names description"
+    }
+}
