@@ -1,1 +1,6 @@
 prienv
+trec_eval
+bgg_*
+output/
+*.pyc
+__pycache__/
