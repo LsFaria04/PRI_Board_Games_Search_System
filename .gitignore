@@ -1,2 +1,6 @@
 prienv
 trec_eval
+
+output/
+*.pyc
+__pycache__/
