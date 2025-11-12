@@ -10,7 +10,7 @@ $dockerPath = "/$($pwd -replace ':', '')"
 docker run -p 8983:8983 --name meic_solr -v "${dockerPath}:/data" -d solr:9 solr-precreate board_games
 
 # Wait for container to initialize
-Start-Sleep -Seconds 20
+Start-Sleep -Seconds 60
 
 # Post data to Solr
 docker exec -it meic_solr solr post -c board_games /data/final_data.json
