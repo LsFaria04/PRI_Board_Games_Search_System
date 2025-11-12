@@ -13,11 +13,21 @@ To start evaluation process of the queries you need to follow these steps:
     ```
 - Use the following command to install the needed packages:
     ```shell
-    pip install matplotlib numpy pandas scikit-learn pytrec_eval==0.5 #installs the packages needed to run the scripts
+    pip install matplotlib numpy pandas scikit-learn requests pytrec_eval==0.5 #installs the packages needed to run the scripts
+    ```
+- For usage of trec_eval, run the following commands before running any script files:
+    ```shell
+    git clone https://github.com/usnistgov/trec_eval.git trec_eval
+	cd trec_eval && make
+	cd ..
     ```
 - If you don't have the file qrels_trec.txt updated:
     - Run ./evaluation_half.sh to run the first half of the evaluation pipeline
     - Analyze the results in the file results.json and create a qrels.txt
+
+- If you have problems still running the evaluation scripts in wsl, run these commands in powershell:
+    -wsl bash -c "cd /mnt/c/Users/Utilizador/OneDrive/Ambiente\ de\ Trabalho/MEIC/PRI/BoardGamesEngine && sed -i 's/\r$//' evaluation.sh evaluation_half.sh"
+    -wsl bash -c "cd /mnt/c/Users/Utilizador/OneDrive/Ambiente\ de\ Trabalho/MEIC/PRI/BoardGamesEngine && chmod +x evaluation.sh evaluation_half.sh"
 
 - Run ./evaluation.sh to run the evaluation pipeline
 
