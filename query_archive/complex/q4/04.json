@@ -1,13 +1,14 @@
-
 {
   "limit": 30,
-  "fields": ["id, score, name, description, mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str"],
+  "fields": ["id,score, name,description,mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str"],
   "params": {
     "defType": "edismax",
     "sort": "score desc",
-    "q": "card (cooperative OR deck building) (2020 OR 2021)",
-    "qf": "name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str", 
-    "q.op": "AND"
+    "q": "(card AND (cooperative OR deck building) AND (2020 OR 2021))",
+    "q.op": "AND",
+    "qf": "name^5 alt_names^2 description^4 categories^4 mechanics^4 publishers^4 designers^3 artists^1 families^2 expansions^2 minage_str^3 yearpublished_str^3 playingtime_str^3 minplayers_str^3",
+    "pf": "name^4 description^2 alt_names^2 publishers^4 designers^2 artists^2 categories^4 mechanics^4 families^2",
+    "bf": "recip(bayesaverage,1,10,10)^3 recip(owned,1,1000,1000)^1 recip(trading,1,1000,1000)^1 recip(wanting,1,1000,1000)^1 recip(wishing,1,1000,1000)^3",
+    "ps" : 2
   }
 }
-
