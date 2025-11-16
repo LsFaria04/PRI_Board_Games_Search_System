@@ -4,7 +4,7 @@
   "params": {
     "defType": "edismax",
     "sort": "score desc",
-    "q": "card (cooperative OR deck building) (2020 OR 2021)",
+    "q": "Card Games Hasbro",
     "qf": "name alt_names description categories mechanics publishers designers artists families expansions minage yearpublished playingtime minplayers",
     "q.op": "AND"
   }

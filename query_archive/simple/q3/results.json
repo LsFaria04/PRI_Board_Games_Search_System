@@ -1,0 +1,1226 @@
+{
+  "3": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 20,
+      "params": {
+        "json": "{\"limit\": 30, \"fields\": [\"id,score, name,description,mechanics, categories, families, minage, publishers, yearpublished, playingtime, minplayers, maxplayers\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"Card Games Hasbro\", \"qf\": \"name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str\", \"q.op\": \"AND\"}}"
+      }
+    },
+    "response": {
+      "numFound": 69838,
+      "start": 0,
+      "maxScore": 301.31656,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "id": "227965",
+          "name": "SimplyClever.Cards Counting",
+          "yearpublished": 2016,
+          "description": "SimplyClever.Cards Counting combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 0-12, and 4 jokers.\n\nEach card is illustrated with a number of symbols (dice, pencils, owls and faces of girls and boys) corresponding to the card value from 0 to 12.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards with traditional pips showing suits and ranks, SimplyClever.Cards Counting allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 3,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Components: Traditional Playing Cards",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 301.31656
+        },
+        {
+          "id": "392461",
+          "name": "Asteria",
+          "yearpublished": 2025,
+          "description": "Asteria is a strategic level card  wargame in which two players compete for the domination of the galaxy through military, commercial, and technological objectives.\n\nUsing multi-purpose cards, collect resources to enhance your military power, research new technologies, and explore new areas of the galaxy in a game with great variety and replayability.\n\nEach Asteria card incorporates the 4X (Extract, Expand, Explore, and Exterminate) elements. Choose which of the four sides of the card to play on one of the open planets to determine the effect and military power being deployed.\n\nUse combinations of cards to modify plans with technologies and cards that rotate others already in play.\n\nPlay your own way to earn points by fulfilling various objectives and emerge victorious with the Galaxy in your hands in Asteria!\n\nThis 4X card game is designed for 2 players and features 54 multi-functional cards that ensure each game is thrilling and unique.\n\n\u2014description from the publisher\n\n",
+          "minplayers": 2,
+          "maxplayers": 2,
+          "playingtime": 30,
+          "minage": 14,
+          "publishers": [
+            "Glyptodon",
+            "MeepleBR",
+            "Solar Jogos & Entretenimento"
+          ],
+          "categories": [
+            "Card Game",
+            "Science Fiction",
+            "Space Exploration",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Campaign / Battle Card Driven",
+            "Card Play Conflict Resolution",
+            "Multi-Use Cards"
+          ],
+          "families": [
+            "Admin: Upcoming Releases",
+            "Mechanism: 4X"
+          ],
+          "score": 301.2735
+        },
+        {
+          "id": "439745",
+          "name": "Fairytale",
+          "yearpublished": 2025,
+          "description": "Once upon a time, in the heart of a bustling city, there lived a joyful family with their beloved pets; Zinon the loyal Pug, Eliana the graceful Cat, Christian the daring Hamster, and Hector the nimble Gecko. Though their lives were filled with love, the family longed for a break from the city's noise. So, they journeyed to their quiet retreat, a cozy wooden cabin deep in the forest. The first day passed in peaceful bliss, but when dawn broke on the second day, the pets awoke to an alarming sight. The cabin was empty. Their beloved family had vanished without a trace! Shocked but determined, the four friends gathered what little supplies they could find and set off into the unknown, determined to uncover the mystery and bring their family home.\n\nFairytale is a dungeon-crawler for families and experienced gamers alike that fosters cooperation, wonder, and unforgettable adventures.\n\nChoose your weapon, armor, and abilities to fully customize your Hero for the challenges ahead. Select one of the many Stories to play, each one taking place in an expansive world inspired by classic fairytales. Complete missions to gather Evergems, powerful artifacts that upgrade your equipment and enhance your abilities. But hurry! Time is ticking, and the Story Dice will determine the events unfolding on your adventure and how much precious time remains.\n\nWith 4 base Heroes to choose from and 2 more from each expansion, each with a unique miniature, unique deck, and fully customizable player board, over 23 different Encounters, and 3 formidable Bosses, every game is packed with new experiences and hidden mysteries waiting to be discovered.\n \u2014description from the publisher\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 80,
+          "minage": 14,
+          "publishers": [
+            "Smartup"
+          ],
+          "categories": [
+            "Adventure",
+            "Animals",
+            "Exploration",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Area Movement",
+            "Campaign / Battle Card Driven",
+            "Card Play Conflict Resolution",
+            "Deck Construction",
+            "Hand Management",
+            "Modular Board",
+            "Multi-Use Cards",
+            "Narrative Choice / Paragraph",
+            "Scenario / Mission / Campaign Game",
+            "Simultaneous Action Selection",
+            "Storytelling",
+            "Variable Player Powers"
+          ],
+          "families": [
+            "Admin: Upcoming Releases",
+            "Category: Dungeon Crawler",
+            "Crowdfunding: Gamefound"
+          ],
+          "score": 301.1617
+        },
+        {
+          "id": "442443",
+          "name": "Fiends and Light",
+          "yearpublished": 2025,
+          "description": "Fiends and Light is a 6 in 1 electronic board game. The game board has 4 different platforms which can move independently or together depending on the option that the player chooses. This board mechanics gives rise to different forms of gameplay. There are 6 different games to play on Fiends and Light - a strategy game, a roleplaying game, 2 casual games and 2 resource manipulation games.\n\nGenesis is a strategy game, where the Fiends faction faces off against the Light faction in the Genesis War. Each player has 3 races, either Dragons, Orcs and Demons, or Angels, Animalia and Elementals. The races are represented by cards. Each card has a spell, ability, skill and racial effect. The health and attack power of the cards sum up to 18 points. Each race is strong against another race, but weak against another race.\n\nIn Genesis on the game board, players have to place marble units representing the race onto the platform, and use the controller to move the platforms to gain a competitive edge against the opponents. Units face off each other on the bridge and beyond. When facing off, players have to roll dice, use the spells skills and abilities of the units, or choose to engage in defence instead of offence. The first unit to reach the opposing end of the game board wins, or that a deck of race cards gets exhausted.\n\nGuidance is a roleplaying game. Players have to place pious believers in the gods Lovelyn from Light and Kylvaron from Fiends to go to the opposing enemy's battlefields to bring back the souls of the fallen warriors. Pious believers, when embarking on their journey, will gain heroic feats necessary to overcome the scenarios on the bridge, after which they have to listen to the hints of the gods to engineer a movement on the platforms using the controllers, to get the results that Lovelyn and Kylvaron want, before the pious believers are allowed to bring back the souls of the fallen warriors.\n\nIn Chase the Livestock, Demon Lord Azazeel is hungry and orders his minions to cook food to satiate his appetite. The minions then go onto the game board to chase after livestock. The livestock are represented by units with special abilities to run away from the minions by the player using the controller to control the platforms to move the livestock away from the minions, gaining a competitive advantage in escaping.\n\nIn MasterChef, Queen Seraphina thirsts for the perfect recipe. She orders her minions to look for food ingredients. Food ingredients are sentient and does not wish to be cooked. Using the platforms, players will play a mini-Sudoku game to clear the platforms of the numbers representing the ingredients.\n\nColor Abacus uses a proprietary design of an abacus stand to play the game. The abacus stand is used to record the color and number of resources to gather in the initial phase of the game. There are a total of 10 different rows of resources. After gathering the resources, players will have to play a numbers stacking game, similar to UNO, where the color and number of the resources matter in deciding who cops out of the round of numbers stacking.\n\n",
+          "minplayers": 2,
+          "maxplayers": 2,
+          "playingtime": 120,
+          "minage": 12,
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Electronic",
+            "Fantasy",
+            "Game System"
+          ],
+          "mechanics": [
+            "Action / Event",
+            "Campaign / Battle Card Driven",
+            "Card Play Conflict Resolution",
+            "Modular Board"
+          ],
+          "families": [
+            "Admin: Upcoming Releases"
+          ],
+          "score": 300.94577
+        },
+        {
+          "id": "224146",
+          "name": "SimplyClever.Cards Arithmetic",
+          "yearpublished": 2014,
+          "description": "SimplyClever.Cards Arithmetic combines traditional playing cards, math flash cards and the multiplication table from 0 to 12. The deck has 52 cards in 4 colours numbered 0-12, and 4 jokers.\n\nThe jokers have mathematical operators *, +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards, SimplyClever.Cards Arithmetic allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Blackjack, Bridge, Casino, Crazy Eights, Durak, Egyptian Ratscrew, Go Fish, Hearts, Memory, Old Maid, Poker, Rummikub, Slap Jack, Snap, UNO, Whist\n\nThe key mechanic is that each card lists 5 multiplication products at the bottom, below the main card value (ranging from 0 to 12). Mathematical versions of regular card games are created by combining three cards such that the product of two card values can be found among the 5 listed on a third card.\n\nE.g. if you take one card numbered 11 and one card numbered 12, you need to match these with a third card that has the product 132 at the bottom. These three cards can represent different equations such as multiplication 11x12=132, division 132/12=11 or even fractions 1/12=11/132.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 7,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Components: Traditional Playing Cards",
+            "Digital Implementations: Tabletopia",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.93124
+        },
+        {
+          "id": "229037",
+          "name": "SimplyClever.Cards Addition 1",
+          "yearpublished": 2016,
+          "description": "SimplyClever.Cards Addition 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 0-12, and 4 jokers.\n\nEach card is illustrated with an addition calculation (e.g. 0+0, 2+1 or 6+6) corresponding to the card value from 0 to 12.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards  Addition 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 4,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229042",
+          "name": "SimplyClever.Cards Multiplication 1",
+          "yearpublished": 2016,
+          "description": "SimplyClever.Cards Multiplication 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 0-12, and 4 jokers.\n\nEach card is illustrated with a multiplication calculation (e.g. 0*1, 2*2 or 3*4) corresponding to the card value from 0 to 12.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Multiplication 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 6,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229044",
+          "name": "SimplyClever.Cards Division 1",
+          "yearpublished": 2016,
+          "description": "SimplyClever.Cards Division 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 0-12, and 4 jokers.\n\nEach card is illustrated with a division calculation (e.g. 0:1, 3:3 or 48:4) corresponding to the card value from 0 to 12.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Division 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 8,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229484",
+          "name": "SimplyClever.Cards Addition 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Addition 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 16-45, and 4 jokers.\n\nEach card is illustrated with an addition calculation (e.g. 8+8, 6+10 or 22+23) corresponding to the card value from 16 to 45.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards  Addition 2 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 6,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229486",
+          "name": "SimplyClever.Cards Multiplication 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Multiplication 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 16-45, and 4 jokers.\n\nEach card is illustrated with a multiplication calculation (e.g. 2*8, 4*9 or 3*15) corresponding to the card value from 16 to 45.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Multiplication 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 8,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229487",
+          "name": "SimplyClever.Cards Division 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Division 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 16-45, and 4 jokers.\n\nEach card is illustrated with a division calculation (e.g. 48:3, 64:4 or 90:2) corresponding to the card value from 16 to 45.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Division 2 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 9,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229544",
+          "name": "SimplyClever.Cards Addition 3",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Addition 3 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 48-144, and 4 jokers.\n\nEach card is illustrated with an addition calculation (e.g. 24+24, 35+45 or 90+54) corresponding to the card value from 48 to 144.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Addition 3 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 8,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229545",
+          "name": "SimplyClever.Cards Subtraction 3",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Subtraction 3 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 48-144, and 4 jokers.\n\nEach card is illustrated with a subtraction calculation (e.g. 68-20, 96-48 or 288-144) corresponding to the card value from 48 to 144.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Subtraction 3 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 9,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229546",
+          "name": "SimplyClever.Cards Multiplication 3",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Multiplication 3 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 48-144, and 4 jokers.\n\nEach card is illustrated with a multiplication calculation (e.g. 4*12, 6*8 or 12*12) corresponding to the card value from 48 to 144.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Multiplication 3 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 7,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229547",
+          "name": "SimplyClever.Cards Division 3",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Division 3 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 48-144, and 4 jokers.\n\nEach card is illustrated with a division calculation (e.g. 96:2, 144:3 or 576:4) corresponding to the card value from 48 to 144.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Division 3 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 10,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229554",
+          "name": "SimplyClever.Cards Fractions 1",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Fractions 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 1/100 to 1/1, and 4 jokers.\n\nEach card is illustrated with a fractional value or diagram  (e.g. 1/5, 1/4 or 1/2) corresponding to the card value from 1/100 to 1/1.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Fractions 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 9,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229555",
+          "name": "SimplyClever.Cards Percentages 1",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Percentages 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 1% to 100%, and 4 jokers.\n\nEach card is illustrated with a percentage value or diagram  (e.g. 20%, 25% or 50%) corresponding to the card value from 1% to 100%.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Percentages 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 9,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229556",
+          "name": "SimplyClever.Cards Decimal Numbers 1",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Decimal Numbers 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 0,01 to 1,0 and 4 jokers.\n\nEach card is illustrated with a decimal value or diagram (e.g. 0,20, 0,25 or 0,50) corresponding to the card value from 0,01 to 1,0.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Decimal Numbers 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 9,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229557",
+          "name": "SimplyClever.Cards Percentages 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Percentages 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 1% to 100%, and 4 jokers.\n\nEach card has a diagram illustrating a relative change expressed in percent (e.g. 20%, 25% or 50%) that corresponds to the card value, ranging from 1% to 100%.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Percentages 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 12,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229562",
+          "name": "SimplyClever.Cards Functions 1",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Functions 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours with 13 different linear and power functions, and 4 jokers.\n\nEach card is illustrated with a function expression or graph corresponding to the card value.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have the mathematical operators - (negation), d/dx (derivative) and = so you can make your own calculations combining this deck with SimplyClever.Cards Functions 2 and SimplyClever.Cards Derivatives 1.\n\nDesigned to be used like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Functions 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 14,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229563",
+          "name": "SimplyClever.Cards Functions 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Functions 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours with 13 linear and power functions that are the additive inverses of the functions in the deck SimplyClever.Cards Functions 1, and 4 jokers.\n\nEach card is illustrated with a function expression or graph corresponding to the card value.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have the mathematical operators - (negation), d/dx (derivative) and = so you can make your own calculations combining this deck with SimplyClever.Cards Functions 1 and SimplyClever.Cards Derivatives 2.\n\nDesigned to be used like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Functions 2 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 14,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229567",
+          "name": "SimplyClever.Cards Derivatives 1",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Derivatives 1 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours with 13 different functions that are the derivatives of the 13 functions in the deck SimplyClever.Cards Functions 1, and 4 jokers.\n\nEach card is illustrated with a function expression or graph corresponding to the card value.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators d/dx, integral and = so you can make your own calculations combining this deck with SimplyClever.Cards Functions 1.\n\nDesigned to be used like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Derivatives 1 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 16,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "229568",
+          "name": "SimplyClever.Cards Derivatives 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Derivatives 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours with 13 different functions that are the derivatives of the 13 functions in the deck SimplyClever.Cards Functions 2, and 4 jokers.\n\nEach card is illustrated with a function expression or graph corresponding to the card value.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators d/dx, integral and = so you can make your own calculations combining this deck with SimplyClever.Cards Functions 2.\n\nDesigned to be used like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Derivatives 2 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 16,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Exchange",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 300.49365
+        },
+        {
+          "id": "375284",
+          "name": "Villa's Vengeance: The Raid on Columbus, New Mexico, March 9, 1916",
+          "yearpublished": 2024,
+          "description": "The Mexican Revolution that began in 1910 with the overthrow of dictator Porfirio Diaz degenerated into civil war following the assassination of President Francisco Madero. By end of 1915 the forces of President Carranza were arrayed against a variety of leaders supporting either themselves or General Victoriano Huerta. Pancho Villa, commander of the Mexican Army del Norte, at first supported Carranza, but then went rogue after the US Government recognized Carranza\u2019s government. Historians still debate Villa\u2019s reasons, but in early March 1916 he decided to enter the US and raid the town of Columbus, New Mexico. Although the town was where the 13th Regiment US Cavalry was garrisoned, he knew most of the troopers were scattered along the border. Believing the town was only weakly guarded, his force of just under 500 men were to steal arms, provisions and horses while also wreaking as much havoc as possible. Such a raid he believed could galvanize the US government into a retaliatory strike that would drag Carranza\u2019s government into a war with the US it could not win, or a humiliating capitulation that would outrage the Mexican people. Either way, Villa reasoned, it would mean the downfall of Carranza.\n\nVilla\u2019s Vengeance is an introductory level wargame simulation portraying the March 9, 1916 raid on Columbus, New Mexico. Players are cast in the roles of Villa\u2019s raiding force and the defending US regular and militia forces.\n\n\u2014description from the publisher\n\n",
+          "minplayers": 1,
+          "maxplayers": 2,
+          "playingtime": 150,
+          "minage": 12,
+          "publishers": [
+            "High Flying Dice Games"
+          ],
+          "categories": [
+            "Civil War",
+            "Wargame",
+            "World War I"
+          ],
+          "mechanics": [
+            "Area Movement",
+            "Campaign / Battle Card Driven",
+            "Card Play Conflict Resolution",
+            "Command Cards",
+            "Dice Rolling"
+          ],
+          "families": [
+            "Admin: Upcoming Releases",
+            "Country: Mexico",
+            "Country: USA",
+            "History: Mexican Revolution",
+            "Players: Wargames with Rules Supporting Only Two Players",
+            "States: New Mexico"
+          ],
+          "score": 300.35687
+        },
+        {
+          "id": "164775",
+          "name": "Monstrous",
+          "yearpublished": 2016,
+          "description": "Olympus is shaking to its foundations. Faith among the mortals is waning and with it the very power of the pantheon. Zeus is in a rage: \"Hear me, gods! I command you to send forth my MONSTROUS pets. Make them rain from the sky and erupt from the underworld. We will rekindle these mortals' faith - through FEAR!\"\n\nMonstrous is a game of gods and monsters, fear and faith, dexterous skills and tactical combos.\n\nPlayers are Greek gods throwing mythical monster cards from their hand onto a shared tableau of ancient Greek locations to gain as much 'Faith' as possible. But a strong guiding hand is not enough - cunning use of tactical monster and location powers is the key to gaining the most faith of all the gods, and the favor of Zeus.\n\nDuring setup, a number of large location cards equal to the number of gods are arranged on the table - these are selected from 12 ancient Greek cities where the insolent humans cower. Locations have special powers and provide Faith when hit by Monsters. Depending on the number of gods playing, each god has a randomly constructed deck of between 7 and 10 out of 12 mythical monster cards, each with their own special power. Each god shuffles and readies these decks, then draws 3 of their monster cards ready to throw at locations and monsters already on the table.\n\nOn their turn, a god chooses a single monster from their hand, and throws it (without their hand crossing the table edge) attempting to hit:\n1. a location - to use its special power, and any thrown monster power that affect locations, and gain its Faith.\n2. other monster cards on the table - to use the special power of their thrown monster on the other gods\u2019 monsters. \n3. ideally both at the same time!\n\nLook for the best cards to throw and the best targets to throw at. But beware: monsters may do unpredictable and dangerous things. Some monsters even act like traps on the table, taking effect as soon as they are hit. If Olympus is in play, powerful legendary monsters can be gained for gods to throw too.\n\nOnce a god has finished their turn, they draw a new monster and play proceeds to the next god. This proceeds until one god runs out of monster cards completely. Each other god then takes 1 final turn before the god with the highest Faith is declared the winner.\n\nMonstrous blends stunning art of mythic Greece with quick card throwing, fist pumping action and the tactical combos that gods and gamers love. Every game is different and there are optional rules to tailor your MONSTROUS experience for children, team play and longer games with legendary monsters.\n\nAnd yes, you can release the Kraken.\n\n",
+          "minplayers": 2,
+          "maxplayers": 10,
+          "playingtime": 30,
+          "minage": 10,
+          "publishers": [
+            "CMON Global Limited",
+            "Good Games Publishing",
+            "Secret Base Games"
+          ],
+          "categories": [
+            "Action / Dexterity",
+            "Ancient",
+            "Card Game",
+            "Mythology"
+          ],
+          "mechanics": [
+            "Campaign / Battle Card Driven",
+            "Flicking",
+            "Hand Management",
+            "Modular Board",
+            "Multi-Use Cards",
+            "Take That",
+            "Variable Set-up"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Misc: LongPack Games",
+            "Mythology: Greek"
+          ],
+          "score": 299.64896
+        },
+        {
+          "id": "293787",
+          "name": "Elysian Battlefields",
+          "yearpublished": 2019,
+          "description": "Who is the greatest warrior of all time?\n\nSet in Elysium, the afterlife of heroes, each player controls the forces of a former hero of this life to try and conquer, rule, or reign over the Elysian Battlefields. Each hero offers unique attributes.\n\nThere are three different pathways to victory. Players can destroy enemy units(conquer), control territories(rule), or develop their kingdom(reign). Players must strategize what types of cards and units they will produce as well as how they will use those resources to accomplish their goals while reacting to their opponents.\n\n\u2014description from the designer\n\n",
+          "minplayers": 2,
+          "maxplayers": 5,
+          "playingtime": 90,
+          "minage": 12,
+          "publishers": [
+            "(Web published)"
+          ],
+          "categories": [
+            "Miniatures",
+            "Print & Play",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Campaign / Battle Card Driven",
+            "Command Cards",
+            "Dice Rolling",
+            "Grid Movement",
+            "Hand Management",
+            "Modular Board"
+          ],
+          "families": [
+            "Digital Implementations: Tabletopia"
+          ],
+          "score": 299.47525
+        },
+        {
+          "id": "229485",
+          "name": "SimplyClever.Cards Subtraction 2",
+          "yearpublished": 2017,
+          "description": "SimplyClever.Cards Subtraction 2 combines traditional playing cards with math flash cards. The deck has 52 cards in 4 colours numbered 16-45, and 4 jokers.\n\nEach card is illustrated with a subtraction calculation (e.g. 17-1, 18-2 or 48-3) corresponding to the card value from 16 to 45.\n\nOne joker has a table showing which 4 cards match up for each value, in order to check the math when necessary. The remaining 3 jokers have mathematical operators +, - and = so you can make your own calculations using the cards.\n\nDesigned to function like a regular deck of cards (including traditional pips for suits and ranks), SimplyClever.Cards Subtraction 2 allows you to play any regular card game you want to - but with a mathematical twist! Game examples: 500, Casino, Crazy Eights, Go Fish, Hearts, Memory, Old Maid, Slap Jack, Snap, UNO etc.\n\n",
+          "minplayers": 1,
+          "maxplayers": 6,
+          "playingtime": 20,
+          "minage": 7,
+          "publishers": [
+            "Simplicatus Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Game System",
+            "Math",
+            "Number"
+          ],
+          "mechanics": [
+            "Betting and Bluffing",
+            "Cooperative Game",
+            "Hand Management",
+            "Memory",
+            "Player Elimination",
+            "Push Your Luck",
+            "Set Collection",
+            "Trick-taking"
+          ],
+          "families": [
+            "Card Games: Adding",
+            "Card Games: Beating",
+            "Card Games: Draw and Discard",
+            "Card Games: Fishing",
+            "Card Games: Matching",
+            "Card Games: Outplay",
+            "Series: SimplyClever.Cards (Simplicatus Games)",
+            "Traditional Card Games: War"
+          ],
+          "score": 299.40396
+        },
+        {
+          "id": "383357",
+          "name": "Waterloo Solitaire Board Game",
+          "yearpublished": 2023,
+          "description": "In Waterloo Solitaire, you take the role of Napoleon commanding the French army against an opposing Allied autonomous player side, referred to as the Allied BOT side. And you take the role of Wellington, commanding the Allied army against a French BOT side. Each opposing BOT side is rated for its skill.\n\nThe game uses a similar system with Waterloo Solitaire Bookgame, except you will use cubes, and a hardmounted game board to track your movements and attacks in the game.\n\nPlayers win by destroying enemy formations, normally 2 to 3 depending on the side.\n\n\u2014description from the designer\n\n",
+          "minplayers": 1,
+          "maxplayers": 1,
+          "playingtime": 60,
+          "minage": 12,
+          "publishers": [
+            "Worthington Publishing",
+            "LLC"
+          ],
+          "categories": [
+            "Educational",
+            "Napoleonic",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Action / Event",
+            "Campaign / Battle Card Driven",
+            "Card Play Conflict Resolution",
+            "Command Cards",
+            "Ordering",
+            "Physical Removal",
+            "Point to Point Movement",
+            "Simulation",
+            "Solo / Solitaire Game"
+          ],
+          "families": [
+            "Country: Belgium",
+            "Country: France",
+            "Crowdfunding: Kickstarter",
+            "History: Waterloo Campaign",
+            "Players: Solitaire Only Games",
+            "Players: Solitaire Only Wargames"
+          ],
+          "score": 299.3981
+        },
+        {
+          "id": "62222",
+          "name": "Commands & Colors: Napoleonics",
+          "yearpublished": 2010,
+          "description": "Commands & Colors: Napoleonics allows you to re-fight epic battles of the Napoleonic era. In this core volume, the focus is on the French and the British, two bitter rivals in the struggle for European preeminence during the time of Napoleon.\n\nAs with other games in the Commands & Colors genre, units in both armies can only move and fight when ordered. The command cards supply those orders, and their appearance in your hand (or not) provide an element of luck that creates a fog of war and presents players with both challenges and opportunities. You must maximize your opportunities by playing your command cards judiciously. How well you use the cards to handle the diverse units, their weapons, and the terrain, will determine victory.\n\n",
+          "minplayers": 2,
+          "maxplayers": 2,
+          "playingtime": 90,
+          "minage": 14,
+          "publishers": [
+            "Doit Games",
+            "GMT Games"
+          ],
+          "categories": [
+            "Napoleonic",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Campaign / Battle Card Driven",
+            "Command Cards",
+            "Dice Rolling",
+            "Grid Movement",
+            "Hand Management",
+            "Hexagon Grid",
+            "Modular Board",
+            "Simulation"
+          ],
+          "families": [
+            "Country: France",
+            "Country: Great Britain",
+            "Country: Prussia",
+            "Digital Implementations: VASSAL",
+            "Game: Commands & Colors Napoleonics",
+            "History: Napoleonic Wars",
+            "Players: Two-Player Only Games",
+            "Players: Wargames with Rules Supporting Only Two Players",
+            "Series: Commands & Colors"
+          ],
+          "score": 299.29282
+        },
+        {
+          "id": "14105",
+          "name": "Commands & Colors: Ancients",
+          "yearpublished": 2006,
+          "description": "From the designer (about his Commands and Colors system, C&C: Ancients, and Memoir' 44):\n\n\"Commands & Colors: Ancients depicts warfare from the Dawn of Military History (3000 BC) to the opening of the Dark Ages (400 AD). Quite an ambitious undertaking for one game, yet Commands & Colors, by design, is a unique historical wargame system which allows players to effectively portray stylized battles from this time in history. The 15 battles showcased in the scenario booklet, although stylized, focus on important terrain features and the historical deployment of forces in scale with the game system. The battles include Bagradas, Cannae, and Zama.\n\n\"The scale of the game fluctuates from battle to battle. For some scenarios, an infantry unit may represent a legion of fighters, while in other scenarios a unit may represent just a few brave warriors. But the tactics you need to execute conform remarkably well to the advantages and limitations inherent to the various units, their weapons, terrain and time.\n\n\"Unlike its older brother, Battle Cry by Avalon Hill, Commands & Colors: Ancients is moderately more complex and contains additional historical details without the battlefield clutter. Most scenarios will still play to a conclusion in less than an hour.\n\n\"The command card system, drives movement, creates a true fog of war and presents both challenges and opportunities. There are four types of command cards: Leadership cards, Section cards, Troop cards and Tactic cards.\n\n\"The battle dice system resolves all combat efficiently and quickly. Each battle die has one Light, one Medium, one Heavy, one Leader, one Flag and one Swords symbol.\n\n\"The game mechanics, although simple, will still require strategic card play, historical tactics, timely dice rolling, and an aggressive, yet flexible battle plan to achieve victory.\"\n\n",
+          "minplayers": 2,
+          "maxplayers": 2,
+          "playingtime": 60,
+          "minage": 12,
+          "publishers": [
+            "GMT Games",
+            "Devir",
+            "Wargames Club Publishing"
+          ],
+          "categories": [
+            "Ancient",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Campaign / Battle Card Driven",
+            "Command Cards",
+            "Dice Rolling",
+            "Hand Management",
+            "Hexagon Grid",
+            "Modular Board",
+            "Scenario / Mission / Campaign Game",
+            "Simulation"
+          ],
+          "families": [
+            "Ancient: Greece",
+            "Ancient: Rome",
+            "Digital Implementations: VASSAL",
+            "Game: Commands & Colors Ancients",
+            "History: Punic Wars",
+            "History: Sicilian Wars",
+            "Players: Two-Player Only Games",
+            "Players: Wargames with Rules Supporting Only Two Players",
+            "Series: Commands & Colors"
+          ],
+          "score": 299.06003
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,881 @@
+{
+  "3": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 2961,
+      "params": {
+        "json": "{\"limit\": 30, \"fields\": [\"id,score, name,description,mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"Hasbro Card\", \"q.op\": \"AND\", \"qf\": \"name^5 alt_names^2 description^2 categories^4 mechanics^4 publishers^4 designers^3 artists^1 families^2 expansions^2 minage_str^3 yearpublished_str^3 playingtime_str^3 minplayers_str^3\", \"pf\": \"name^4 description^2 alt_names^2 publishers^4 designers^2 artists^2 categories^4 mechanics^4 families^2\", \"bf\": \"recip(bayesaverage,1,10,10)^3 recip(owned,1,1000,1000)^1 recip(trading,1,1000,1000)^1 recip(wanting,1,1000,1000)^1 recip(wishing,1,1000,1000)^3\", \"ps\": 2}}"
+      }
+    },
+    "response": {
+      "numFound": 102,
+      "start": 0,
+      "maxScore": 373.53613,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "id": "34745",
+          "name": "Battleship Express",
+          "yearpublished_str": "2007",
+          "description": "COMPONENTS\n20 Ship tiles (4 aircraft carriers, 4 submarines, 4 destroyers, 4 battleships, 4 patrol boats)\n8 attack dice\n\nBattleship Express comes with two different games: The Captain\u2019s Game and The Admiral\u2019s Game. The Captain's Game ignore the ships powers on the cards.\n\nEach player receives 5 ship tiles, one of each ship: Battleship, Destroyer, Aircraft Carrier, Submarine, Patrol Boat. Each player places them in front of them in any order to make up their fleet.\n\nOn a player's turn they choose one of the ships in their Fleet to attack with and move it to the front of their line. Next the player chooses a ship of an opposing player to attack. The attacking player can only choose one of the first 2 ships in the line to attack. The attacking ship tile shows how many dice to roll. Roll that number of dice and check for hits. Each of the 8 dice is the same. 5 of the sides match the colors of the 5 ships, and the sixth side is a \u201cburst\u201d or \u201cwild\u201d. IF the player does not sink it, the dice are passed to the next player.\n\nSet aside any hits and then re-roll based on the attacking ship\u2019s powers. Once the number of hits equals or exceeds the defense number on the ship that's defending, it is sunk removed from play and the attacking player gets a point. The first player to an agreed number of set points wins. Here\u2019s a breakdown of the individual ship powers:\n\n\n     Battleship: Declare target. Roll all 8 dice a total of 4 times. Bursts do not count as hits.\n     Destroyer: Declare target. Roll 6 dice a total of 2 times. Bursts count as 2 hits.\n     Aircraft Carrier: Roll 6 dice THEN declare your target, then roll 1 more time. Bursts count as 1 hit. The Aircraft Carrier can also attack from anywhere in your line, so you don\u2019t have to move it to the front where it is vulnerable.\n     Submarine: Roll 3 dice a total of one time. A single Burst will sink whatever you are attacking. Submarines can attack any ship at any place in a Fleet.\n     Patrol Boat: Roll 5 dice a total of 3 times. Bursts count as 1 hit.\n\n\nPart of the Hasbro Express Line.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "7",
+          "publishers": [
+            "Hasbro",
+            "Parker Brothers"
+          ],
+          "categories": [
+            "Dice",
+            "Travel"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Take That"
+          ],
+          "families": [
+            "Containers: Round Boxes",
+            "Series: Express Line (Hasbro)",
+            "Traditional Games: Battleship"
+          ],
+          "score": 373.53613
+        },
+        {
+          "id": "31936",
+          "name": "Sorry! Express",
+          "yearpublished_str": "2007",
+          "description": "\"Roll the dice to move your pawns or steal them from your opponents. In the lead? Just wait. One roll and the tables could turn. Move all your pawns home to win.\" - Hasbro Press release.\n\nPart of the Hasbro Express Line.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "6",
+          "publishers": [
+            "Hasbro",
+            "Parker Brothers"
+          ],
+          "categories": [
+            "Dice",
+            "Travel"
+          ],
+          "mechanics": [
+            "Dice Rolling"
+          ],
+          "families": [
+            "Admin: Better Description Needed!",
+            "Containers: Round Boxes",
+            "Game: Sorry!",
+            "Series: Express Line (Hasbro)"
+          ],
+          "score": 367.10718
+        },
+        {
+          "id": "31935",
+          "name": "Scrabble Express",
+          "yearpublished_str": "2007",
+          "description": "\"Roll the dice and use letters to build a word. Opponents use remaining dice to build off of previous word played. The first to score 200 points wins.\" - Hasbro press release.\n\nPart of the Hasbro Express Line.\n\nScrabble Express is a word dice game.\n\nRepackaging of Scrabble Scramble\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Hasbro",
+            "Parker Brothers",
+            "Winning Solutions (WS Game Company)"
+          ],
+          "categories": [
+            "Dice",
+            "Word Game"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Spelling"
+          ],
+          "families": [
+            "Components: Letter Cubes / Word Dice",
+            "Containers: Round Boxes",
+            "Game: Scrabble",
+            "Series: Express Line (Hasbro)"
+          ],
+          "score": 360.60178
+        },
+        {
+          "id": "34744",
+          "name": "Clue Express",
+          "yearpublished_str": "2008",
+          "description": "Ready, Set, Roll! It's a different way to play the Clue game! Unlike the classic Clue game, Clue Diced!, which was first released as Clue Express, has no game board and players roll to find out whodunit. This fun game has players rolling the Suspect dice and the Bonus die, getting closer to guessing the culprit as opponents reveal their cards. When a player is ready to crack the case, they secretly look at the cards placed inside the Case File envelope to reveal who was the brains and who was the brawn behind the crime. The Clue Diced game is a compact and portable game making it a great game for travel and for on-the-go play.\n\n\u2014description from the publisher\n\nPut simply: Instead of moving pawns around the board and making a guess in a room (as in classic Clue), players simply roll 4 dice and pick a combination of people and roles to gain information about.\n\nIncludes 2 levels of difficulty.\nIncludes game case, 18 suspect cards, 4 dice, dice labels, case file envelope, suggestion board, detective pad, and game rules.\n\n",
+          "minplayers_str": "3",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Hasbro",
+            "Parker Brothers"
+          ],
+          "categories": [
+            "Deduction",
+            "Dice",
+            "Murder / Mystery"
+          ],
+          "mechanics": [
+            "Deduction",
+            "Dice Rolling",
+            "Die Icon Resolution"
+          ],
+          "families": [
+            "Admin: Better Description Needed!",
+            "Containers: Round Boxes",
+            "Game: Cluedo / Clue (Parker Brothers",
+            "et al)",
+            "Series: Express Line (Hasbro)"
+          ],
+          "score": 352.24548
+        },
+        {
+          "id": "36510",
+          "name": "The Game of Life Express",
+          "yearpublished_str": "2007",
+          "description": "This dice game is a derivative of The Game of Life. It contains a dice bowl, a score pad and 10 dice.\n\nThe aim is to get as many Life Points at the end of the game as possible. You throw the dice up to three times each turn. If you collect the symbols you need for a life experience, you win Life Points.\n\nThe Game of Life Express is part of the Hasbro Express Line.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Hasbro",
+            "MB Spellen",
+            "Milton Bradley"
+          ],
+          "categories": [
+            "Dice",
+            "Economic"
+          ],
+          "mechanics": [
+            "Dice Rolling"
+          ],
+          "families": [
+            "Containers: Round Boxes",
+            "Game: Game of Life",
+            "Series: Express Line (Hasbro)",
+            "Theme: My Best Life",
+            "Versions & Editions: Dice Versions of Non-Dice Games"
+          ],
+          "score": 337.27676
+        },
+        {
+          "id": "1420",
+          "name": "Monopoly Express",
+          "yearpublished_str": "1991",
+          "description": "Don't Go to Jail is a dice game derived from Monopoly. The game board depicts the monopolies found in the original game, with the property groups color-coded as in Monopoly. Each property group has a given dollar value, which you can collect by rolling the dice and collecting that group.\n\nOn a turn, you roll ten dice, set aside any die reading \"Go,\" \"to\" or \"jail\", then set aside any color group dice that you wish. If the \"Go,\" \"to\" and \"jail\" dice are set aside, your turn ends immediately, and you score nothing. Otherwise you can choose to either (1) stop and score for what you've rolled or (2) roll again with any dice not set aside, once again setting aside the \"Go,\" \"to\" or \"jail\" dice, etc. The dice have a couple of \"Wild\" faces, and you can use at most one Wild in a color group. (If you roll the proper color, you can replace a Wild die in a group and roll that die again on a later turn.)\n\nIf you stop, you score for all completed color groups and one incomplete color group. Your goal is to be the first player to reach a predetermined dollar amount or to have the most money at the end of a pre-set number of turns.\n\nMonopoly Express \u2013 an updated version of this game that was first released in the UK and Europe, then later in the U.S. \u2013 alters the gameplay as follows:\n\n\n     The policeman from the \"Go To Jail\" corner of the board game replaces the words \"Go,\" \"to\" and \"jail\".\n     One blank face on one of the policeman dice depicts a green \"GO\" arrow. A player earns $200 each time they roll GO, but they lose this money if they bust due to policemen. \n     The game includes an eleventh \"House/Hotel\" die that can earn (or lose) a player Houses (worth $1,000 each), earn Hotels (worth $5,000, but only if a player has already earned four houses) and a \"Get Out Of Jail Free\" side that negates a policeman (including a policeman that would bust a player). This die cannot be rolled until a player completes a property group (i.e., neither railroads nor utilities).\n     The Wild faces are replaced by the Chance \"?\" logo; the ? act as a Wild, but unlike a Wild it cannot be replaced.\n     The first player to have at least $15,000 wins immediately; players don't complete the round.\n\n\nIn 2021, this game was re-released in the US as Monopoly DICED! with square packaging rather than the round used for Express.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Hasbro",
+            "Parker Brothers",
+            "Tonka Corporation",
+            "Waddingtons"
+          ],
+          "categories": [
+            "Dice",
+            "Economic"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Push Your Luck",
+            "Set Collection"
+          ],
+          "families": [
+            "Components: Dice with Icons",
+            "Containers: Round Boxes",
+            "Game: Monopoly (Official)",
+            "Series: Express Line (Hasbro)",
+            "Series: Monopoly Derivatives (Official)",
+            "Versions & Editions: Dice Versions of Non-Dice Games"
+          ],
+          "score": 332.93213
+        },
+        {
+          "id": "28086",
+          "name": "Age of War",
+          "yearpublished_str": "2006",
+          "description": "Age of War, also known as Risk Express or Camarades, is a quick-playing game of conquest. Fourteen cards are laid out at the start of the game, each showing the symbols required to claim this card, with the symbols separated into battle lines. The cards are grouped into sets, with sets varying in size from one to four cards.\n\nA player starts their turn by rolling seven dice, the six sides of which show different symbols. They then select a card and uses the symbols rolled to conquer exactly one of the battle lines on this card (by placing the appropriate dice on that line). If they can do this, they then roll the remaining dice, ideally conquering another line; if they cannot conquer a line, they remove one die from play, the rolls again. Their turn ends when either they conquer every line on the card (in which case they claims it) or they no longer have dice available to roll.\n\nEach card is worth a number of victory points. You can conquer cards owned by other players, but you need to conquer an additional line to do so. If a player has claimed all the cards from one set, however, those castles are secure and can no longer be stolen. What's more, these cards are now also worth more points.\n\nWhen the last card is claimed, players tally the points from the cards they have claimed, and whoever has the highest score wins.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Fantasy Flight Games",
+            "Gameland \u6e38\u620f\u5927\u9646",
+            "Parker Brothers",
+            "Le Passe Temps",
+            "Arclight Games",
+            "cutia.ro",
+            "Delta Vision Publishing",
+            "Edge Entertainment",
+            "Games7Days",
+            "Giochi Uniti",
+            "Hasbro",
+            "Heidelberger Spieleverlag",
+            "Offline Editions",
+            "Parker Spiele",
+            "Precisamente",
+            "Yaofish Games"
+          ],
+          "categories": [
+            "Ancient",
+            "Dice",
+            "Medieval",
+            "Political",
+            "Territory Building",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Die Icon Resolution",
+            "Push Your Luck",
+            "Re-rolling and Locking",
+            "Set Collection",
+            "Take That"
+          ],
+          "families": [
+            "Components: Dice Cup / Dice Tower / Dice Tray",
+            "Components: Dice with Icons",
+            "Containers: Round Boxes",
+            "Country: China",
+            "Country: Japan",
+            "Game: Risk (Official)",
+            "History: Early Imperial China",
+            "Series: Express Line (Hasbro)",
+            "Theme: Samurai",
+            "Versions & Editions: Dice Versions of Non-Dice Games"
+          ],
+          "score": 293.04654
+        },
+        {
+          "id": "400857",
+          "name": "Monopoly: Giant Edition",
+          "yearpublished_str": "2023",
+          "description": "Trading property has never been more fun in the giant version of this iconic Hasbro kids board game. This classic Monopoly board game made big is perfect for an outdoor game. Play indoors or outside with this board game for kids 8-12 (or anyone ages 6+). The rules to play this fun game are slightly different than the original game. Roll the Giant Die and move your Giant Token that number of spaces on the Giant Gameboard. If you land on an empty property space, you MUST buy it. Mark the space with the green side of your Property Card. When another player lands on the space, they pay you the amount shown on the gameboard using their Million Money Meter. The player with the most wealth at the end of the game wins! With these new speedy rules, you\u2019ll get the classic Monopoly experience in less than 30 minutes!\n\n\u2014description from the publisher\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "30",
+          "minage_str": "6",
+          "publishers": [
+            "Spin Master Ltd."
+          ],
+          "categories": [
+            "Children's Game",
+            "Economic",
+            "Negotiation"
+          ],
+          "mechanics": [
+            "Income",
+            "Loans",
+            "Lose a Turn",
+            "Ownership",
+            "Player Elimination",
+            "Roll / Spin and Move",
+            "Set Collection",
+            "Track Movement"
+          ],
+          "families": [
+            "Components: 8 x 8 Grids",
+            "Game: Monopoly (Official)",
+            "Mechanic: Circuit-Based Trading Games",
+            "Series: Giant Edition (Spin Master)",
+            "Series: Monopoly Derivatives (Official)",
+            "Series: Monopoly-Like"
+          ],
+          "score": 99.252144
+        },
+        {
+          "id": "15716",
+          "name": "Kup Stax",
+          "yearpublished_str": "1995",
+          "description": "This Hasbro release bills itself as being \"The Official Cup Stacking game\". A team has 3 stacks of cups (the size and shape of typical party cups) that are positioned about 1 foot apart. To begin you must make 3 pyramids, one at a time, with your 3 stacks (2 outer 3-cup pyramids and a central 6-cup one). You must then convert each pyramid back down to the original stacks of cups. The first person to finish down-stacking wins. If a pyramid collapses while it is being built, it must be corrected before moving on to the next. However, if a fumble occurs during the down-stacking process, you may continue to down stack without having to rebuild the pyramid. The game has rules for one-on-one and relay race competition, and also stacking tips. \n Kup Stax is actually mentioned in the \"Grade 5 Physical Education Required Curriculum\" as a way for students to \"demonstrate perceptual motor efficiency\".\n\nSimilar to:\n\n    Crazy-Cups\n\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "10",
+          "minage_str": "0",
+          "publishers": [
+            "Hasbro"
+          ],
+          "categories": [
+            "Action / Dexterity"
+          ],
+          "mechanics": [
+            "Simultaneous Action Selection"
+          ],
+          "score": 98.81976
+        },
+        {
+          "id": "400889",
+          "name": "The Game of Life: Giant Edition",
+          "yearpublished_str": "2023",
+          "description": "Life is anything but boring in the giant version of this iconic Hasbro kids\u2019 board game. The Game of Life is giant sized and extra fun. Take a trip through The Game of Life: Giant Edition- a futuristic world so big that you become the mover on the board! This classic game made big is perfect for outdoor get-togethers or birthday parties. Play indoors or outside with this board game for kids 8-12. Whether it is summer or winter, you can play this kids\u2019 game wherever you like! The large, illustrated vinyl game board makes for big fun in the house or as an outdoor game. The rules to play this fun game are simple and easy to play. The player with the highest score wins. Collect a family, pet, vacation, & career to complete your adventure card! Then retire in your dream home. This family game for kids and adults is for 2-4 players, ages 8 and up. It is super convenient to be able to play as a 2-player game or as a multiplayer game. Cards in this iconic game for kids can range from \u201cI celebrated my 100th birthday\u201d to \u201cBecome a famous artist\u201d to \u201cI went on an exclusive vacation to a private island\u201d. Get ready for tons of fun and imagination in The Game of Life: Giant Edition.\n\n- description from publisher\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Spin Master Ltd."
+          ],
+          "categories": [
+            "Adventure",
+            "Card Game",
+            "Children's Game",
+            "Economic"
+          ],
+          "mechanics": [
+            "Events",
+            "Race",
+            "Roll / Spin and Move",
+            "Set Collection",
+            "Simulation"
+          ],
+          "families": [
+            "Components: 5 x 6 Grids",
+            "Components: Innovative Spinner",
+            "Game: Game of Life",
+            "Series: Giant Edition (Spin Master)",
+            "Theme: My Best Life"
+          ],
+          "score": 97.48872
+        },
+        {
+          "id": "71304",
+          "name": "Iron Man 2: Game of War",
+          "yearpublished_str": "2010",
+          "description": "from Hasbro\nThis card game recreates the battle between Iron Man and War machine from the movie Iron Man 2. Over a number of rounds, the players will engage in a series of three battles, with victory points going to the winner of a majority of the battles. The first player to score 5 victory points is the winner.\n\nThis game re-implements Craig van Ness' earlier design, Clash of the Light Sabers, which has been remade 2 times before. This version is a mixture of the previous Iron Man battling card game (from the first film) and the original edition. The extra cards from the Iron Man battling game have been included, but other cards (1 each of value 1, 2, and 3) have been removed from each deck.\n\nPublisher's Description:\nChoose a suit and prepare for action! Jump into a head-to-head battle of points and power and side with the heroic IRON MAN or his fearless combatant, WAR MACHINE. Take no prisoners in this fast-paced, action-packed card duel and keep score with the IRON MAN and WAR MACHINE game pieces. Be clever and use your cards wisely to out-play and outlast your opponent!\n\nIncludes 2 game pieces, 55 Iron Man battle cards, 55 War Machine battle cards, 5 Iron Man victory cards, 5 War Machine victory cards and instructions.\n\nFor 2 or more players. Ages 6 and up.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "30",
+          "minage_str": "6",
+          "publishers": [
+            "Hasbro"
+          ],
+          "categories": [
+            "Card Game",
+            "Comic Book / Strip",
+            "Science Fiction"
+          ],
+          "mechanics": [
+            "Hand Management",
+            "Simultaneous Action Selection"
+          ],
+          "families": [
+            "Comic Books: Iron Man",
+            "Comic Books: Marvel Universe",
+            "Players: Two-Player Only Games"
+          ],
+          "score": 95.921196
+        },
+        {
+          "id": "186",
+          "name": "Split",
+          "yearpublished_str": "1999",
+          "description": "Newer version of SPLIT is now available. Publisher is GDC-GameDevCo Ltd. The game still features the patented SPLIT half cards and looks much better than the original (design wise) and seems to have some adjustments to the rules.\n\nIn this surprisingly solid offering from Hasbro, players use cards to take actions on a board.  The cards depict halves of a standard deck of cards, and players attempt to match the halves with those next to the board.  Depending on the quality of the match (perfect, strong, weak), the action is likewise powerful or weak.  The object of the game is to place a series of your markers in a continuous line across the board.  Also the game is scalable for two to six players, with four through six using partners to keep the action interesting.\n\nRe-implemented as:\n\n    Split (Revised Edition)\n\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "30",
+          "minage_str": "12",
+          "publishers": [
+            "GDC-GameDevCo Ltd.",
+            "Hasbro",
+            "Parker Brothers"
+          ],
+          "categories": [
+            "Card Game"
+          ],
+          "mechanics": [
+            "Pattern Building",
+            "Point to Point Movement",
+            "Team-Based Game"
+          ],
+          "families": [
+            "Components: 10 x 10 Grids"
+          ],
+          "score": 85.06146
+        },
+        {
+          "id": "239829",
+          "name": "Shuffle Despicable Me",
+          "yearpublished_str": "2017",
+          "description": "Be a Despicable super villain and take over the world! You'll need to bid with banana cards to collect Minions to help you in your quest. Watch out for Gru's weapons and collect shields to protect you and your Minions. Double, triple and even quadruple the fun on the Shuffle website\n\n-You'll need to bid with banana cards to collect Minions to help you in your quest\n-Card game version of Universal Studios Despicable Me\n-Player with the most Minions is the winning super villain!\n-Free App included\n\nEach player has 7 banana cards for bidding (from 1 to 7).\nIn turn:\n-one player reveals cards\n-all players secretly choose 1 banana card\n-all players reaveal their bid cards\n-from highest to lowest card players choose 1 Minion card to collect\n-if 2 or more players play the same bid cards all players must hit banana button card and in the order of hitting choose Minion cards\nGame ends when Minion deck runs out. At the end each type of Minion goes to the player with most of them.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "6",
+          "publishers": [
+            "Cartamundi"
+          ],
+          "categories": [
+            "Card Game",
+            "Movies / TV / Radio theme"
+          ],
+          "mechanics": [
+            "Auction / Bidding",
+            "Set Collection"
+          ],
+          "families": [
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.417645
+        },
+        {
+          "id": "339845",
+          "name": "Shuffle: Star Wars Rebels",
+          "yearpublished_str": "2016",
+          "description": "\u201cThe Empire are hunting down the Rebels who are hiding out across planet Lothal.\u201d\n\nThe aim of the game is to capture and control Territories, by winning battles as the Rebels or as the Empire. The character card(s) played with the highest total power score capture the Territory to win a round. Matching skills with the Territory's properties increases the total power score.\n\nThe first in a 2-player or 2-team game to capture four Territories wins the game.\n\n\u2014user summary\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "7",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Movies / TV / Radio theme",
+            "Science Fiction"
+          ],
+          "mechanics": [
+            "Hand Management",
+            "Simultaneous Action Selection",
+            "Team-Based Game",
+            "Trick-taking"
+          ],
+          "families": [
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.40292
+        },
+        {
+          "id": "361166",
+          "name": "Color Strike",
+          "yearpublished_str": "2022",
+          "description": "You steal good Cards, give away bad cards like lightning and you never confess color.\n\nBuild a secret straigth of 6 cards in the right color order by thinking tactically and quickly.\nWith the highest score in your street, you are the king or queen of Color Strike!\n\nGameplay:\n6 Cards are placed in a circle on the table, 1 of each color.\n1 card is placed in the middle of the circle, the color of that card shows what cards you are allowed to play (the card colors next to the same colour card in the circle)\n\nDepending on the type of card you play, it can have some effects:\n- Number cards: Nothing happens\n- # cards: steel a card from another player en give him one card you don't want.\n- Strike Cards: You MAY Place a card on the table to build your straigth, if you place a card, all other players MUST place a card on the table. If you don't, nobody does.\n\nThez cards should be in the same (color) order as the cards in the circle.\n\nThe game ends when each player has 6 cards on the table, you receive points for the longest straigth and #cards.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "8",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game"
+          ],
+          "mechanics": [
+            "Set Collection"
+          ],
+          "families": [
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.402712
+        },
+        {
+          "id": "366299",
+          "name": "Silhouetters",
+          "yearpublished_str": "2022",
+          "description": "Silhouetters is a fast all play word game, where players shout out what they see and what they can imagine! Roll the 3 letter dice and find things that start with those letters hiding in the shadows. The more you spot the more points you win!\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "30",
+          "minage_str": "6",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game",
+            "Dice",
+            "Party Game",
+            "Word Game"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Simultaneous Action Selection"
+          ],
+          "families": [
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.39353
+        },
+        {
+          "id": "454634",
+          "name": "Monopoly Deal: NFL Edition",
+          "yearpublished_str": "2025",
+          "description": "In Monopoly Deal: NFL Edition, you want to be the first to collect three sets of NFL teams from the 32 available. Action cards let players swipe teams, sack and intercept opponents, recover fumbles, and pull off key plays, so you'll need to keep your options open as you head for the end zone to score.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "8",
+          "publishers": [
+            "Hasbro"
+          ],
+          "categories": [
+            "Card Game",
+            "Economic"
+          ],
+          "mechanics": [
+            "Hand Management",
+            "Set Collection",
+            "Take That"
+          ],
+          "families": [
+            "Game: Monopoly (Official)",
+            "Series: Monopoly Derivatives (Official)",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)",
+            "Traditional Card Games: Rummy",
+            "Versions & Editions: Card Versions of Non-Card Games"
+          ],
+          "score": 27.282558
+        },
+        {
+          "id": "286055",
+          "name": "Shuffle Cars",
+          "yearpublished_str": "2015",
+          "description": "Race with your favorite characters from Disneys Cars, choose a team and be the first one to cross the finishline with all of your three cars to win the game.\nThere are two tracks each six spaces long, put two cars of your team on one track and the last one on the other track. Draw up to three cards and play up to two of them each round to move your cars along the track.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "4",
+          "publishers": [
+            "ASS Altenburger Spielkarten",
+            "Cartamundi"
+          ],
+          "categories": [
+            "Children's Game",
+            "Movies / TV / Radio theme",
+            "Racing"
+          ],
+          "families": [
+            "Movies: Cars",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.27858
+        },
+        {
+          "id": "164508",
+          "name": "Nerf",
+          "yearpublished_str": "2014",
+          "description": "Nerf is a children's card game, part of the \"Shuffle\" line of games.\n\nThere are two types of cards; Target Cards and Dart Cards. The game involves matching the colors of the top Dart card from your deck to one of the Target cards on the table. It is a game of speed, just like the classic game of Snap.\n\nEach target card has a point value and the winner is the person who scores the most from matching their Dart cards with Target cards.\n\nAn App is available, with extra gameplay & quickstart.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "6",
+          "publishers": [
+            "Cartamundi",
+            "Hasbro"
+          ],
+          "categories": [
+            "Action / Dexterity",
+            "Card Game",
+            "Children's Game"
+          ],
+          "families": [
+            "Comic Books: Spider-Man",
+            "Promotional: Board Games",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.266556
+        },
+        {
+          "id": "239828",
+          "name": "Shuffle Operation",
+          "yearpublished_str": "2017",
+          "description": "What kind of Surgeon will you be? collect all the skill cards needed or push your luck and hope you don\u2019t get buzzed! get the free app on the Shuffle website to double the fun: use the unique x-ray card included to search for and zap hidden Germ bugs.\n\n-Collect all the skill cards needed to push your luck and hope you don't get buzzed!\n-Card game version of the classic family game\n-First to collect 10 stars wins\n-X ray Card and Free App included\n\nIn their turns players:\n-draw cards up to 5 in hand\n-play skill cards to collect Operation card with stars\n-if play less cards or with different symbol than required, they must draw Buzz card to check if his risky move is successful\n-if buzzed (red nose or 2 orange noses) next player may complement play with their cards\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "5",
+          "publishers": [
+            "Cartamundi"
+          ],
+          "categories": [
+            "Card Game",
+            "Medical"
+          ],
+          "mechanics": [
+            "Push Your Luck",
+            "Set Collection"
+          ],
+          "families": [
+            "Game: Operation",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.228443
+        },
+        {
+          "id": "366300",
+          "name": "The Exorcist",
+          "yearpublished_str": "2022",
+          "description": "Priests perform sacred rituals to exorcise demons from the possessed. By reasoning and deducing, they must try to figure out a correct sequence of rituals to rid them of evil! If they need to contact the demon for help, the priests will be pulled to the Dark Side. However, if they perform a ritual more than once\u2026 the dark is turned back into the sacred.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "30",
+          "minage_str": "12",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game",
+            "Deduction",
+            "Horror"
+          ],
+          "mechanics": [
+            "Deduction"
+          ],
+          "families": [
+            "Movies: Horror Movies",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.214672
+        },
+        {
+          "id": "373552",
+          "name": "Shuffle: The Game of Life",
+          "yearpublished_str": "2015",
+          "description": "Get 100 LIFE points to win!\nTo score LIFE points, be the first to play all of the cards from your hand onto the table by: \n\u2022making sets and runs and\n\u2022adding to other players' sets and runs.\n\n-Shuffle all cards together.\n-Deal the cards to each player, face down.\n-7 cards for 4 players, 8 cards for 3 players & 10 cards for 2 players.\n-Put the remaining cards face down in the middle. This is the draw pile. \n-Take the top card from the draw pile and put it face up next to the draw pile. This is the discard pile.\n\nDouble the fun and download the Shufflecards app for extra gameplay.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "7",
+          "publishers": [
+            "Cartamundi",
+            "Hasbro"
+          ],
+          "categories": [
+            "Card Game"
+          ],
+          "mechanics": [
+            "Hand Management",
+            "Set Collection"
+          ],
+          "families": [
+            "Game: Game of Life",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.155182
+        },
+        {
+          "id": "366307",
+          "name": "Batman Henchmen",
+          "yearpublished_str": "2022",
+          "description": "Joker is recruiting Henchmen to help him pull off a series of money heists across Gotham and you\u2019ve been selected! Play as a team to complete the crimes, but if you play smart you\u2019ll end up with the best loot and send the other Henchmen looking for a new job! First Henchman to reach $1M wins.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "30",
+          "minage_str": "8",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game",
+            "Movies / TV / Radio theme"
+          ],
+          "mechanics": [
+            "Programmed Movement"
+          ],
+          "families": [
+            "Admin: Better Description Needed!",
+            "Comic Books: Batman",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 27.02511
+        },
+        {
+          "id": "366306",
+          "name": "Friday the 13th",
+          "yearpublished_str": "2022",
+          "description": "A razor-sharp, cooperative and edge-of-your-seat game where speed can save your life. Move fast to escape Jason\u2019s machete! Players must complete survival missions against time to try and survive the week. But with Jason hunting them down, BLOOD WILL FLOW. Because failing survival missions gets campers killed. So you better think fast, or you\u2019ll all end up with a machete in your head. Ouch!\n\n",
+          "minplayers_str": "3",
+          "playingtime_str": "30",
+          "minage_str": "12",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game",
+            "Movies / TV / Radio theme"
+          ],
+          "mechanics": [
+            "Cooperative Game",
+            "Set Collection"
+          ],
+          "families": [
+            "Admin: Better Description Needed!",
+            "Movies: Friday the 13th",
+            "Movies: Horror Movies",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 26.914532
+        },
+        {
+          "id": "366304",
+          "name": "IT: Chapter Two",
+          "yearpublished_str": "2022",
+          "description": "Explore the sewers, don\u2019t get scared or Pennywise will get you! Explore the sewers together and find the lost items that were left behind the last time you were here\u2026 Pass too many Pennywise Balloons and you\u2019re going to get a big jump scare!\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "12",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Card Game",
+            "Exploration",
+            "Horror",
+            "Movies / TV / Radio theme"
+          ],
+          "mechanics": [
+            "Pick-up and Deliver",
+            "Push Your Luck",
+            "Semi-Cooperative Game"
+          ],
+          "families": [
+            "Admin: Better Description Needed!",
+            "Authors: Stephen King",
+            "Movies: Horror Movies",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 26.828323
+        },
+        {
+          "id": "336666",
+          "name": "Harry Potter: Quidditch Tryouts",
+          "yearpublished_str": "2018",
+          "description": "Quidditch Tryouts! Match colours and slam your Quaffle cards on the Goalpost cards. You\u2019ll need to think fast and score faster to win! The player with the highest score when all Goalpost cards run out becomes the new Gryffindor player. Double the fun: catch the snitch first when he comes by and score extra points for your team.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "6",
+          "publishers": [
+            "Cartamundi",
+            "Shuffle"
+          ],
+          "categories": [
+            "Action / Dexterity",
+            "Card Game",
+            "Children's Game",
+            "Fantasy",
+            "Movies / TV / Radio theme",
+            "Novel-based",
+            "Sports"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Open Drafting"
+          ],
+          "families": [
+            "Books: Harry Potter",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)",
+            "Theme: Fantasy Sports",
+            "Theme: Fictional Games"
+          ],
+          "score": 26.824406
+        },
+        {
+          "id": "423791",
+          "name": "Monopoly: Home Bargains",
+          "yearpublished_str": "2020",
+          "description": "Monopoly: Home Bargains Edition brings the familiar thrill of the classic Monopoly game with a unique retail twist. Themed around the popular UK discount retailer Home Bargains, the game lets players experience the excitement of building a retail empire with a focus on the brand's iconic stores and locations.\n\nIn this edition, players begin their journey at the first Home Bargains store in Old Swan, Liverpool, and navigate through other significant locations such as Clydebank, Pontefract, Newtownabbey, Harlow, and Poole. As they move around the board, players will buy, trade, and develop these stores and warehouses, aiming to dominate the retail landscape.\n\nGame-play follows the traditional Monopoly format, with players rolling dice to advance around the board, drawing Chance and Community Chest cards that can either help or hinder their progress. Instead of houses and hotels, players invest in Home Bargains stores and warehouses, adding a fresh and thematic twist to property development.\n\nThe goal remains the same: bankrupt your opponents by acquiring properties, charging rent, and strategically managing your assets. With official licensing from Hasbro, Monopoly: Home Bargains Edition provides a fun, competitive experience that combines the beloved elements of classic Monopoly with the charm and familiarity of Home Bargains.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "180",
+          "minage_str": "8",
+          "publishers": [
+            "Hasbro",
+            "Winning Moves UK Ltd."
+          ],
+          "categories": [
+            "Economic"
+          ],
+          "mechanics": [
+            "Auction / Bidding",
+            "Auction: English",
+            "Income",
+            "Loans",
+            "Lose a Turn",
+            "Ownership",
+            "Player Elimination",
+            "Roll / Spin and Move",
+            "Set Collection",
+            "Trading"
+          ],
+          "families": [
+            "Brands: Groceries",
+            "Country: United Kingdom",
+            "Game: Monopoly (Official)",
+            "Promotional: Board Games",
+            "Series: Monopoly Derivatives (Official)",
+            "Series: Nostalgia (Hasbro)"
+          ],
+          "score": 26.51242
+        },
+        {
+          "id": "171385",
+          "name": "Shuffle My Little Pony",
+          "yearpublished_str": "2014",
+          "description": "Princess Celestia has used her magic to break the many gems in Equestria in half so the ponies can enjoy collecting them. Each pony has its own special gem to collect. Match as many as you can to win the game.\nTake the top card from your pile. Try to create whole gems of your ponies\u2019 colours, making sure that whenever you place a card, any sides that are touching match each other.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "5",
+          "publishers": [
+            "ASS Altenburger Spielkarten",
+            "Cartamundi"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game"
+          ],
+          "mechanics": [
+            "Tile Placement"
+          ],
+          "families": [
+            "Movies: Frozen",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)",
+            "Toys: My Little Pony"
+          ],
+          "score": 25.961296
+        },
+        {
+          "id": "217425",
+          "name": "Connect 4: Card Game",
+          "yearpublished_str": "2016",
+          "description": "The Connect 4 card game brings added dimensions to the classic 4-in-a-row contest. Wild colours give more choice, and power up actions and secret missions ramp up the challenge for your colourful connections!\n\nOn your turn draw a Connect 4 tile and place it next to a tile already in play.  Making the patterns shown on your secret mission cards completes them.  The first player to complete 4 missions wins.\n\nSome cards conation power ups that may allow players to take a second action on their turn and alter the tiles already in play.\n\nDownload the shuffle card app to add an extra element to the game.\n\n\u2014description from the publisher\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "15",
+          "minage_str": "6",
+          "publishers": [
+            "Cartamundi",
+            "Hasbro",
+            "Shuffle"
+          ],
+          "categories": [
+            "Children's Game",
+            "Puzzle"
+          ],
+          "mechanics": [
+            "Pattern Building",
+            "Tile Placement"
+          ],
+          "families": [
+            "Game: Connect 4",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 25.828947
+        },
+        {
+          "id": "174468",
+          "name": "Guess Who? Shuffle",
+          "yearpublished_str": "2014",
+          "description": "Guess Who? The classic race to find the face!\n\nIn Guess Who? Shuffle, the players alternate in asking yes or no questions to narrow down who their character is, the game ends when someone accurately guesses who they are.\n\n",
+          "minplayers_str": "2",
+          "playingtime_str": "20",
+          "minage_str": "4",
+          "publishers": [
+            "ASS Altenburger Spielkarten",
+            "Cartamundi",
+            "Hasbro"
+          ],
+          "categories": [
+            "Card Game"
+          ],
+          "mechanics": [
+            "Hand Management"
+          ],
+          "families": [
+            "Game: Guess Who?",
+            "Players: Two-Player Only Games",
+            "Series: Shuffle Card Games (Cartamundi / Hasbro)"
+          ],
+          "score": 25.69973
+        }
+      ]
+    }
+  }
+}

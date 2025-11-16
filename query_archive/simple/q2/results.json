@@ -1,0 +1,850 @@
+{
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 2,
+      "params": {
+        "json": "{\"limit\": 30, \"fields\": [\"id,score, name,description,mechanics, categories, families, minage, publishers, yearpublished, playingtime, minplayers, maxplayers\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"Fantasy dice rolling 2 players\", \"qf\": \"name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str\", \"q.op\": \"AND\"}}"
+      }
+    },
+    "response": {
+      "numFound": 19,
+      "start": 0,
+      "maxScore": 6.8811727,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "id": "39341",
+          "name": [
+            "SealHunters"
+          ],
+          "yearpublished": [
+            2008
+          ],
+          "description": [
+            "A fantasy card-game by the Italian producer Serfer Games. Players organize a team of magic-users and battle in order to gain magic seals. The battle mechanism includes both card management and dice rolling.\n\nThe game box contains:\n84 playing cards\n4 Player sheets\n2 Dices\n4 Pawns\n1 Rulebook\n\nRules in Italian/English\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            30
+          ],
+          "minage": [
+            0
+          ],
+          "publishers": [
+            "Serfer Giochi"
+          ],
+          "categories": [
+            "Card Game",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Hand Management",
+            "Open Drafting"
+          ],
+          "score": 6.8811727
+        },
+        {
+          "id": "177971",
+          "name": [
+            "Fantasy Football: Draft, Deals, and Dice"
+          ],
+          "yearpublished": [
+            2015
+          ],
+          "description": [
+            "Fantasy Football: Draft, Deals, and Dice (FF3D) is a card drafting and dice rolling game that allows players to simulate the fantasy football experience. FF3D is designed to be played with 2 or 4 players, though expansions can easily allow up to 16 players. FF3D can be played in anywhere from 60-120 minutes, depending on the length of time players spend on their initial drafting process.\n\nThe base game of Fantasy Football: Draft, Deals, and Dice allows players to compete with each other over a shortened four week fantasy football season. The Owners have the opportunity to draft their fantasy rosters from a pool of randomized Players at the start of the season. The Team and Player Ratings are randomized at the start of each season, so no two seasons will ever be the same. One year, the San Francisco QB could be a star player with major upside \u2013 the next year, he could be a mediocre talent that shrinks in the Primetime. The winner is able to initially assess the random market conditions of the league to maximize their draft selections within their roster restrictions, as well as able to navigate the flow of the season\u2019s Defensive Matchups, Injuries, Hot Streaks better than their opponents.\n\nAfter establishing agreed upon Roster Requirements for the League, the game begins with (and features) everyone\u2019s favorite part of the fantasy football season \u2013 the fantasy draft.\n\nThe Game is split into three main segments:\nThe Fantasy Draft\nThe Regular Season\nThe Playoffs\n\nOwners will draft a team of Players and set their starting lineups against the opposing Owner on their Fantasy Schedule. The Owners take turns determining their Weekly Results by rolling a specified number of Offensive and Defensive dice for each Player in their Starting Lineup. The number and types of dice rolled are influenced by the Player's Skill and Upside Levels, as well as any Team Matchup Modifiers, Player Hot Streaks, or Player Injuries that have been assigned to the player during the game play. In-Game Events could also trigger unexpected outcomes that can swing the momentum during a game. After all games have been played, the Owner with the most points in the matchup receives the win. At the end of each week, Players are randomly selected to either go on a Hot Streak or go on the Injured Reserve. Owners may replace Injured players by following a Waiver and Free Agency process against the other Owners to select Players from the pool of unselected Players from the initial draft. The first three weeks make up the Regular Season, with the Top 2 teams competing in Week 4 for the Championship.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            90
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "SEMA Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Dice",
+            "Sports"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Open Drafting",
+            "Simulation",
+            "Trading"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Sports: American Football / Gridiron"
+          ],
+          "score": 6.5652065
+        },
+        {
+          "id": "310600",
+          "name": [
+            "52 Dragons"
+          ],
+          "yearpublished": [
+            2020
+          ],
+          "description": [
+            "52 Dragons is a fantasy card game where players draw from the same deck to power a unique Battle Dragon based on the four elements of fire, air, water, or earth.\n\nThe game play is fairly simple. Each player controls a Battle Dragon starting with 52 Health Points. They attack an opposing Battle Dragon by rolling dice to inflict damage. Cards are drawn and played to grant abilities to the dragons, regain Health Points, increase the damage of the roll, or summon supporting dragons to join the attack.\n\nA player is eliminated when their Health Points reach 0, and the game ends when only one player remains.\n\n52 Dragons is designed for 2-4 players, ages 12 and up. A game can be a quick as a few minutes or as long as a half-hour.\n\nThis Basic Set contains 52 distinct playing cards, 2 reversible Battle Dragon cards, and the instruction manual.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            30
+          ],
+          "minage": [
+            12
+          ],
+          "publishers": [
+            "D52 Gaming",
+            "LLC"
+          ],
+          "categories": [
+            "Card Game",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Card Play Conflict Resolution",
+            "Dice Rolling",
+            "Open Drafting"
+          ],
+          "score": 5.493365
+        },
+        {
+          "id": "162580",
+          "name": [
+            "Realm of Wonder"
+          ],
+          "yearpublished": [
+            2014
+          ],
+          "description": [
+            "Realm of Wonder puts 2-6 players in the boots of fantasy characters from a yeti to a rockman in a fantasy world with spinning continents. During your journey, you need to achieve your scenario objective, then return to the king's castle in the middle of the board.\n\nEach turn starts with bidding to see who will first use magic and who will first move on the board. During the magic phase, players take turns trying to harm opponents with nasty magic tricks or enhance their own character's abilities. Movement takes place on a game board divided into three continents, and the two inner continents can be moved via magic stones to hinder an opponent's movement or allow a player access to blocked areas. During the journey, players need to combat opposing figures, destroy monsters, find treasures that might boost character abilities, and gain or invade resource pools to fuel a player's economy.\n\nRealm of Wonder mixes area control, dice rolling, and bluffing. The game is beautifully drawn with a set of miniature figures for each character. Random elements can be minimized with an alternative rule set that makes this a great game for both younger people above 9 and hardcore gamers alike. Playing time with six players should be less than an hour.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            6
+          ],
+          "playingtime": [
+            45
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "Mindwarrior Games",
+            "Tactic"
+          ],
+          "categories": [
+            "Adventure",
+            "Dice",
+            "Exploration",
+            "Fantasy",
+            "Fighting"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Area Movement",
+            "Auction / Bidding",
+            "Take That"
+          ],
+          "score": 5.39234
+        },
+        {
+          "id": "452980",
+          "name": [
+            "\u0411\u0435\u0440\u0441\u0435\u0440\u043a: \u041b\u0435\u0433\u0435\u043d\u0434\u044b \u041b\u0430\u0430\u0440\u0430 (Berserk: Legends of Laar)"
+          ],
+          "yearpublished": [
+            2023
+          ],
+          "description": [
+            "This two-player starter set for Berserk: Trading Card Game contains 19 cards (two decks of 9 cards each and an additional card for the second player). They represent 2 armies of fantasy creatures who battle for domination in the world of Laar. The goal of the game is to familiarize the beginners to the system of the collectible card game Berserk. The players don't need to construct a deck before the game, the decks are preset. The battles are resolved by dice rolling and activating various abilities of the cards. The winner is the player who is able to eliminate all the cards of the opponent. \nIt also includes a rulebook, damage and effect counters, d6 dice, combat table and player aids.\n\nThe components of the set can be used together with cards from the \u00d0\u2018\u00d0\u00b5\u00d1\u20ac\u00d1\u0081\u00d0\u00b5\u00d1\u20ac\u00d0\u00ba: \u00d0\u2019\u00d0\u00be\u00d0\u00b9\u00d0\u00bd\u00d0\u00b0 \u00d1\u0081\u00d1\u201a\u00d0\u00b8\u00d1\u2026\u00d0\u00b8\u00d0\u00b9 (\"Berserk: War of the Elements\") and \u00d0\u2018\u00d0\u00b5\u00d1\u20ac\u00d1\u0081\u00d0\u00b5\u00d1\u20ac\u00d0\u00ba: \u00d0\u009d\u00d0\u00b0\u00d1\u02c6\u00d0\u00b5\u00d1\u0081\u00d1\u201a\u00d0\u00b2\u00d0\u00b8\u00d0\u00b5 \u00d1\u201a\u00d1\u0152\u00d0\u00bc\u00d1\u2039 (\"Berserk: Invasion of Darkness\") releases.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            2
+          ],
+          "playingtime": [
+            60
+          ],
+          "minage": [
+            12
+          ],
+          "publishers": [
+            "Hobby World"
+          ],
+          "categories": [
+            "Card Game",
+            "Collectible Components",
+            "Fantasy",
+            "Fighting"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Grid Movement",
+            "Hand Management"
+          ],
+          "families": [
+            "Collectible: Collectible Card Games",
+            "Players: Two-Player Only Games",
+            "Series: Berserk (Hobby World)"
+          ],
+          "score": 5.270052
+        },
+        {
+          "id": "419566",
+          "name": [
+            "Hockey Hardware: The Original Game"
+          ],
+          "yearpublished": [
+            2025
+          ],
+          "description": [
+            "Hockey Hardware is a tabletop game made for hockey fans, gamers, and fantasy hockey GMs, but anyone can play, have fun, and win. No hockey knowledge or experience is needed.  This game is socially interactive, competitive, and unpredictable. No two games are the same, and no lead is safe. Players must use a combination of luck and strategy to win.\n\nAt the start of the game, take on the role of a hockey player. You will start as either a Forward on Line 2 or as a Defense on Pair 2 in either the East or West Conference.\n\nOn your turn, collect as many hockey stats as you can by rolling dice, avoiding Adversity, and strategically playing Game Cards. Game Cards reflect different hockey actions that can help you get ahead or push your opponents back.\n\nThe more hockey stats you collect, the more likely you will earn different Trophy Cards. Players compete for 11 Trophy Cards throughout the game, which consists of 15 rounds divided into 3 periods and 2 intermissions in a Game Schedule.\n\nThe player with the most Trophy Cards by the end of the Third Period earns the Champion's Cup and wins the game!\n\n\u2014description from the publisher\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            90
+          ],
+          "minage": [
+            14
+          ],
+          "publishers": [
+            "FACE-OFF GAMES"
+          ],
+          "categories": [
+            "Card Game",
+            "Dice",
+            "Fantasy",
+            "Sports"
+          ],
+          "mechanics": [
+            "Card Play Conflict Resolution",
+            "Catch the Leader",
+            "Cooperative Game",
+            "Deduction",
+            "Delayed Purchase",
+            "Dice Rolling",
+            "Finale Ending",
+            "Hidden Victory Points",
+            "Highest-Lowest Scoring",
+            "Lose a Turn",
+            "Memory",
+            "Move Through Deck",
+            "Multi-Use Cards",
+            "Order Counters",
+            "Paper-and-Pencil",
+            "Score-and-Reset Game",
+            "Simultaneous Action Selection",
+            "Slide / Push",
+            "Stat Check Resolution"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Sports Teams: National Hockey League (NHL)",
+            "Sports: Ice Hockey",
+            "Theme: Fantasy Sports"
+          ],
+          "score": 5.0751257
+        },
+        {
+          "id": "428717",
+          "name": [
+            "Huddle: The Fantasy Football Game"
+          ],
+          "yearpublished": [
+            2025
+          ],
+          "description": [
+            "Ever wanted to bring the electrifying energy of fantasy football straight to your game night? Huddle does just that! Step into the shoes of a team manager, where you're not just cheering from the sidelines\u2014you\u2019re calling the shots. Draft your dream team, make those game-changing decisions, and navigate the unpredictable twists of the season. It's all the excitement of football without having to leave your living room (or deal with muddy cleats).\n\nDesigned for 2-6 players aged 14 and up, Huddle kicks off with a fast-paced draft. You've got a budget and a mission: build the strongest team possible. Bid wisely, because every token counts, and you'll need a full roster to compete. As the weeks unfold, dynamic news cards keep everyone on their toes\u2014think surprise injuries, unexpected comebacks, and everything in between. Face off in head-to-head matchups by rolling dice that represent your players' performances. Manage your lineup, exploit the waiver wire, and maybe, just maybe, outsmart your opponents.\n\nThe endgame? Outplay and outscore your friends to become the ultimate Huddle Champion! Navigate through the season with the best record to secure your spot in the championship showdown. It's all about strategy, a bit of luck, and a whole lot of fun. So grab some snacks, gather your crew, and get ready to experience fantasy football like never before. Game night just got a lot more interesting!\n\n\u2014description from the publisher\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            6
+          ],
+          "playingtime": [
+            150
+          ],
+          "minage": [
+            14
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Dice",
+            "Sports"
+          ],
+          "mechanics": [
+            "Action Timer",
+            "Auction / Bidding",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Open Drafting"
+          ],
+          "families": [
+            "Admin: Upcoming Releases",
+            "Crowdfunding: Kickstarter",
+            "Sports: American Football / Gridiron"
+          ],
+          "score": 5.0044603
+        },
+        {
+          "id": "227563",
+          "name": [
+            "Rolling Empires"
+          ],
+          "yearpublished": [
+            2017
+          ],
+          "description": [
+            "When the lands of Terris were first discovered, a war was sparked. The Great War ravaged the lands and drove many factions to the brink. Seeing their inevitable doom, the factions reached an alliance. Hundreds of years have passed in peace since The Great War. One day, The Aether Stone fell from the heavens. The Stone carried with it crystals filled with intense magical power. The crash spread these crystals throughout the land, but the majority of the crystals were concentrated at the crash site. Once the factions began collecting the crystals, they realized how powerful they were and what they could do with them. Peace had prevailed, but many sought after the power of the crystals, and power leads to corruption. Eventually, armies began to march on the crash site to hoard it's power. The struggle for conquest had begun. But not all were consumed by the crystals' powers. Some remained content working the land and building glorious cities, filled with monuments and workshops.\n\nWhich path will you choose to follow?\n\nRolling Empires is a fantasy empire dice building game for 2 - 6 players. Engine building and area control are some of the key features of this game. It features 6 factions, all with several unique creatures in the form of dice that can be recruited to build your engine. Players score points through building and through conquest. There is no one path to victory.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            6
+          ],
+          "playingtime": [
+            120
+          ],
+          "minage": [
+            13
+          ],
+          "publishers": [
+            "Fongomongo Games"
+          ],
+          "categories": [
+            "Dice",
+            "Exploration",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Dice Rolling",
+            "Set Collection"
+          ],
+          "score": 4.680474
+        },
+        {
+          "id": "1860",
+          "name": [
+            "Dragon Dice"
+          ],
+          "yearpublished": [
+            1995
+          ],
+          "description": [
+            "Players use colorful dice to represent armies of different fantasy races which battle to control essential terrain in this fast-rolling game.  Any number of players can join the struggle, although it's designed as a multiplayer game. The first player to capture two terrains immediately wins the game, or you may try to obliterate your opponent's dice. Spells and layered strategies benefit certain races as you try to control the odds in this dynamic game full of surprises!\n\nHistory: 2-Player Starter Sets, including completely rewritten rules, were released in 2006. These rules are available online at [www.sfr-inc.com]. The new Starters have perfectly paired racial armies, not random assortments like the old retail packaging, plus four terrain dice, two dragons, the complete rulebook, and new army placement cards. The races are paired up as Coral Elf/Lava Elf, Dwarf/Goblin, Feral/Undead, and Amazon/Swamp Stalker. Hybrid Dragons were offered in 2008. Acolytes of the Eldarim (a large expansion of the Eldarim race) was released in August 2009, along with a re-release of the Dragonkin. The Battlefields expansion (new major and minor terrains) was released in August 2010, adding exciting new options and strategies. The Dragoncrusader and Dragonzealots (new Eldarim Champions) were released in 2011. Dwarves and Goblins were re-released as kickers in 2012 and now include a 5th monster for each race. Magic Items were also re-released in the Battle Chest expansion in 2012. Coral Elves and Lava Elves were re-released as kickers in 2013 and now include a 5th monster. Amazons were re-released as kickers in 2014 and now include a 5th monster.\n\nThe Starters listed above are now out of print. New Starters have been released that have 30 health of Firewalkers and 30 health of Treefolk. Those starters also contain 4 Terrains, 4 dragons, 2 playmats, and a simplified set of starter rules.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            30
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "(Unknown)",
+            "SFR",
+            "Inc.",
+            "Tactical Studies Rules (TSR)"
+          ],
+          "categories": [
+            "Collectible Components",
+            "Dice",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Dice Rolling"
+          ],
+          "families": [
+            "Collectible: Collectible Dice Games",
+            "Components: Dice with Icons",
+            "Components: Polyhedral (not D6) dice",
+            "Creatures: Dragons",
+            "Digital Implementations: Tabletopia",
+            "Digital Implementations: VASSAL",
+            "Series: Dragon Dice (TSR/SFR",
+            "Inc)"
+          ],
+          "score": 4.4884706
+        },
+        {
+          "id": "197020",
+          "name": [
+            "Andoria Battlefields"
+          ],
+          "yearpublished": [
+            2019
+          ],
+          "description": [
+            "Andoria Battlefields funded and available on Kickstarter: https://www.kickstarter.com/projects/1233488834/andoria-battlefields-0]\nAndoria Battlefields is a fast paced, fantasy, area control, board game with card playing and dice rolling mechanisms.\n\nIn Andoria Battlefields, players take control of both Heroes and Monsters and fight for control over their own, and their opponent\u2019s, battlefields. A game lasts 20 to 60 minutes depending on the number of players. Every player turn is divided into two main phases:\n\n1. Herophase\n2. Monsterphase\nThe active player plays both phases and then the player to their left becomes the active player.\n1. The Herophase:\nThe player recruits his Heroes and uses spells to conquer his battlefield, defeat the monsters controlled by the opposing player and seal the portals where they emerge.\n\n2. The Monsterphase:\nThe opposing player recruits and controls monsters on the active player\u2019s battlefield. The opposing player tries to stop the active player by overrunning Andoria with these evil creatures.\nThis abstract strategy allows the player to win the game in two different ways; either by defeating the forces of darkness and sealing the portals, or by overrunning his opponent\u2019s battlefield with monsters.\n\nAchieving victory by controlling the battlefields will require both strategic and tactical skill. Players will need to recruit powerful units, such as warriors or dragons, and use their unique abilities. They can be strengthened by casting helpful spells and building protective barriers.\n\nWill your heroes have the strength to unite the kingdoms and close the portals? Or will you aid the monsters in their quest to plunge Andoria into darkness and silence its music forever?\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            60
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "Raentikgames"
+          ],
+          "categories": [
+            "Card Game",
+            "Dice",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Dice Rolling",
+            "Player Elimination"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Crowdfunding: Spieleschmiede"
+          ],
+          "score": 4.3926535
+        },
+        {
+          "id": "1531",
+          "name": [
+            "Ritter ohne Furcht und Tadel"
+          ],
+          "yearpublished": [
+            1998
+          ],
+          "description": [
+            "Depending upon the number of players, each player receives 1 or 2 knights.  Each of these knights lists a series of dice pips on the card, some of which are red in color.  These red numbers are the knights defensive abilities, and he will block these numbers if rolled by an opponent during a competition.  For instance, Upollonius Wolkenburg has a 1, 2 and 3 in red.  Thus, he will block one of each of these numbers each time dice are rolled by an opponent in a competition.  Some knights have less numbers in red, but they usually have a greater attack strength, meaning they can roll more dice in combat.  This mechanism borrows very heavily from many role playing and fantasy games.\n\nIn addition to these 'defense' numbers and the attack dice chart, each knight card also has charts for prizes won (1 - 15) and damage points (1 - 10).  There are also nice illustrations on each card ... about the only kind thing I can say about the game.\n\nEach player also receives a 'lady' card.  Each lady possesses a number of characteristics, including hair color, build, height and personality.  When granting her favor to a knight (which is indicated by placing a corresponding token onto a knight card), the idea is to seek out a knight who desires similar characteristics in a lady.\n\nThe start player challenges an opposing knight with one of his knights.  A challenge cannot be refused.  These two enter battle, which involves each player tossing a number of dice equal to their attack strength into the tournament field.  In mounted combat, any 1's, 2's or 3's thrown strike a blow, unless these are blocked by the opponent.  If any of these dice strike, the knight falls from his horse and the knight suffers hit points equal to the number of blows which were landed.  If only one knight is struck and falls from his horse, the opponent wins and earns a prize for himself and for his lady.  If both knights fall from their horse, then the match continues on foot.  This involves more dice rolling, but 4's, 5's and 6's now strike.  This continues until one knight concedes or reaches 10 damage points, at which time he is out of the tournament (and out of the game).\n\nThe next player in turn order then challenges a knight.  This process is repeated until there is only one healthy knight remaining. The round then ends and victory points are doled out to the knight and lady who won the most prizes.  There are also potential bonuses which add to the players' scores.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            10
+          ],
+          "playingtime": [
+            45
+          ],
+          "minage": [
+            12
+          ],
+          "publishers": [
+            "Eurogames"
+          ],
+          "categories": [
+            "Dice",
+            "Fighting",
+            "Medieval"
+          ],
+          "mechanics": [
+            "Betting and Bluffing"
+          ],
+          "score": 4.274761
+        },
+        {
+          "id": "256317",
+          "name": [
+            "Guild Master"
+          ],
+          "yearpublished": [
+            2020
+          ],
+          "description": [
+            "Guild Master is a fantasy tabletop game for 2-4 players. Players manage an adventuring guild, competing with each other to become the most famous guild as an escalating series of events threaten the land. In each of the nine rounds, players simultaneously and secretly program orders to send teams of adventurers out to do the following:\n\n\n    Recruit more adventurers.\n    Attempt increasingly difficult contracts to gain money, fame and other rewards.\n    Hire builders to upgrade their guild to increase their capacity to do all of that more.\n\n\nAll players then sequentially resolve their planned orders, starting with each players' 1st order, then 2nd order and so on, and in the order they appear on the board (builders, then adventurers A-F then contracts 1-6).\n\nPlayers plan and program orders carefully around other players' likely moves, various strategies, risks, and rewards. They manage their guilds' growth and optimize combinations between their adventurer abilities and contract rewards to achieve their goals. As the game advances, guilds become more powerful and must rise to meet an increasing number of game state changing threats. Recruiting increasingly powerful adventurers and upgrading your guild capacity are both key to victory. There are various ways to exert control over the board, your dice rolls, and your chances to get what you want.\n\nMost orders are resolved by paying coin or rolling dice based on your adventurers' skills. Sometimes players resolve these orders alone, and sometimes cooperating with, or in conflict with, other guild's adventuring teams attempting the same thing at the same time. When players' orders overlap, coins and negotiated prisoners' dilemma cooperate/conflict skill checks resolve the contest. Negotiation over shared goals, contract bonuses and reward splits is encouraged and rewarding, but not absolutely required to win.\n\nEverything you do earns you fame (victory points) and other rewards. At the end of nine rounds, any remaining coins are converted to fame at a rate of 5 coins = 1 fame. Then any special prestige upgrade fame is added. The most famous guild is then declared the winner.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            120
+          ],
+          "minage": [
+            13
+          ],
+          "publishers": [
+            "Good Games Publishing"
+          ],
+          "categories": [
+            "Card Game",
+            "Deduction",
+            "Dice",
+            "Fantasy",
+            "Negotiation"
+          ],
+          "mechanics": [
+            "Action Queue",
+            "Auction / Bidding",
+            "Bribery",
+            "Command Cards",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Dice Rolling",
+            "End Game Bonuses",
+            "Hand Management",
+            "Income",
+            "Market",
+            "Negotiation",
+            "Prisoner's Dilemma",
+            "Simultaneous Action Selection",
+            "Stat Check Resolution",
+            "Take That",
+            "Turn Order: Role Order",
+            "Variable Player Powers"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Digital Implementations: Tabletopia",
+            "Misc: LongPack Games"
+          ],
+          "score": 4.2026634
+        },
+        {
+          "id": "320502",
+          "name": [
+            "Dragon Dice (Fourth Edition)"
+          ],
+          "yearpublished": [
+            2018
+          ],
+          "description": [
+            "\n\n\n    \n        GAME SYSTEM\n\n    \n    \n         This entry is to allow for discussion/rating of the game system as a whole. It is not for a specific product or release. Versions will appear on the individual item pages.\n\n    \n\n\nPlayers use colorful dice to represent armies of different fantasy species which battle to control essential terrain in this fast-rolling game. Although primarily played as a 2-player game, any number of players can join the struggle. The first player to capture two terrains immediately wins the game, or you may try to obliterate your opponent's dice. Spells and layered strategies benefit certain races as you try to control the odds in this dynamic game full of surprises!\n\nPlayers build their initial forces based on a point system; 24, 30, 36, and 60 points are common point systems, with most standard constructed tournaments using 36 point army builds. Forces are composed of small (1-point), medium (2-point), and large (3-point) 6-sided units and 10-sided monsters (4-point), with 2 terrain dice representing the terrains being battled over, and a summoning pool with dragons, dragonkin, and minor terrains which can all be summoned into play during battle.\n\n'CHANGES IN FOURTH EDITION'\nThis game system entry is for the fourth edition of the rules. The game is backwards compatible with all past dice releases except for the King's Die, the first promo die to be retired from the game. Here is a summary of changes from prior versions of the rules.\n- Charge and Routing rules have been removed.\n- Species abilities have been aligned according to the elements that make up a species and matching it with the elements of the terrain the units are at.\n- Death species abilities are now tied to having dead units in the Dead Unit Area (DUA)\n- Changes to Species abilities (see current rules for details)\n- Revised minor rules. Minors can be brought in if only one element matches the major terrain, and elements present in the minor terrain contribute to species abilities.\n- Overhaul of spells and Special Action Icons (SAIs). See the latest spells and SAI reference pages in the rules for new spells and SAI effects.\n- New dice have been added such as hybrid dragons and white dragons, new minor terrains, new major terrains, and new species.\n- The order of steps in a round has been revised.\n- Many force build rules have been removed. There is no longer a limit to the number of magic units or Eldarim Champions allowed in a build.\n- Army point costs to include items have been reduced.\n- Magic ID doubling has been removed.\n- 8th Face bonuses changed to double all ID results (and only ID results.\n\n"
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            6
+          ],
+          "playingtime": [
+            60
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "SFR",
+            "Inc."
+          ],
+          "categories": [
+            "Collectible Components",
+            "Dice",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Die Icon Resolution"
+          ],
+          "families": [
+            "Admin: Game System Entries",
+            "Collectible: Collectible Dice Games",
+            "Creatures: Dragons",
+            "Series: Dragon Dice (TSR/SFR",
+            "Inc)"
+          ],
+          "score": 4.1883826
+        },
+        {
+          "id": "308356",
+          "name": [
+            "Knyghte, Pyke & Sworde: Medieval Mass Skirmish"
+          ],
+          "yearpublished": [
+            2020
+          ],
+          "description": [
+            "Knyghte Pyke and Sworde is a set of miniatures gaming rules for \"mass skirmish\" games ranging from 4-5 figures on each side up to battles with 30-40 figures each.\n\nAs the name suggests, the rules are intended for dark age through medieval battles though I have included provisions for early firearms as well.\n\nThe game play is simple and straight-forward, allowing you to focus on the drama unfolding instead of digging through the rulebook every 17 seconds. \nThe rules are strictly 1 figure equals 1 combatant, meaning the game is about raids, skirmishes and patrols. The stuff where we get to know each soldier and naming our heroes matter.\n\nCore game mechanics include:\n\n     Alternating turn sequence.\n     Opposed rolls between individual figures for hand to hand combat and a straight roll vs target number for missile combat.\n     Injury rolls and morale checks are both taken by rolling 2 dice and seeing how many dice roll over a target number (meaning instead of troops always being okay or dead/routed, we have a third option as well)\n     As exhausted troops are vulnerable to close combat, counter-attacking can help turn the tide after an enemy charge.\n     Each troop type receives a straight forward mechanic allowing them to be differentiated on the table. Chargers are powerful on the attack while Polearm troops can engage horsemen more effectively. 7 base troop types are included.\n     3 types of individual figure is included: Scouts that can be used for delaying in the turn sequence, fighters are mighty with a sword while captains can inspire your soldiers to enhanced actions.\n\n\nOf course no Nordic Weasel game would be complete without some extra goodies including:\n\n     Advice and mechanics for playing on a big map.\n     Campaign rules with simple experience and casualty mechanics.\n     Tables to award your leaders with rewards and to grant advantages and drawbacks to future battles.\n     A weather table.\n     Points values to build your own troops.\n     A scenario system to set up a battle with multiple ways to play.\n\n\nThe game can be played with any individually mounted figures. You can get started with as little as 4 miniatures each, with a typical game being about 20-40. If you have existing armies, odds are you can dive right in. If you don't, you won't need to buy very much.\n\nThe game was written with figures from 15-28mm in mind. 6mm and 10mm skirmish is gaining in popularity. Players should simply take all measurements and read them as centimeters instead (so 5\" becomes 5 cm).\n\nSolo mechanics are not specifically included, though the game is fairly easy to solo.\n\nAs the mechanics are very simple, this is also a good choice for resolving battles in your RPG campaign.\n\nFantasy rules are not specifically included at this time.\n\n\u2014description from the publisher\n\n"
+          ],
+          "minplayers": [
+            1
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            120
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "Nordic Weasel Games"
+          ],
+          "categories": [
+            "Book",
+            "Medieval",
+            "Miniatures",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Measurement Movement",
+            "Role Playing",
+            "Scenario / Mission / Campaign Game",
+            "Simulation"
+          ],
+          "score": 3.2562084
+        },
+        {
+          "id": "227181",
+          "name": [
+            "Lewt Ninja"
+          ],
+          "yearpublished": [
+            2017
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            5
+          ],
+          "playingtime": [
+            60
+          ],
+          "minage": [
+            11
+          ],
+          "publishers": [
+            "(Self-Published)",
+            "Grunt Games LLC"
+          ],
+          "categories": [
+            "Card Game",
+            "Fantasy",
+            "Humor"
+          ],
+          "mechanics": [
+            "Auction / Bidding",
+            "Hand Management",
+            "Player Elimination",
+            "Set Collection",
+            "Variable Phase Order"
+          ],
+          "description": [
+            "Description from the publisher:\n\nLewt Ninja is a standalone card game that challenges 2 - 5 players to become Epic Fantasy Heroes and find treasure, weapons, armour, and Artifacts from the many monsters they encounter. But beware! Every Hero is out only for themselves and will try to swindle the winnings away from you and the rest of your group. Build your lootstash and take what is yours and theirs before they do. Are you ambitious enough to be the Lewt Ninja!\n\nThe game Lewt Ninja includes\n\n1 Monster Deck \u2013 The monster deck consists of 40 unique monsters and Boss monsters, players draw monster cards during the beginning of their turn. Each monster card will direct players to draw loot cards or additional monster cards. Some monster cards will have special rules that will effect players and prevent different player actions from being used during the round\n\n1 Loot Deck \u2013 The loot deck consists of 58 treasure, weapons, and armor cards. Players will find their heroes armor sets and legendary weapons along with other many treasures needed to collect in order to win the game.\n\n1 Player Deck \u2013 The Player deck consists of 81 action cards; inside players will find Roll cards used to bid on the loot dropped by monsters. Roll cards have numeric values that simulate dice rolls, the player with the highest roll wins the treasure being rolled on. Along with the roll cards players will also find System and Player Action cards, these cards are used by players to stop players from rolling on treasure or steal treasure away from other players.\n\n10 Player Mats \u2013 The player mats included with Lewt Ninja are 10 different heroes that players will assume the role of during game.  Players can play as either a Mystic, Wizard, Holy Monk, Ranger, or Shield Knight. There are 2 versions of each hero that allow players to play as same class during gameplay.  Each of the classes have special abilities that can be unlocked by obtaining their heroes magic armor. These abilities can be used by a player when they begin the round\n\nTo play Lewt Ninja have each player pick one of the hero class characters. Once everyone has picked a hero remove any armor set cards from the loot deck for any hero classes not in the game. Shuffle the 3 decks and place them in the center of the play area; deal out seven player action cards to all players and choose the player turn order.\n\nLewt Ninja has 3 phases of game play. \nAt the beginning of the round players will draw one monster from the Monster Deck, this is called Pulling a monster. After pulling the monster the player read aloud the cards rule to everyone; players will then either draw a Loot Card or additional monster card.\n\nThe second phase of the round called Looting; the player who started the round will draw the number of Loot cards indicated on the card. Players will then play their Roll cards for the treasure dropped by the monster. If more than one loot card has been drawn players will roll only on one item at a time. Roll cards are placed face down and only revealed once everyone has played a card. The player with the highest roll card wins the treasure.\n\nPhase three, the Ninja phase is final phase of the round. During this phase players can play any of the System or Player Action cards to steal away treasure or protect treasure they have won during the round. Some System and Player Action cards can be played at any time allowing player to block other players from rolling during the looting phase or other actions like visit the traveling merchant to buy treasure by selling back won treasure to the loot deck.\n\nOnce the round has been completed all players will draw a new card from the player deck and move to the next player in the turn order.\n\nTo win the game players must collect all 8 pieces of their armor, winning all a pieces is an automatic win the game. Should a hero lose any pieces of the armor to another player they still have a chance to win. Players will then need to steel away armor from other players and collect all of the loot cards they can. Once the final loot card has been one the player who has the most loot is the winner.\n\nLewt Ninja also has two other game modes\n\nLegendary Mode: \nIn this mode of the game Players will not only need to win their 8 armor piece set but will need to also win their classes legendary weapon.\n\nVote to Kick \nRemove all of the all non-set loot from the Loot Deck. The object of Vote to Kick is to eliminate players from the game by stealing their Armor Set pieces. A Player is eliminated from the game when another player owns 3 pieces of the other player's class armor.\n\n"
+          ],
+          "score": 2.8806787
+        },
+        {
+          "id": "181356",
+          "name": [
+            "Reign of Man: Legendfolk"
+          ],
+          "yearpublished": [
+            2017
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            5
+          ],
+          "playingtime": [
+            60
+          ],
+          "minage": [
+            13
+          ],
+          "publishers": [
+            "Wicked Grin Games LLC"
+          ],
+          "categories": [
+            "Fantasy",
+            "Print & Play",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Dice Rolling",
+            "Variable Player Powers"
+          ],
+          "description": [
+            "A mighty family and a righteous name. It is but a stepping stone to your true calling. Your rightful dominion\u2026 over all the world!  Reign of Man is an empire management and territory control war game, for 2-5 players, that takes around an hour from start to finish.\n\nSummary: \nReign of Man is a fast paced new take on the strategy war game that tips its hat to classics of the past while presenting a fresh and approachable combination of territory control, engine building and rapid dice driven battle resolution. Reign of Man moves along at a clip, as each player can only choose one action to take each turn, and it doesn\u2019t take all afternoon to play to resolution, unlike many of its predecessors. Players are all equally effected by global events, which everyone sees coming several turns in advance. This helps guide you to knew strategies and lend replayability without being punishingly random. Winning comes down to engine development and not just having all the land. Exactly how you win depends on how you rule your kingdom. The Legendfolk and March of the Damned expansion introduce a host of high fantasy themes and, like the core game, are brought to life by the incredible artwork of Erwin Arozza.\n\nReign of Man - Legendfolk (included expansion)\n\nLegendfolk introduces a set of fantastical ancient races that exist in the world but aren\u2019t widespread enough for a grab at controlling it. They fear for their people and will offer their skills in return for protection. Players may contact them and dedicate armies from their available army pools to bolster their defenses, through a bidding process, in order to take advantage of their special abilities and units. This expansion can be played with 2 - 5 players in conjunction with the Reign of Man rules and components.\n\nReign of Man \u2013 March of the Damned (included expansion)\n\nThe world shudders as your people watch the dead rise under the command of great and powerful Lich Queens. Wicked beasts, they wield otherworldly powers and lay waste to our lands. Who will save us? Who will command our armies? The people await your mercy and your might. This variant can be played by itself or along with the Legendfolk. The Reign of Man rules apply to March of the Damned.\n\nGameplay Overview\n\nPlayers begin the game with an empire mat that is somewhat developed and get right into the action of taking a single action each turn, in clockwise order.\n\nBasic actions are to:\n\nDevelop your empire, building your engine by making improvements to your empire mat  \nMobilize armies by moving them to adjacent territories, and in some cases trigger battles, resolved by the rolling of dice  \nRaise more armies by placing them on territories you control.  \nStarting in the third turn players will be effected by a World Event card each turn. You can always see these cards two turns in advance of their taking place, so they will drive dynamic strategic decisions. Each development category on your mat has a high rank ability that grants you victory points. As soon as one emperor reaches three victory points, the game is over and they win! The rightful ruler of all the world!\n\nAttributes\n\nReign of Man rounds move lightning-quick because you can only \"do one thing\" on your turn. Even battle resolution moves quickly. There is no money. While player elimination is possible, it is very much not common.\n\nDesigner Notes\n\nThis game is a territory control war game and definitely tips its hat to some such classics of the past, but it doesn't play like most of those games. It's a much shorter overall play time and is more approachable. Turns are fast-paced and battles are resolved in no time. You won't suffer a slow grind to attrition. You won't have to sit at the table and finish a long grind to the inevitable, wherein you feel like you've already lost and there's no coming back. Victories are rarely won by player elimination, but are a race to prominence. We wanted to preserve the best parts of those classic games in the genre and fix the problems we saw germane to their most common mechanics. We love this game and sincerely hope you will too!\n\n"
+          ],
+          "score": 2.8806486
+        },
+        {
+          "id": "178926",
+          "name": [
+            "Roll Saga Baseball"
+          ],
+          "yearpublished": [
+            2015
+          ],
+          "minplayers": [
+            1
+          ],
+          "maxplayers": [
+            2
+          ],
+          "playingtime": [
+            180
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Card Game",
+            "Dice",
+            "Sports"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Role Playing",
+            "Simulation"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Sports: Baseball"
+          ],
+          "description": [
+            "Roll Saga Baseball is a tabletop fantasy role-playing game that brings the excitement of big league strategic action and the realism of the ballpark to the table.\n\nYou'll be acting as Owner, General Manager, and Manager (OGM) and playing your games on a large 28 x 28 inch premium game mat that is not only a replica with precise dimensions, but also convertible: it converts into any one of the 30 major league ballparks in two simple and quick steps. Your game mat rolls up after each use to be stored nicely in its own box and carrying case along with all other game components.\n\nOn the field, you'll be using real replica scoreboards and full teams consisting of 40-man rosters. You won't have to refer to a lot of charts, either, as we've printed most of what you need right there on the player tokens themselves.\n\nHow Games Are Played - A General Overview:\n\nGames in Roll Saga Baseball are played just like games in true-life baseball. Game players act as Owners, General Managers, and Managers (OGMs) of baseball teams that consist of a full team roster of 40 players.\n\nEach OGM (Owner/General Manager/Manager) selects his team and places all of the individual player tokens (each player token represents one team player) onto the field's dugout - the large white box on each side of the field. Each OGM then performs the necessary pre-game preparations like selecting a batting line-up (batting order) and choosing what starting, relief, and closing pitchers that they want to have in the game.\n\nAs each player comes up to bat, his player token is placed into the batter's box at home plate. The next batter in line after that batter would be placed in the on-deck circle.\n\nWith a batter in the batter's box, the opposing team's OGM would then control his pitcher on the mound by selecting certain types of pitches to throw, targeting the locations of those pitches (according to each individual pitches movement), and rolling 3 six sided dice to determine the success of failure of the pitching action. Each roll is augmented by that particular pitcher's pitching ability (PIT), like '+3' for example, that would be added to the roll to increase the overall sum of the total. Pitchers, just like all other players, can have special skill-sets (like Pitching Under Pressure, or Endurance, for example) that can further augment plays and increase the pitcher's overall game performance.\n\nThe batter (the OGM playing with the team at-bat) decides to swing, let it go (not swing) or bunt. If he decides to swing, 3 six sided dice are rolled to determine the hit success or failure and, if hit, what type of hit (grounder, hot grounder, line drive, hard line drive, or fly ball results). If a hit is made, another roll is enacted using 3 six sided dice to determine the direction and speed (power) of the hit. Just as pitchers have a PIT ability that is added to their pitch roll, batters use their batting ability (BAT) which is expressed as a 'plus' to augment their 'to hit' roll. Additionally, batters have power ratings (POW) that are used to determine how much extra a hit can travel in feet (like, +50', for example). And just as pitchers, and all other player positions, there are many different skill-sets that can be possessed by a batter (like Clutch Hitting or Place Hitting).\n\nAs each play is played out, all of the things that are performed in a true-life baseball game are enacted by the opposing OGMs (Owner/General Manager/Manager) like fielding the ball, throwing the ball, running the bases, stealing, playing off base, sliding into base, picking off, etc. Every single action, bar none, of baseball is accurately replicated in Roll Saga Baseball through a precise and fluid game mechanic true to the game of baseball as we know it to be.\n\nAs the game continues, the player tokens are moved around the game mat/field just as players in a real baseball game would move in the course of a game: coming to bat, running the bases, running in the outfield to catch hits, and throwing the ball to get the opposing team's runners out.\n\nScoring and Winning - A General Overview:\n\nEach team scores points just as in baseball - by bringing a base runner into, and across, home plate.\n\nTo keep score, authentic replica scoreboards are used. The scoreboards are erasable (marker included) and have places to record runs, hits, errors, balls, strikes, and outs - among other things. The team with the most points at the end of the game is the winner.\n\nLevels of Play:\n\nRoll Saga has been designed to be very flexible in levels of play in order to ensure that those who don't know a lot about baseball can play at a level that does not require much knowledge. And, conversely, those that are baseball enthusiasts can replicate true baseball strategy and action without error.\n\nIt has been designed for 1 (solitaire) or two players.\n\nAdditionally, these levels of play can be mixed during any game so that any action or series of actions (like an inning) can be simulated and other actions can be played out. A full game can be played in as little as 30-40 minutes, or as long as it takes for a normal major league baseball game (2-3 hours) depending on what the OGMs decide during the course of game play.\n\n"
+          ],
+          "score": 2.273938
+        },
+        {
+          "id": "274910",
+          "name": [
+            "Wiz-Dom"
+          ],
+          "yearpublished": [
+            2019
+          ],
+          "minplayers": [
+            1
+          ],
+          "maxplayers": [
+            3
+          ],
+          "playingtime": [
+            45
+          ],
+          "minage": [
+            10
+          ],
+          "publishers": [
+            "Liber Primus Games"
+          ],
+          "categories": [
+            "Adventure",
+            "Card Game",
+            "Educational",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Cooperative Game",
+            "Dice Rolling",
+            "Grid Movement",
+            "Role Playing"
+          ],
+          "families": [
+            "Crowdfunding: Indiegogo"
+          ],
+          "description": [
+            "\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tWiz-Dom\n Roleplaying Game and educational tool that combines a kid-friendly fantasy game with problem solving.\n\nWiz-Dom is playable as either a collaborative tabletop- or an online game, where players assume to roles of young wizards, who enter the School of Magic where they solve problems, pass tests, and earn valuable items so they can ultimately fight the monsters in the Cave of Secrets in d20-based RPG-style combat.\n\nThe spin is that the problems are based on school subjects, like math and history, so that while kids are playing the game, they\u2019re also demonstrating their mastery of educational concepts.\n\n\u2014description from the publisher\n\n\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tGameplay\n 1. Players choose their Heroes. There are 4 female and 4 male Heroes, each with their unique powers. Heroes are young witches and wizards, entering the School of Magic. A game session spans a semester of their life. Players get the Hero Card and the matching Item- and Spell Cards.\n\n2. The Game Master (can be teacher, senior student, parent, etc.) assembles the Deck of Exercises. There are cards of 3 difficulty levels: Easy, Medium and Hard and a certain number must be selected from each category. Subjects include Math, History, Science and general Trivia, with curricula that matches education from age of 10 to 16.\n\n3. The Game Master selects (or randomly draws) a Boss Monster for the game session. All other game components (Cards, tiles, tokens, sheets, etc.) are placed near the gameboard.\n\n4. Players can move on the board by either rolling 2s6 (random mode) or use Movement Cards, giving a more strategic angle to the game. As players move on the board (from Field 1 to Field 30), the following steps will happen:\n\nDepending on the Field they landed on, they either draw a single Exercise Card matching the symbol on the field (Easy, Medium, Hard), or a Fortune Card for every player.\n\n(a) If it was an Exercise Card, they get 3, 5 or 10 minutes to solve the Easy, Medium or Hard problems. They can use pen and paper, they can talk to each other - they can even ask for help from the Game Master. If they successfully solved the problem, they get rewards. Every player who successfully solved her exercise will get Rune Golds. If at least one player solved it correctly, they get Team Rune Golds. Red (Hard) cards yield Magic Items as well.\n\nAlso, every player with a successful solution can place a Dungeon Tile. Tiles will form the combat grid for the final battle. There are symbols on the tiles indicating that the player can draw an extra Spell or Item card when placing that Tile. And certain Tiles will summon monsters for the final battle.\n\n(b) If it was a Fortune Card, each player gets one and resolve the effect immediately. There are supporting ones (gain bonuses, draw items, etc) and there are negative ones (lose bonuses, get cursed, etc).\n\n5. The three corners on the Board (Classroom, Club and Magic Rental) are places where the team must stop, even if they would overstep it.\n\n(a) Classroom: they can select an Exercise Card of any difficulty to solve\n(b) Club: they can either play a minigame (not included in the box, choose anything you like to distract players for a bit), or have a little break\n(c) Magic Rental: after completing the mandatory Red Exercise on Field 30, players can spend their Rune Golds on Items and Spell. They are more than encouraged to collaborate and communicate, to figure out some kind of strategy before entering the final combat. The identity of the Boss Monster is revealed at this point.\n\n6. Once they are well equipped, it's time for the Final Battle! Heroes descend to the Dungeons to defend the school from attacking monsters! Final Battle is a turn-based combat using cards and a d20 dice.\n\nHeroes and Monsters take their turn, with the order depending on their Movement value. Monsters are controlled by the Game Master, following the behaviour detailed on the corresponding combat sheet.\n\n(a) Movement: a figure can make a number of steps equal to its Movement value. It can step in any direction on the Grid, it can even overstep friendly figures, but cannot cross walls or hostile squares.\n\n(b) Use Card: after or before the Movement is completed, Heroes can use a single card each turn. It can be a spell (usually turned face down after use), or a weapon (can be used any number of times in a combat). Ranged attacks must consider line-of-sight with walls and other objects blocking the way.\n\nCombat lasts until the last survivor, with Heroes getting extra Rune Golds as loot. They can use this during their next game session.\n\n"
+          ],
+          "score": 2.158558
+        },
+        {
+          "id": "248907",
+          "name": [
+            "Legendy zem\u011b Euthie"
+          ],
+          "yearpublished": [
+            2017
+          ],
+          "minplayers": [
+            2
+          ],
+          "maxplayers": [
+            4
+          ],
+          "playingtime": [
+            240
+          ],
+          "minage": [
+            14
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Adventure",
+            "Exploration",
+            "Fantasy",
+            "Fighting"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Grid Movement",
+            "Modular Board",
+            "Tile Placement",
+            "Variable Player Powers"
+          ],
+          "description": [
+            "\"After centuries of never-ending wars, the dark magic of Faer has taken hold of the lands of Euthia. One of the most powerful mages, the mighty Rasgaroth, had succumbed to this darkness. He was leeching away the energy of all living things wherever he appeared. As his power grew, Euthia was in danger of being engulfed by this evil. The mages of the order of Vis forged a secret union to deter this looming threat. After many years of studying ancient tomes of forbidden knowledge, they eventually found a way to awaken mighty dragons, control them and with their help to defeat Rasgaroth and his minions. The mages were successful - Rasgaroth was torn to pieces by dragons and his fortress, Arakius, was reduced to ashes. The wars were over. But some of these mages thrived for even greater power and tried to use the mighty dragons for goals of their own. However, their magic was not powerful enough to control the dragons forever. Dragons eventually broke free of their masters control and ripped them apart. The order of Vis was brought to an end. The retribution of the dragons was about to begin...\"\n\nLegends of Euthia is a strategic competitive role-playing game set in a medieval fantasy world. The land of Euthia is threatened by powerful dragons who, with powerful elementals, destroy one village after another and the dragons themselves seek to destroy the last hope - the Church of St. Michael. Become one of the four heroes: the priestess of light, \u00c1el; the unstoppable warrior, Dral; the cunning and wild rogue, Keleia; or the fire mage Maeldur. Protect the remaining villages, the church and kill all three dragons. As one of these heroes, you will have unique abilities and various strategies. Explore Euthia and fight dangerous monsters controlled by other players who try to kill you with various monster cards. Get loot and rewards from victorious battles and you mine resources at specific places on the map. With these resources and loot, you can buy equipment and new skills from the markets. During the game all heroes gain reputation for fighting dragons, monsters or elementals, for liberating various places of trade and locations with rare resources, but also for conquering and gemstone mining. The winner is the player with the most reputations points.\n\nSetup:\nPlayers choose whether they want to play the basic game or the champions version for more of a challenge. Each player selects a hero and prepares the specific hero board. Then the other boards are prepared; the game board where reputation points and rounds are counted; the trade board with specific market offers and the combat board with monster cards and elemental cards. After that the starting tile with the church is placed in the middle of the playing area (where the heroes start their adventure). Other tiles are sorted by chapters; separate chapters are shuffled and then sorted into the correct chapter order. Each player rolls two dice, and the one with the highest amount begins the game.\n\nCourse of the game:\nPlayers take turns in a clockwise direction. Each turn, a player can use action tokens to carry out different strategies. They try to get as many reputation points, golden coins and other accessories (monster ability cards, potions and Gaars, used for re-rolling) as possible by using these tokens. By gaining reputation, heroes unlock new abilities which can be learned by paying gold coins. Heroes can also buy new equipment and heal wounds inflicted in combat. In mountains, lakes and caves, heroes can mine rare raw resources to get more gold and reputation points. During specific turns, elemental monsters begin their invasion of Euthia and must be destroyed by the heroes to protect places of trade and the portals of Euthia. If the elementals are not killed by a certain round, the place is destroyed and reduced to a common piece of land (mountains, lakes, caves). During a dragon attack, all heroes are teleported back to the church, healed and then encounter the dragon. They do not help each other during the attack but try to inflict as much damage to the dragon individually, because when the dragon is eventually slain, the reputation points are distributed to heroes according to the damage caused. The hero dealing the most damage also gets a special reward.\n\n\n    Movement \u2013 Movement is carried out on the map by using action tokens, equipped boots, jewelry, special abilities or portals. The combat action token can be used for a combat action or 3 movement points, the trade action token can also be additionally used as 2 movement points, and the mining action token can be also used as a one movement point. Moving to an adjacent map tile costs one movement point.\n\n\n\n    Map exploration - new map tiles are placed on the board when a hero moves to an edge of the explored area.\n\n\n\n    Fighting monsters - by entering a monster map tile the player must use a combat action. The encountered monster is controlled by the player sitting on the right or a different player can take over the monster by playing a monster ability card - Mind control or Magical mind control. It is not possible to run from combat and the first player to attack is the player controlling the monster. He or she rolls 2 dice and determines the attack strength according to the monster cards and monster ability cards used. The dice can be re-rolled using Gaars which come in a limited amount for both heroes and monsters. Next, the player controlling the hero chooses an ability they want to use to attack, rolls 2 dice and determines the attack power or eventually multiple abilities can be combined. These phases repeat until either the hero or the monster dies. After slaying a monster, the hero is rewarded with reputation points, corresponding number of monster ability cards and loot from the map tile. If a hero dies the player controlling the hero gives their token to the player who controlled the monster. For this token, the monster-controlling player gains 2 reputation points and the hero-controlling player loses 2 reputation points at the end of the game. The slain hero is revived in the church and is given 4 Gaar tokens by the priests, a specific number of monster ability cards depending on the turn they were killed in and then they can get back in the game.\n\n\n\n    Trade - by entering a tile with one of the three places of trade and using the trade action token, a hero can spend any gold coins they have to get equipment, healing, new abilities, potions and Gaars. It is also possible to sell items or, just once per encounter, to refresh all things being offered by the vendor. Each place offers different things to buy. If a hero liberates a place of trade from enemies, they are paid one gold coin by other heroes using this place.\n\n\n\n    Mining - A hero can use the mining action on places designated for the action (mountains, lakes, caves) to get a piece of raw resource which can be traded for gold and reputation points. Each hero can mine each tile only once per game. If you perform the mining action on a tile occupied by a different hero, you pay one gold coin to each hero who has their hero token on the tile. Then you also place your hero token on that tile.\n\n\nMilestones:\nYou do not have to start a new game from the first round over and over again. You can decide to start your new game from a milestone. Setup the regular game with few modifications. Start the game from a different map tile chapter, you have some reputation points right from the start (meaning some hero abilities are unlocked) and gold that can be traded for items and vendor services even before the game starts.\n\nYou can also agree that the game will be concluded sooner than the 24th round.\n\nGame for champions:\nThe champions version is prepared in the same way as the regular game, but the game board, the trade board and the hero boards must be turned with the goblet-icon up. Additionally, quest cards are used in the champions version. The course of the game is the same as in the regular game with the exception that no events take place, apart from the fight with the dragon Brasath in the 21st round.\n\nCompared to the regular game, there are numbers in the gold coin symbol next to the picture of the trade points on the trade board for the champions version. During their Trade action, a player may place their hero token on this tile to claim it if they spend the amount stated. Some hero boards already contain basic equipment.\n\nUnlike the regular game, there are quests in the champions version. If a player is successful in completing these quests they are rewarded with reputation and gold. The quest cards are divided into three levels.\n\nEnding the game:\nThe game ends in a predetermined round or if players do not defend the church against one of the dragons. At the end of the game, reputation points are awarded for claimed locations on the map, the loot and the hero tokens that the players got by killing other heroes when controlling monsters. The player with the highest number of reputation points wins.\n\n"
+          ],
+          "score": 2.033821
+        }
+      ]
+    }
+  }
+}
