@@ -93,10 +93,14 @@
     {"name":"alt_names","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"description","type":"text_boost","stored":true,"indexed":true},
     {"name":"yearpublished","type":"pint","stored":true,"indexed":true},
+    {"name": "yearpublished_str","type": "string","stored": true,"indexed": true},
     {"name":"minplayers","type":"pint","stored":true,"indexed":true},
+    {"name":"minplayers_str","type":"string","stored":true,"indexed":true},
     {"name":"maxplayers","type":"pint","stored":true,"indexed":true},
     {"name":"playingtime","type":"pint","stored":true,"indexed":true},
+    {"name":"playingtime_str","type":"string","stored":true,"indexed":true},
     {"name":"minage","type":"pint","stored":true,"indexed":true},
+    {"name":"minage_str","type":"string","stored":true,"indexed":true},
 
     {"name":"publishers","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"designers","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
@@ -122,5 +126,12 @@
 
     {"name":"numweights","type":"plong","stored":false,"indexed":true},
     {"name":"averageweight","type":"pfloat","stored":true,"indexed":true}
+  ],
+  "add-copy-field": 
+  [
+    {"source": "yearpublished","dest": "yearpublished_str"},
+    {"source": "minplayers","dest": "minplayers_str"},
+    {"source": "playingtime","dest": "playingtime_str"},
+    {"source": "minage","dest": "minage_str"}
   ]
 }

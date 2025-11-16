@@ -1,51 +1,230 @@
 {
-  "2": {
+  "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 199,
+      "QTime": 156,
       "params": {
-        "json": "{\"limit\": 30, \"fields\": [\"id,score, name,description,mechanics, categories, families\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"strategy deck building\", \"q.op\": \"AND\", \"qf\": \"name^5 alt_names^2 description^4 categories^6 mechanics^6 publishers^3 designers^3 artists^1 families^2 expansions^2\", \"pf\": \"name^4 description^2 alt_names^2\", \"pf2\": \"categories^4 mechanics^4 families^2 description^2\", \"pf3\": \"publishers^4 designers^4 artists^4\", \"bf\": \"recip(bayesaverage,1,1000,1000)^3\", \"ps\": 2}}"
+        "json": "{\"limit\": 30, \"fields\": [\"id,score, name,description,mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"strategy deck building\", \"qf\": \"name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str\", \"q.op\": \"AND\"}}"
       }
     },
     "response": {
-      "numFound": 2980,
+      "numFound": 277,
       "start": 0,
-      "maxScore": 322.98022,
+      "maxScore": 5.17955,
       "numFoundExact": true,
       "docs": [
         {
-          "id": "429231",
-          "name": "Fabled",
-          "description": "The world of Serendall is teetering on the edge of chaos, and it\u2019s up to the players to restore balance. With more than 120 unique spells, 24 heroes, and a variety of powerful items, the game blends strategy, deck-building, and immersive combat. It\u2019s designed as a player-versus-player (PvP) experience, where mastery over the game's deep mechanics and deck synergy will determine the victor.\u00e2\u20ac\u2039 Good resource management, card synergy, clever hero combinations, and a bit of luck is all you need to win.\n\nPlayers take turns to battle each other's heroes, using spells, abilities, weapons, and arcane player-based magic. Both players place their heroes on the table in a 2-row, 6-slot grid. In your turn, draw cards until you have 7 cards on your hand, collect mana each turn, and spend mana on hero actions, spells, enchantments, or abilities.\n\nA hero can perform one action each turn by default, but this can get altered by abilities or spells. Heroes have hitpoints, which differ from hero to hero, based on class. Some heroes can heal allies, others can do massive AoE damage with spells. There are 6 different hero classes: Fighter, Assassin, Mage, Cleric, Bard, Ranger. Dice rolls are used to determine damage, based on the damage range of an attack, and the probability of certain spell effects. Dice from d4 to d10 are used for this game.\n\nThe player who manages to kill all the opponent's heroes wins the game.\n\nGame can be played 1v1 or 2v2.\n\n\u2014description from the designer\n\n",
+          "id": "449589",
+          "name": [
+            "Terra Indomita"
+          ],
+          "description": [
+            "Terra Indomita is a dynamic deck-building strategy board game that blends the tactical depth of real-time strategy (RTS) games with the strategic card play of trading card games (TCGs). Choose your faction\u2014or combine factions\u2014to build a customized deck. Deploy your forces, outmaneuver your rivals, and dominate the battlefield as you strive to conquer your enemies and emerge victorious.\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
           "categories": [
             "Card Game",
-            "Dice",
-            "Fantasy",
-            "Fighting"
+            "Fantasy"
           ],
           "mechanics": [
-            "Area Movement",
-            "Automatic Resource Growth",
+            "Action Queue",
             "Deck Construction",
-            "Dice Rolling",
-            "Interrupts",
-            "Multi-Use Cards",
-            "Player Elimination",
-            "Single Loser Game",
-            "Team-Based Game"
+            "Worker Placement"
           ],
-          "families": [
-            "Admin: Upcoming Releases",
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 322.98022
+          "score": 5.17955
         },
         {
-          "id": "143680",
-          "name": "Nightfall: Eastern Skies",
-          "description": "Game description from the publisher:\n\nThe war for the eternal night rages around the world, and nowhere is it more bizarre than in the far east. A fully functional city in India nearly untouched by the Nightfall, uncontrolled ghouls from the seas, and strange happenings in the skies are only the beginning.\n\nNightfall: Eastern Skies is a strategy deck-building game in which you take control of Hunters, Lycanthropes, Vampires, and Ghouls to take down your opponent. This set features the new Link mechanism allowing for faster play.\n\nNightfall: Eastern Skies can be played on its own or combined with other Nightfall sets for enhanced play.\n\n",
+          "id": "244943",
+          "name": [
+            "Machines of War"
+          ],
+          "description": [
+            "Machines of War is a military strategy game, using the elements of area-control and deck-building. As you build your machine (deck), you must strive to overpower your enemies, decimate their armies, take their lands, and conquer the city.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "Practical Sloth"
+          ],
           "categories": [
-            "Bluffing",
+            "City Building",
+            "Fighting",
+            "Miniatures",
+            "Modern Warfare",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Player Elimination"
+          ],
+          "score": 5.1123767
+        },
+        {
+          "id": "69789",
+          "name": [
+            "Ascension: Deckbuilding Game"
+          ],
+          "description": [
+            "Ascension: Deckbuilding Game \u2014 originally released as Ascension: Chronicle of the Godslayer \u2014 is a fast-paced deck-building game designed by Magic: The Gathering Pro Tour champions Justin Gary, Rob Dougherty, and Brian Kibler, with artwork by Eric Sabee.\n\nAscension is a deck-building game in which players spend Runes to acquire more powerful cards for their deck. It offers a dynamic play experience where players have to react and adjust their strategy accordingly. Each player starts with a small deck of cards, and uses those cards to acquire more and better cards for their deck, with the goal of earning the most Honor Points by gaining cards and defeating monsters.\n\n"
+          ],
+          "publishers": [
+            "Stone Blade Entertainment",
+            "Arclight Games",
+            "FunBox Jogos",
+            "Marabunta"
+          ],
+          "categories": [
+            "Card Game",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Open Drafting"
+          ],
+          "families": [
+            "Components: Gems/Crystals",
+            "Digital Implementations: Steam",
+            "Digital Implementations: VASSAL",
+            "Game: Ascension Deck Building",
+            "Mechanics: Pure Deckbuilding",
+            "Players: Games with Solitaire Rules"
+          ],
+          "score": 5.108912
+        },
+        {
+          "id": "146815",
+          "name": [
+            "Noir Nights:Blood on the Badge"
+          ],
+          "description": [
+            "\n            Noir Nights is a Kickstarter Project coming very soon***\n        \n    \n\n\nNoir Nights:Blood on the Badge is a fast paced deck building game designed by Joseph Bridges and John Gannon with artwork by John Gannon Commisions and Concepts. Noir Nights is a deck building game where players use Leads and Arrest Evidence points on cards in their deck to arrest Mobsters. It offers a dynamic play experience where players have to react and adjust their strategy accordingly.\n\nGame play is similar to other deck building games, with the player adding cards to their deck by \"purchasing\" them from a central deck, which has the top three cards revealed and available for purchase. When cards are removed, they are replaced with a new one from the top of the deck. Badge Honor points are earned in two ways: 1)Some Assets/Policemen cards acquired during game play are worth one or more Badge Honor points; 2) Badge Honor points can be gained by arresting Mobsters with Arrest Evidence Points featured on several of the Asset/Policeman cards.\n\n"
+          ],
+          "publishers": [
+            "Ockham's Razor Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Movies / TV / Radio theme"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Open Drafting"
+          ],
+          "score": 4.941882
+        },
+        {
+          "id": "91773",
+          "name": [
+            "Resident Evil Deck Building Game: Alliance"
+          ],
+          "description": [
+            "In Resident Evil, a deadly virus has caused the dead to rise and infect any living thing they encounter!  Fleeing to a mysterious mansion, you must gather any materials you can find to protect yourself and fight for your survival against a legion of infected beings!\n\nThe Resident Evil Deck Building Game brings the story to life in a game of strategy where players construct their cards decks while they play.  Choose one of your favorite characters from Resident Evil such as: Chris Redfield, Jill Valentine, or Albert Wesker among others. Players start with only the most basic of items and weapons. As the game progresses, players build their arsenal with additional Weapons, Ammunition, Action or Item cards to customize their deck and improve their ability in defeating 'the Infected'! Your deck will be your lifeline to survival.  How will you survive the zombie outbreak?\n\nResident Evil DBG: Alliance is a stand-alone expansion that can be played on its own or with the top selling Resident Evil Deck Building Game.  Play with new additional Characters such as Hunk, Carlos Oliveira, Steve Burnside, Josh Stone or Billy Coen.  New Weapons, Actions and Infected have been added to this set to create even more powerful combinations and dangers.  Alliance also introduces the new partner mode of play where you take on the mansion with not just one character but two!\n\nGame Contents\n\n     250 cards\n     Game Manual\n\n\nIntegrates with:\n\n    Resident Evil Deck Building Game\n    Resident Evil Deck Building Game: Mercenaries\n\n\nExpanded by:\n\n    Resident Evil Deck Building Game: Outbreak\n    Resident Evil Deck Building Game: Nightmare\n\n\n"
+          ],
+          "publishers": [
+            "Bandai Co.",
+            "Ltd."
+          ],
+          "categories": [
+            "Card Game",
+            "Exploration",
+            "Horror",
+            "Video Game Theme",
+            "Zombies"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Open Drafting",
+            "Team-Based Game",
+            "Variable Player Powers"
+          ],
+          "families": [
+            "Creatures: Zombies",
+            "Video Game Theme: Resident Evil"
+          ],
+          "score": 4.917426
+        },
+        {
+          "id": "248673",
+          "name": [
+            "Dobbers: Quest for the Key"
+          ],
+          "description": [
+            "Dobbers: Quest for the Key is a whimsical, family friendly board game for 2-4 players. It is a deck building, encounter building, strategy board game.\n\nCreate surprise encounters for your opponent while building your deck and equipping your hero.\n\n\n     The mechanics are simple enough for most children to enjoy, while having strategies that are complex enough that even the most seasoned gamer will feel engaged. \n     It usually takes an hour or less to play. It will take longer while you learn card details and how they may effect your strategy.\n     It has a high fantasy theme, with comic-book style, bold illustrations.\n     The objective is to move your hero along your chosen path to the final space on the board, represented by \u201cthe Key\u201d. The first player to reach the key with their hero wins!\n\n\nThere are two strategies essential to winning the game:\nFirst, placing challenging encounters on the board, preventing other players and their heroes from being able to advance along their chosen path.  Second, equipping your hero and building up your personal deck so that you can more easily overcome any encounters that have been placed along your path. Player will have to do both well if they expect to reach the key first and win the game!\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "Splattered Ink Games"
+          ],
+          "categories": [
+            "Adventure",
+            "Card Game",
+            "Fantasy",
+            "Memory"
+          ],
+          "mechanics": [
+            "Action Points",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Secret Unit Deployment"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter"
+          ],
+          "score": 4.910663
+        },
+        {
+          "id": "142852",
+          "name": [
+            "DC Deck-Building Game: Heroes Unite"
+          ],
+          "description": [
+            "In the DC Comics Deck-Building Game: Heroes Unite, each player takes on the role of a Super Hero such as Shazam!, Hawkman, Red Tornado, Nightwing, Black Canary, Batgirl, or Booster Gold. Your Super Hero has an ability that will guide your strategy throughout the game. Each player starts with his own basic ten-card deck and draws a hand of five cards each turn. Power is the currency you will use to buy new, stronger cards to add to your deck. There are five different types of cards that can be acquired: Villains, Heroes, Equipment, Super Powers, and Locations. Unlock special abilities, like Force Field or the Helmet of Fate, and unleash devastating card combos against your opponents! Craft your hero deck into a well-oiled machine to take on the most vile villains in the DC Universe in your quest for Victory (Points)! Mix the cards from Heroes Unite with the core DC Comics Deck-Building Game set to wage the ultimate showdown!\n\nIntegrates with:\n\n    DC Deck-Building Game\n\n\n"
+          ],
+          "publishers": [
+            "Cryptozoic Entertainment"
+          ],
+          "categories": [
+            "Card Game",
+            "Comic Book / Strip"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Comic Books: DC Universe",
+            "Comic Books: Superman",
+            "Game: Cerberus Engine \u2013 Heroes",
+            "Theme: Superheroes"
+          ],
+          "score": 4.8982396
+        },
+        {
+          "id": "413921",
+          "name": [
+            "Heart of Crown: Second Edition"
+          ],
+          "description": [
+            "Heart of Crown: Second Edition brings modern updates both in graphic design and gameplay to the deck-building game. Many cards have updated texts, some cards have been removed, and new cards (Attendant Maids) have been added.\n\nSeven Princess in line for succession, but with only one coronation, who will be the one to save the Empire from chaos?\n\nIn a deck-building game, every player starts with the same deck of cards, but your individual strategy will determine the cards you purchase to strengthen your deck. Be the first to crown your princess in the Coronation Ceremony.\n\nEverything you need to play Heart of Crown comes in this stand-alone box, but the game is compatible with all previous Heart of Crown releases!\n\n"
+          ],
+          "publishers": [
+            "FLIPFLOPs",
+            "Japanime Games"
+          ],
+          "categories": [
             "Card Game"
           ],
           "mechanics": [
@@ -54,367 +233,250 @@
             "and Pool Building",
             "Hand Management",
             "Open Drafting",
-            "Variable Player Powers"
-          ],
-          "families": [
-            "Game: Nightfall",
-            "Organizations: Game Designers of North Carolina"
-          ],
-          "score": 309.94482
-        },
-        {
-          "id": "412900",
-          "name": "Liberty Ignited",
-          "description": "In the tumultuous landscape of 1923, Liberty Ignited unfolds amidst relentless continental wars. The heartland, staunchly advocating US neutrality, finds itself at odds with the East and West Coast states. These coastal powers, seeking to shift the nation's power dynamics, make a bold decision to invade the central US states. The struggle for valuable resources becomes the epicenter of a dynamic conflict that will shape the fate of the entire nation.\n\nLiberty Ignited introduces a revolutionary deck-building mechanic. Craft your initial deck and shuffle, the sequence of units determines their availability. This innovative approach adds a layer of depth, allowing players to adapt their tactics based on the evolving composition of their decks.\n\nEmbark on tactical endeavors as you execute strategic Actions, including launching attacks, orchestrating movements, conquering territories, and acquiring new units to bolster your forces. Navigate the ongoing continental conflicts of 1923, where dice rolls dictate the outcomes of your decisions. Employ careful unit shifts, aiming to convert your opponent's territories into crucial assets under your faction's control. Refine your deck's makeup through strategic thinning, ensuring a precisely tuned draw deck to confront the diverse challenges.\n\nDiverging from the frozen landscapes of Arctic Ignited, Liberty Ignited invites players to immerse themselves in the ongoing conflicts of 1923. Balancing chance, strategy, and deck-building finesse, the game promises an immersive dieselpunk saga. Liberty Ignited unfolds against the backdrop of a nation in turmoil, offering an unparalleled gaming experience in the rich historical setting of 1923.\n\n\u2014description from the designer\n\n",
-          "categories": [
-            "Card Game",
-            "Civil War",
-            "Dice",
-            "Wargame"
-          ],
-          "mechanics": [
-            "Deck Construction",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Dice Rolling",
-            "Zone of Control"
-          ],
-          "families": [
-            "Admin: Upcoming Releases",
-            "Crowdfunding: Kickstarter",
-            "Theme: Dieselpunk"
-          ],
-          "score": 299.82697
-        },
-        {
-          "id": "433437",
-          "name": "Future Invaders",
-          "description": "Future Invaders is a physical card game set in a war-torn future Solar System, where four factions are caught in a needless war: Humans, Invaders, Organics, and Pirates.\n\nDesigned to be beginner-friendly, the game features simple rules and straightforward gameplay. For seasoned card game enthusiasts, it offers rich tactical depth, challenging your strategy, deck building, and drafting skills.\n\n\u2014description from the designer\n\n",
-          "categories": [
-            "Card Game",
-            "Print & Play",
-            "Science Fiction"
-          ],
-          "score": 295.03815
-        },
-        {
-          "id": "231446",
-          "name": "Mercenaries",
-          "description": "Mercenaries incorporates a mix of a tabletop game with the strategy of a deck building game. Players move around a grid while fighting monsters using cards from their hand. Be careful though, only the player that lands the killing blow gets the glory! Players must strategize when to attack, when to defend, and where to stand. Players also have to contend with other players using their abilities to turn the game on its head, charging ahead of the pack, making a monster retaliate against someone else, or coercing other players into helping.\n\nThis is a deck building game that incorporates strategical movement on a tabletop board. We have removed as many dice as possible to prevent the game from being too luck based, allowing your own strategies by what cards you acquire to thrive. The game also has multiple strategic levels. What cards to acquire, where to move on the board, and when to attack. All of these can alter what other players might be planning!\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Cooperative Game",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Dice Rolling",
-            "Grid Movement",
-            "Paper-and-Pencil",
-            "Role Playing",
-            "Team-Based Game"
-          ],
-          "score": 287.43747
-        },
-        {
-          "id": "368605",
-          "name": "Ivion: The Ram & The Raven",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells, and other mayhem at your disposal. Be careful, though, as they have numerous ways to block, dodge, parry, fizzle, and disrupt your assault. Only one can be the victor, and the battle will be bloody!\n\nIn Ivion: The Ram and the Raven, protect your clan as the stalwart Steward, or fulfill your oath as the enigmatic Watcher. Fully compatible with all other Ivion products.\n\n\u2014description from the publisher\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 286.90634
-        },
-        {
-          "id": "368720",
-          "name": "Ivion: The Fox & The Forest",
-          "description": "In Ivion: The Fox and the Forest, stay one step ahead of nature as the craft Survivalist, or bring forth Summer's wrath as the Wilder. Fully compatible with all other Ivion products.\n\nIvion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells, and other mayhem at your disposal. Be careful, though, as they have numerous ways to block, dodge, parry, fizzle, and disrupt your assault. Only one can be the victor, and the battle will be bloody!\n\n\u2014description from the publisher\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 286.60294
-        },
-        {
-          "id": "368749",
-          "name": "Ivion: The Rune & The Rime",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells, and other mayhem at your disposal. Be careful, though, as they have numerous ways to block, dodge, parry, fizzle, and disrupt your assault. Only one can be the victor, and the battle will be bloody!\n\nIn Ivion: The Rune and the Rime, beat back the cold as the ruthless Hunstman, or claim it as your own as the mighty Winterborn. Fully compatible with all other Ivion products.\n\n\u2014description from the publisher\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 286.60294
-        },
-        {
-          "id": "400095",
-          "name": "Ivion: The Bear & The Badger",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nTHE RUFFIAN tumbles through life, never staying anywhere too long. In her wake, she leaves behind broken jaws, empty purses, and filled hearses. Instead of working for her coin like an ordinary sap, she'll get hers with a growl, grab, and a club to the gut.\n\nTHE FRIAR roams the countryside, bringing aid and cheer. He claims the Lady herself guides his humble path, though if that's true, she seems to have a soft spot for taverns. He\u2019s not versed in violence, but he does believe in beginner\u2019s luck.\n\n\u2014description from the designer\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 286.60294
-        },
-        {
-          "id": "346280",
-          "name": "Esotera, the Awakening",
-          "description": "Esotera, the Awakening, is a new entry into the world of TCG that takes the complexities of most card games and reduces them to 10 game modifiers, 4 card values, and 1 card archetype value. The entire game involves a deck of 40 cards, hands of 5 matches consisting of 3 - 5 rounds with 5 turns for each player. With this seeming simplicity is a very low barrier to entry for new players, but a lot of complexity, strategy, and deck building for dedicated players to maximize the win: loss of the game mechanics!\n\nAside from the game aspect of Esotera, it is also a cultural doorway to many religions, societies, fantasy, science fiction, and even Alien Conspiracy theory that unites all of these things into an easy to digest medium that will push the imagination and interest of the player. Finally the post Kickstarter goals of the project will be to establish a non-profit debt forgiveness program that collects Student loan and medical debts and forgives them unconditionally as a way of giving back to the greater community during these unprecedented times!\n\n",
-          "categories": [
-            "Card Game",
-            "Collectible Components",
-            "Fantasy",
-            "Mythology",
-            "Religious",
-            "Science Fiction"
-          ],
-          "mechanics": [
-            "Deck Construction",
-            "Dice Rolling",
-            "Hand Management",
-            "Real-Time",
+            "Variable Player Powers",
             "Variable Set-up"
           ],
           "families": [
-            "Admin: Better Description Needed!",
-            "Players: Two-Player Only Games"
+            "Admin: Upcoming Releases",
+            "Crowdfunding: Kickstarter"
           ],
-          "score": 285.40662
+          "score": 4.8963594
         },
         {
-          "id": "344118",
-          "name": "Ivion: The Sun & The Stars",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells, and other mayhem at your disposal. Be careful, though, as they have numerous ways to block, dodge, parry, fizzle, and disrupt your assault. Only one can be the victor, and the battle will be bloody!\n\nIn Ivion: The Sun and The Stars, you can battle as the fiery and chaotic Invoker or the powerful and stoic Archmage. They can battle one another or any other character in the Ivion line of games.\n\n",
+          "id": "187114",
+          "name": [
+            "Election: The Game"
+          ],
+          "description": [
+            "Election: The Game captures the excitement of a political election, and all the vote-buying and back-stabbing you love so much. Don't just watch it...live it!\n\nElection is a strategy game. It is  a combination Deck Building, Empire Building, and Land Capture game. The game has three phases: Gerrymandering, The Campaign, and The Election.\n\nDuring the game, you will build your personal deck, build your organization, and purchase votes on the Districts that make up the game board.\n\nBuild your personal Deck, build your Organization, and purchase votes on the Districts that make up the game board to win Electoral votes. The player with the most Electoral Votes wins the game.\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)",
+            "S5 Solutions"
+          ],
           "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
+            "Political"
           ],
           "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Resource to Move",
+            "Area Majority / Influence",
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Political: Elections"
+          ],
+          "score": 4.8681903
+        },
+        {
+          "id": "155460",
+          "name": [
+            "The Hobbit: An Unexpected Journey Deck-Building Game"
+          ],
+          "description": [
+            "Game description from the publisher:\n\nIn The Hobbit: An Unexpected Journey Deck-Building Game, each player takes on the role of a member of The Company as they set out on the long and treacherous path to Lonely Mountain. Play as Bilbo Baggins, Gandalf the Grey, Thorin Oakenshield, or others. Your Hero card will guide your strategy throughout the game, or you can break away with a plan of your own.\n\nEach player starts with his own basic ten-card deck and draws a hand of five cards each turn. Power is the currency you will use to buy new, stronger cards to add to your deck. The goal of a deck-building game is to craft your personal deck into a well-oiled machine, and five types of cards can be acquired: Enemies, Allies, Artifacts, Maneuvers, and Locations. A large, central stack of cards supplies a five-card \"Path\" from which players make their purchases. Each player always has five face-up cards from which to choose each turn, so new options and surprises await each turn.\n\nWhen you have amassed enough Power, you can take on an Archenemy! Each Archenemy has Loot cards you can acquire. Defeat a Troll and you might find Sting, Orcrist, or Glamdring! Take on The Goblin King and you might find the maneuvers you need to escape from the Misty Mountains. Azog is the final Archenemy, and he has unfinished business...\n\nIn the end, the player who has accumulated the most Victory Points from the cards in his deck wins.\n\nCryptozoic's The Lord of the Rings/The Hobbit deck-builder series:\n\n\n     The Lord of the Rings: The Fellowship of the Ring Deck-Building Game\n     The Lord of the Rings: The Two Towers Deck-Building Game\n     The Lord of the Rings: The Return of the King Deck-Building Game\n     The Hobbit: An Unexpected Journey Deck-Building Game\n     The Hobbit: The Desolation of Smaug Deck-Building Game Expansion Pack\n\n\n"
+          ],
+          "publishers": [
+            "Cryptozoic Entertainment"
+          ],
+          "categories": [
+            "Card Game",
+            "Movies / TV / Radio theme",
+            "Novel-based"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Authors: J.R.R. Tolkien",
+            "Game: Cerberus Engine \u2013 Middle Earth"
+          ],
+          "score": 4.8520126
+        },
+        {
+          "id": "438961",
+          "name": [
+            "Joker's Court"
+          ],
+          "description": [
+            "Joker\u2019s Court is a solo or two-player roguelike deck-building game where players must survive 10 unpredictable Court Trials using a deck of 32 powerful Joker cards. Each round, the Court presents a new challenge, forcing players to adapt their strategy, manipulate the rules, and outwit the game itself.\nYour goal? Complete all 10 Trials without running out of cards or failing a required challenge.\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Action / Dexterity",
+            "Bluffing",
+            "Card Game"
+          ],
+          "mechanics": [
+            "Action Drafting",
+            "Move Through Deck"
+          ],
+          "families": [
+            "Admin: Upcoming Releases",
+            "Crowdfunding: Kickstarter"
+          ],
+          "score": 4.816035
+        },
+        {
+          "id": "279419",
+          "name": [
+            "Eternal: Chronicles of the Throne"
+          ],
+          "description": [
+            "The Eternal Throne sits empty as scions of the royal family struggle for control. Dispatch those who oppose you by recruiting allies to your cause, researching powerful spells, and acquiring valuable relics!\n\nFrom the makers of the award-winning Clank! A Deck-Building Adventure, Eternal: Chronicles of the Throne combines deck-building games and strategy card battlers into an intense strategic experience. Summon powerful allies to attack your opponents, or build an unbreakable defense. Will you exhibit patience and seek the power of the Eternal Throne, or forgo such a risky path? The decisions are yours in Eternal: Chronicles of the Throne!\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "Dire Wolf",
+            "Renegade Game Studios"
+          ],
+          "categories": [
+            "Card Game",
+            "Fantasy"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
             "Take That"
           ],
           "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
+            "Digital Implementations: Dire Wolf Game Room"
           ],
-          "score": 285.23004
+          "score": 4.7798944
         },
         {
-          "id": "344117",
-          "name": "Ivion: The Knight & The Lady",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells, and other mayhem at your disposal. Be careful, though, as they have numerous ways to block, dodge, parry, fizzle, and disrupt your assault. Only one can be the victor, and the battle will be bloody!\n\nIn Ivion: The Knight and The Lady, you can battle as the young and zealous Errant or the mysterious and sinister Enchantress. They can battle one another or any other character in the Ivion line of games.\n\n",
+          "id": "189265",
+          "name": [
+            "RobotiCS strategic card game"
+          ],
+          "description": [
+            "You've come to the arena stunning with its dominance over the city. There is no building, which would overshadow it. From the battlefield to the ceiling it is crowded with spectators dressed in the color of the programmer clans. The inner ring is simple. Floor filled with sand, the only apparent thing is the ellipse, which always turns on the power shield protecting the spectators. There are usually fighting two teams in such battlefield, at least one robot at each side led by a programmer. Will you become one of those famous programmers who shout commands to their robots and fight for the title? Build your deck so you can use your strategy toward winning in tournaments of RobotiCS.\n\nRobotiCS strategic deck-building card game offers to every player an opportunity to become a Programmer of majestic robots which are fighting with each other in a battle duels. Every player starts with the same starting deck and develops it and its strategy during the game (= deck-building system).\n\nRobotiCS card game is about strategic combat of \u03b1-Robots supported by their Programmers. \u03b1-Robots are loosing their hit and shield points, whilst Programmers are receiving exhaustion counters. During the game players are combining their powerful abilities. But \u03b1-Robots can carry only one piece of each equipment, therefore players need to purchase \u03b2-Robots. The game can be influenced by Action and Reaction Program cards with immediate effects. There are being arisen many strategies during the games such as discard, healing, multiplication of \u03b2-Robots, agro, etc. 203 cards guarantee always countless different combinations.\n\nRobotiCS card game is optimized for 2 players. But families or friends could play it also in a group of 3 or 4 players. Easy understandable structure of game play is based on building the strategy of the deck during the game. It enables the player to react to the tactical actions of his/her opponent. It is not needed to purchase additional booster packs to construct decks before play (strongest advantage in comparison to trading card games). All strategic potential of the game is in one box. The game offers many different tactical situations to solve, free-time fun with friends and possibility to meet people during organized play events.\n\n"
+          ],
+          "publishers": [
+            "TAC-TAC agency s.r.o."
+          ],
           "categories": [
             "Card Game",
-            "Fantasy",
-            "Fighting"
+            "Fighting",
+            "Science Fiction"
           ],
           "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
+            "Deck",
+            "Bag",
+            "and Pool Building",
             "Hand Management",
-            "Interrupts",
-            "Resource to Move",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 285.23004
-        },
-        {
-          "id": "264205",
-          "name": "Ivion: The Hound & The Hare",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells, and other mayhem at your disposal. Be careful, though, as they have numerous ways to block, dodge, parry, fizzle, and disrupt your assault. Only one can be the victor, and the battle will be bloody!\n\nIn Ivion: The Hound and The Hare, you can battle as the wise and faithful Saint or the deceptive and cunning Illusionist. They can battle one another or any other character in the Ivion line of games.\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Resource to Move",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Collectible: Collectible Card Games",
-            "Components: Game Trayz Inside",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 285.23004
-        },
-        {
-          "id": "400096",
-          "name": "Ivion: The Noose & The Goose",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nTHE EXECUTIONER delivers heads for the Baron. By decree, the townsfolk gather to watch his handiwork. The condemned, however, has broken free. And it's laughing at him. He whets his axe; it will start shrieking soon enough.\n\nTHE POACHER only follows the laws he can read. As he puts it, can't none get the rule outta him to save the king, mind. Not so. He just live by his code, skin the deer and sell the pelts for shoes, snacks, and trap stuff. Now that's make sense, traps... Couldn't even say how many he hid all about the Kingswood. Might as well be the Trapswood even. This new headsman tho got weird. Couldn't as fun to escape from as the last one. Too stiff to fluster. Nothing a log to the face won't do in though.\n\n\u2014description from the publisher\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 285.1098
-        },
-        {
-          "id": "390572",
-          "name": "Ivion: The Falcon & The Snake",
-          "description": "Ivion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character, and you build it from a variety of classes and specializations. Each character type has numerous cards from which to choose, along with wildly different playstyles. Mix and match them to create your own, unique character!\n\nTHE FLETCHER is a force to be reckoned with - her keen eye and steady hand make her a master archer, feared by foes and beloved by allies. From tourney to tourney, she travels the realm, winning over the hearts of the people with her exploits and undeniable charm. When the Baron commits his latest act of villainy, she knows that target practice is over. With bow in hand and arrowheads at the ready, she sets out to deliver a message the Baron won't soon forget.\n\n---\n\nTHE BARON has earned every scrap of power he clutches. His tactics are as slimy as they are effective - lying, thieving, poisoning - everything must be on or under the table if he wants to sit at the head of it. He didn\u2019t write the rules; he simply realized there are none. After his most recent power grab, one of the peasantry seems to be more agitated than usual\u2026 but that\u2019s nothing he can\u2019t smooth over with one of his special glasses of wine.\n\n\u2014description from the publisher\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Take That"
-          ],
-          "families": [
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
-          ],
-          "score": 284.52347
-        },
-        {
-          "id": "222291",
-          "name": "Ivion: The Herocrafting Card Game",
-          "description": "\n\n\n    \n        GAME SYSTEM\n\n    \n    \n         This entry is to allow for discussion/rating of the game system as a whole. It is not for a specific product or release. Versions will appear on the individual item pages.\n\n    \n\n\nIvion combines the intensity of a fighting game with the strategy of deck-building card games to create an experience unlike any other. In Ivion, your deck IS your character.\n\nBuild your deck from a variety of Classes and Specializations, ranging from the brutal Giant to the occult Ebon Mage. Each character type has numerous cards to choose from, and wildly different play-styles. Mix and match them to create your own, unique character to fight with!\n\nUpon the field of battle, crush your opponent with various strikes, stabs, slashes, spells and other mayhem at your disposal. Be careful, though--they have numerous ways to block, dodge, parry, fizzle and disrupt your assault.\n\nOnly one can be the victor, and the battle will be bloody!\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Fighting"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck Construction",
-            "Grid Movement",
-            "Hand Management",
-            "Interrupts",
-            "Square Grid",
-            "Take That",
+            "Role Playing",
+            "Variable Phase Order",
             "Variable Player Powers"
           ],
           "families": [
-            "Admin: Game System Entries",
-            "Category: Two-Player Fighting Games",
-            "Components: Game Trayz Inside",
-            "Components: Miniatures",
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: TableTop Simulator Mod (TTS)"
+            "Theme: Robots"
           ],
-          "score": 283.97812
+          "score": 4.743892
+        },
+        {
+          "id": "176980",
+          "name": [
+            "Helionox: The Last Sunset"
+          ],
+          "description": [
+            "Helionox: The Last Sunset is a deck-building strategy game set in the distant future. Players compete for \u201cinfluence\u201d by obtaining powerful technology and operatives, overcoming social and environmental events, and establishing embassies on a variety of different worlds. On their turn, players purchase cards from the market with \u201ccredits\u201d and integrate these cards into their deck for use later in the game. Players can also choose to overcome one or more of the disastrous events spreading across the human colonies by spending \u201cdefense\u201d points gained by the cards that they purchase.  Players continue building increasingly powerful combinations of cards to acquire influence points on subsequent turns.  But time is limited! Once the last card of the \u201cevent deck\u201d is played, the game is over. The player with the most influence at the end wins.\n\n"
+          ],
+          "publishers": [
+            "Mr. B Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Science Fiction"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Variable Player Powers",
+            "Worker Placement"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter"
+          ],
+          "score": 4.7197227
+        },
+        {
+          "id": "378074",
+          "name": [
+            "Castle Up"
+          ],
+          "description": [
+            "CastleUp is a competitive card game for 2-4 players set in the bustling era of the middle ages. Each player embarks on an ambitious journey to establish and grow their own city, vying for influence and supremacy in a world where strategy and cunning are key. The game intricately blends elements of moderate complexity strategy with engaging mechanics of deck building and tableau building.\n\nIn CastleUp, every card action is a strategic choice, revealing layers of depth as players carefully construct their city. The game features innovative mechanics, such as cards that turn when damaged, maintaining full visibility to all players and adding a layer of tactical foresight. Resource management plays a crucial role, as players must judiciously allocate their assets to outmaneuver their rivals.\n\nDesigned for competitive players, CastleUp eschews the randomness of dice, focusing instead on skillful planning and execution. As the game progresses through multiple rounds, players take consecutive turns, each action building upon the last towards an intricate web of potential victory. The game concludes when the drawing deck is depleted, with the player amassing the most victory points declared the winner. This title not only challenges the strategic acumen of its players but also invites them to immerse themselves in a richly crafted medieval experience.\n\n"
+          ],
+          "publishers": [
+            "Wolley Games"
+          ],
+          "categories": [
+            "Card Game",
+            "City Building",
+            "Medieval"
+          ],
+          "mechanics": [
+            "Action Drafting",
+            "Deck Construction",
+            "Investment",
+            "Market"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter"
+          ],
+          "score": 4.6428437
+        },
+        {
+          "id": "290860",
+          "name": [
+            "Sodalis"
+          ],
+          "description": [
+            "A deck building strategy game inspired by tarot.\n\nIn a solar system of planets, each player becomes the champion of their home world, competing for the light of their star, Sodalis.\n\nTeams of players take pre-built decks of cards and their Champions and customize them before competing against each other on a playing field.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Abstract Strategy",
+            "Fantasy",
+            "Miniatures"
+          ],
+          "mechanics": [
+            "Action Points",
+            "Dice Rolling",
+            "Hexagon Grid",
+            "Roles with Asymmetric Information",
+            "Team-Based Game",
+            "Turn Order: Pass Order",
+            "Variable Player Powers"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Misc: LongPack Games"
+          ],
+          "score": 4.6222396
         },
         {
           "id": "304531",
-          "name": "Ascension Tactics: Miniatures Deckbuilding Game",
-          "description": "Ascension Tactics is a revolutionary new game, pioneering a brand-new genre by combining the best of tactical miniatures games with the fast-paced strategy of deck-building games.  Ascension Tactics brings the most iconic characters from the award-winning deck-building game to life as highly-detailed paintable 3D miniatures.\n \n     Many ways to play! Battle through the campaign mode or try the various PvP, Cooperative, and Solo Scenarios.\n     PvP drafting mode allows players to build their armies before a battle. \n     Players acquire cards from the ever-changing center row to power up their forces. \n     Even the smallest miniature can take down mighty beasts by gaining command points and equipping magical constructs. \n     No dice rolling required!\n\n\n\u2014description from the publisher\n\n",
+          "name": [
+            "Ascension Tactics: Miniatures Deckbuilding Game"
+          ],
+          "description": [
+            "Ascension Tactics is a revolutionary new game, pioneering a brand-new genre by combining the best of tactical miniatures games with the fast-paced strategy of deck-building games.  Ascension Tactics brings the most iconic characters from the award-winning deck-building game to life as highly-detailed paintable 3D miniatures.\n \n     Many ways to play! Battle through the campaign mode or try the various PvP, Cooperative, and Solo Scenarios.\n     PvP drafting mode allows players to build their armies before a battle. \n     Players acquire cards from the ever-changing center row to power up their forces. \n     Even the smallest miniature can take down mighty beasts by gaining command points and equipping magical constructs. \n     No dice rolling required!\n\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "Stone Blade Entertainment",
+            "GaGa Games",
+            "IELLO"
+          ],
           "categories": [
             "Fantasy",
             "Miniatures"
@@ -432,290 +494,372 @@
             "Crowdfunding: Kickstarter",
             "Game: Ascension Deck Building"
           ],
-          "score": 282.71933
+          "score": 4.6189117
         },
         {
-          "id": "411224",
-          "name": "Conquestia",
-          "description": "Welcome to Conquestia, the ultimate battlefield where war strategy meets deck-building mastery! Engage in epic clashes, aiming to capture the flag and claim victory. With diverse theme decks featuring unique and rare cards, every game unfolds into a dynamic and strategic showdown. Prepare for a thrilling journey through the realms of Conquestia, where cunning tactics and currency management determine the victor!\n\nIn this captivating board game, participants strategically position their flags anywhere on their side of the playfield, initiating a battle of wits and tactics. Determining the first player becomes a crucial decision, setting the stage for the game by boosting their INF counter with an additional +5. Drawing a card introduces an element of unpredictability, empowering players to strategically deploy character cards on the starting line or construct buildings on their designated half of the playfield.\n\nTo further disrupt their opponent's plans, players can play Universe cards, introducing unpredictable elements that tip the balance of the game. The real excitement unfolds as players spend their characters' MB (Move Points) to navigate the field, strategically employing their unique abilities to outmaneuver and outsmart their opponents.\n\nThe ultimate goal is to capture the flag and bring it to your side of the playfield, securing victory. With a blend of strategy, resource management, and unexpected twists, this board game promises an engaging and competitive experience for players of all skill levels.\n\n",
+          "id": "187377",
+          "name": [
+            "Vikings Gone Wild"
+          ],
+          "description": [
+            "Each turn in Vikings Gone Wild \u2014 a deck-building, resource management game based on the online real-time strategy game \u2014 players can either buy permanent buildings sitting in front of them (resource factories, resources containers, etc) or buy units, towers and special cards that improve their deck and offense/defense capacity.\n\nThe only way to win is by successfully attacking each other, and each attack involves interesting bluffing mechanisms in which the attacker doesn't know the defense capacity of their opponent...\n\n"
+          ],
+          "publishers": [
+            "Corax Games",
+            "Games Factory",
+            "Hobby World",
+            "Last Level",
+            "Lucky Duck Games"
+          ],
           "categories": [
             "Card Game",
-            "Collectible Components",
-            "Economic",
+            "City Building",
+            "Fantasy",
+            "Humor",
+            "Medieval",
+            "Mythology",
+            "Video Game Theme"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Crowdfunding: Spieleschmiede",
+            "Digital Implementations: Tabletopia",
+            "Theme: Vikings"
+          ],
+          "score": 4.6034894
+        },
+        {
+          "id": "161064",
+          "name": [
+            "Duel of the Magi"
+          ],
+          "description": [
+            "Duel of the Magi is a deck-building game that combines fantasy board games, drafting, and TCG fighting mechanics for a complete and unique experience. Players start by choosing one of the four magi classes, each of which have a unique ability to be used during the game. While taking turns players choose sets of spells to include or exclude in the game. Once this phase is complete, the chosen cards of each spell type are then shuffled together and placed on the board in the appropriately labeled spots. Staged face-up, the cards are drafted one at a time from the board as each player builds their own customized deck of spells. Once deck building is complete, the game board is flipped over to the dueling ground side and players engage in a spell casting fight to determine the winner. Part of the dueling strategy is gamesmanship in the form of alliances and negotiations. Do what you must to ensure you survive to the end.\n\n"
+          ],
+          "publishers": [
+            "Panda Game Manufacturing (PandaGM)"
+          ],
+          "categories": [
+            "Fantasy",
             "Print & Play"
           ],
           "mechanics": [
-            "Command Cards",
-            "Deck Construction",
-            "Dice Rolling",
-            "Grid Movement",
-            "Income",
-            "Moving Multiple Units",
-            "Multi-Use Cards"
-          ],
-          "score": 282.09055
-        },
-        {
-          "id": "438735",
-          "name": "KONIVRER",
-          "description": "KONIVRER (pronounced Conjurer) is a strategic Trading Card Game where players build powerful, single-copy decks using a strict rarity-based construction limit. The game combines streamlined combat and resource management and randomized 40-card decks made from a pool of 60 cards.\n\nKey Features:\n\nSingle-Copy Deck Construction:\n\nDecks are built using a 40-card limit, with no duplicates allowed. This forces players to explore the full card pool and build versatile, flexible strategies.\nPlayers must carefully select their cards, balancing power, synergy, and versatility within the constraints of the deck construction limit.\nRarity-Based Deck Construction Limit:\n\nPlayers must adhere to a strict rarity-based deck construction limit: 25 Commons, 13 Uncommons, and 2 Rares.\nThis rarity restriction adds a layer of strategy to deck-building, as players must decide how to allocate their limited higher-rarity slots for maximum impact. The commons will form the backbone of the deck, while uncommons provide critical support, and rares are the game-changing powerhouses.\nThe limitation encourages creativity and thoughtful deck composition, as players need to find the right balance between consistency and high-impact plays.\n\n    Dynamic Deck Generation *:\n\n\nWhile players can build their decks manually, they can also opt to use randomized decks, These decks are unique, offering a pre-built experience that still fits within the construction requirements.\nStreamlined Combat and Resource Management:\n\nThe game uses a simplified resource system where cards can either be played for their effects or used as resources to play other cards. This system ensures that gameplay is fast-paced and accessible, yet deep and strategic.\nCombat is centered around creatures, with each player trying to break through their opponent\u2019s defenses and have them take one of their life cards.\nResource Management and Life Card System:\n\nPlayers have a Resource Pool that grows each turn, enabling them to play increasingly powerful cards. The Life System is a player\u2019s life total, requiring opponents to break through their defenses before they can attack directly.\nEach life card can have hidden effects that trigger when taken, adding an element of surprise and strategic depth to the game.\nElement Identity:\n\nThe game features 6 elements, each with its unique playstyle and mechanics. Players can mix and match cards from different elements within the constraints of the deck-building rules, creating hybrid strategies that leverage the strengths of multiple elements.\nSome elements might focus on aggressive strategies, while others might excel in control, combo, or defensive playstyles.\n\n\u2014description from the designer\n\n",
-          "categories": [
-            "Card Game",
-            "Dice",
-            "Fantasy"
-          ],
-          "mechanics": [
-            "Card Play Conflict Resolution",
-            "Interrupts",
-            "Multi-Use Cards",
-            "Variable Phase Order"
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Open Drafting",
+            "Player Elimination"
           ],
           "families": [
-            "Admin: Upcoming Releases",
-            "Category: Print-on-Demand"
+            "Crowdfunding: Kickstarter"
           ],
-          "score": 272.59708
+          "score": 4.5143948
         },
         {
-          "id": "111858",
-          "name": "Warage: Starter Set",
-          "description": "You are a solitary hero fighting to survive in a world once afflicted by ancient wars between Orcs, Elves, Humans and Angels and other Races (included in the expansions Cripta, Covo, Alchimista).\n\nIt does not matter if you are a Mage, a Paladin or a Warrior (or another Class contained in Cripta, Covo, Alchimista expansions); all you have to do is to get the most powerful equipment you can find, such as handcrafted swords and shields, spells or what remains of the fire guns and hi-tech weapons produced by a now-gone civilisation.\n\nDefend yourself and defeat your opponents. Are you ready to fight?\n\nWarage is the ultimate turn-based strategic card game: role play, strategy and deck building merged all together for endless adventures.\n\n",
+          "id": "349177",
+          "name": [
+            "Vikings Gone Wild"
+          ],
+          "description": [
+            "Each turn in Vikings Gone Wild \u2014 a deck-building, resource management game based on the online real-time strategy game \u2014 players can either buy permanent buildings sitting in front of them (resource factories, resources containers, etc) or buy units, towers and special cards that improve their deck and offense/defense capacity.\n\nThe only way to win is by successfully attacking each other, and each attack involves interesting bluffing mechanisms in which the attacker doesn't know the defense capacity of their opponent...\n\nNOTE: This contains the 5th player expansion\n\n"
+          ],
+          "publishers": [
+            "Last Level",
+            "Lucky Duck Games"
+          ],
           "categories": [
-            "Abstract Strategy",
             "Card Game",
+            "City Building",
             "Fantasy",
-            "Fighting"
+            "Humor",
+            "Medieval",
+            "Mythology",
+            "Video Game Theme"
           ],
           "mechanics": [
-            "Dice Rolling",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management"
+          ],
+          "families": [
+            "Theme: Vikings"
+          ],
+          "score": 4.5043545
+        },
+        {
+          "id": "454523",
+          "name": [
+            "Peanuts Talent Show"
+          ],
+          "description": [
+            "In Peanuts Talent Show, 2\u20134 players compete in a fast and lively card game that combines trick-taking with light deck-building. Each round, you\u2019ll lead your cast of performers like Snoopy, Charlie Brown, Woodstock, and more, into the spotlight. Win tricks to earn Coins, then use them to recruit new acts and expand your deck with bigger talents.\n\nPeanuts Talent Show! plays in about 30 minutes, is easy to learn, and offers the perfect mix of familiar characters, light strategy, and playful competition.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "CMON Global Limited"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Trick-taking"
+          ],
+          "families": [
+            "Admin: Better Description Needed!",
+            "Admin: Upcoming Releases",
+            "Comic Strips: Peanuts"
+          ],
+          "score": 4.5043545
+        },
+        {
+          "id": "433437",
+          "name": [
+            "Future Invaders"
+          ],
+          "description": [
+            "Future Invaders is a physical card game set in a war-torn future Solar System, where four factions are caught in a needless war: Humans, Invaders, Organics, and Pirates.\n\nDesigned to be beginner-friendly, the game features simple rules and straightforward gameplay. For seasoned card game enthusiasts, it offers rich tactical depth, challenging your strategy, deck building, and drafting skills.\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "(Web published)"
+          ],
+          "categories": [
+            "Card Game",
+            "Print & Play",
+            "Science Fiction"
+          ],
+          "score": 4.4999394
+        },
+        {
+          "id": "391045",
+          "name": [
+            "Alpaca"
+          ],
+          "description": [
+            "Admit it, you've always wanted to farm soft, cute, cuddly, adorable alpacas. This is your chance! \n  \nAlpaca is a competitive deck-building game that pits players against one another in the competitive world of alpaca farming. Players each begin with an identical deck of alpaca cards and fence materials. Customize your deck with alpacas from the market, and build a strategy to take advantage of each alpaca's special ability. You score points for each alpaca on your farm and any purchased endgame bonus cards. The interaction with other players will get tighter as soon as the rules are clearer... run to buy a new alpaca!\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "GateOnGames",
+            "4GAMES",
+            "Game Factory",
+            "Geronimo Games",
+            "Nasza Ksi\u0119garnia",
+            "Pegasus Spiele"
+          ],
+          "categories": [
+            "Animals",
+            "Card Game"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Series: Fluffy Animals (GateOnGames)"
+          ],
+          "score": 4.485182
+        },
+        {
+          "id": "115474",
+          "name": [
+            "Expell"
+          ],
+          "description": [
+            "\"When two wizards test their strengths against eachother in a magic duel several factors decides the outcome; the ability to learn and adapt fast to changes, flexibility in strategy and tactics when necessary, master of both attack and defense, courage to try the unknown and wits to outsmart the other combatant.\" \nAll these things matter when playing Expell.\n\nExpell is a deck building game set in a magical environment. Two or more players compete for survival as wizards. Make the best use of the Grimoire to optimize your deck of spells to defeat your enemies. The objective of the game is to exhaust the opponent(s) willpower with a good combination of spells and magical items.\n\n\"No strategy is good but the strategy to observe, adapt and act faster than your enemy.\"\n\nThe game components:\n\n     216 Spell cards (24 different spells with 9 cards each)\n     48 Power cards\n     48 Darkness cards\n     Willpower tokens\n\n\n"
+          ],
+          "publishers": [
+            "beta Brain Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Fantasy",
+            "Movies / TV / Radio theme",
+            "Novel-based"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
             "Hand Management",
             "Open Drafting"
           ],
           "families": [
-            "Game: Warage"
+            "Books: Harry Potter"
           ],
-          "score": 263.9134
+          "score": 4.474498
         },
         {
-          "id": "108381",
-          "name": "B.C.",
-          "description": "B.C. is a strategic tile laying game using elements of abstract strategy and deck building games to tell the story of four rival tribes battling it out for control of vital resources on the Pre-Historic earth of Leakey, Von-Daniken, and \"Eegah!\"\n\nEach player takes control of one of four tribes: The Aliens,  Great Apes, Homo Sapiens, or Neanderthals, and attempts to gain control of the largest part of the prehistoric landscape, as represented by a grid marked by variable terrain features. Each tribe begins with a small selection of Tiles, and then must spend further actions to place those Tiles and earn \"Enlightenment Points\", which can be spent on new tiles and new options for the game.\n\nThe game is over when there are no further plays left on the board. Victory goes to the Tribe whose player has taken control of the most sections of the board. In the case of a tie, victory is determined by the number of Enlightenment Points still controlled by the Tribes at the end of play.\n\n",
+          "id": "357040",
+          "name": [
+            "Kazuni"
+          ],
+          "description": [
+            "Kazuni is a board game that brings all the strategy of building and maintaining supply chains to life in a way that is fun and refreshing.\n\nPlayers begin by building factories that are used to produce supply crates for a starving city. These crates are delivered as player explore a dynamic, mystery board and purchase the transportation needed to move those crates.\n\nPlayers are faced with economic challenges while also handling the randomness of an Opportunity Deck that furthers their chains or inhibits their opponents.\n\nPlayers collect their income for the turn, then take two actions which can be map exploration, supply chain construction, and/or drawing a card from the deck. After performing their actions, any supply crates that currently exist within a player's supply chain will move according to their capacity.  After cargo crates have moved along the supply line, players end their turn by building additional supply crates at any and all factories the player has constructed.\n\nOnce a player has successfully delivered 25 crates from their factories to the center tile (City tile) they win the game!\n\n"
+          ],
+          "publishers": [
+            "Whaleback Games"
+          ],
           "categories": [
-            "Territory Building"
+            "Economic",
+            "Exploration",
+            "Industry / Manufacturing",
+            "Transportation"
           ],
           "mechanics": [
-            "Open Drafting",
-            "Tile Placement",
-            "Variable Player Powers"
+            "Events",
+            "Modular Board",
+            "Pick-up and Deliver",
+            "Point to Point Movement",
+            "Race"
           ],
-          "score": 261.35403
+          "families": [
+            "Crowdfunding: Kickstarter"
+          ],
+          "score": 4.4522877
         },
         {
-          "id": "150659",
-          "name": "Warage Card Game",
-          "description": "\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tWarage BackgroundYou are a solitary hero fighting to survive in a world once afflicted by ancient wars between Orcs, Elves, Humans and Angels.\nIt does not matter if you are a Mage, a Paladin or a Warrior: all you have to do is to get the most powerful equipment you can find, such as handcrafted swords and shield, magic scrolls or what remains of the fire guns and hi-tech weapons produced by a now-gone civilization.\nDefend yourself and defeat your opponents. Are you ready to fight?\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tWhat is Warage?Warage is the ultimate turn-based strategic card game: role play, strategy and deck building merged all together for endless adventures.\n\nThe key mechanic of the game is that each Hero starts with 100 Hit Points (HP) and in order to play any card you have to pay its cost in HP. During your round you can equip your Hero with the items you have in our hand and you can attack your opponent(s) either through Physical Attack or Magic Attack.\n\nCreate your Hero choosing one of the Class cards and one of the Race cards available and construct your deck (48+ cards) selecting any of the existing cards. Deckbuilding and \"RPG attitude\" together, welcome to Warage!\n\n",
+          "id": "135521",
+          "name": [
+            "Tanks of War: Third Reich Rising"
+          ],
+          "description": [
+            "Tanks of War (TOW) is a fast playing 2-4-player WW2 deck building board game of strategy, skill and maneuver of massive tank battles on the Eastern Front designed to play in about an hour. Using new and innovative deck building and battle mechanics, TOW pits the Germans vs. the Soviet Union during the opening salvos of World War 2.  Each vehicle has been painstakingly  researched and then converted into game play terms to ensure maximum realism without being bogged down in game play minutia. When your fighting a T-34 with your Panzer 4, it will be based on historical technical info!\n\nTOW is a unique combination of a board game, miniatures game (without the minis) and deck building game. The strategies are endless and the turns are tense with each shot making a difference!\n\nTOW brings the intensity of WW2 tank battles into an easy-to-understand and play format which will delight historical buffs and casual gamers looking for deep strategy, explosive turns, and pitch battles.\n\nGAME PLAY OVERVIEW\n\nPlayers customize their own unique battle deck which includes cards that alter game play and vehicles such as mighty KV-1s, Panzers, and tank destroyers. Played over a massive game board, both sides must purchase the right action cards and vehicles to win.\n\nCOMPONENTS\n\nTanks of War comes with 2 decks that both the Germans and Soviet Union/Russians can customize, game board, tokens, dice and much more.\n\nOne massive 23 inch game board representing the plains of Russia\n    2 Player Reference Cards\n    Battle Dice including d4, d6, d8, and d10 dice\n    Over 100 double sided full color tokens\n    Over 200 double sided full color game cards with authentic photos representing various models of Panzers, T-34s, KV1s and many more. Also included are Force Cards which can alter game rules and give your tank commanders the edge they need on the battlefield\n    20+ page full color rulebook with variants and historical scenarios that create endless re-playability\n    10 Terrain Cards\n    Note: components are being finalized and may change\n\nDECK BUILDING\n\nUnique to Tanks of War is the ability for players to customize their deck prior to the game. This allows gamers to field the right mix of vehicles and Force Cards to meet the challenges they\u2019ll face on the battlefield!\n\nPLAY TIME\n\nPlayers can choose to play a quick 30 minute game or set up a mighty clash lasting upwards to 1.5 hours.\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)",
+            "Giant Goblin Games"
+          ],
           "categories": [
             "Card Game",
+            "Wargame",
+            "World War II"
+          ],
+          "mechanics": [
+            "Area Movement",
+            "Memory",
+            "Open Drafting",
+            "Simulation"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Players: Two-Player Only Games"
+          ],
+          "score": 4.446197
+        },
+        {
+          "id": "282782",
+          "name": [
+            "A Game of Swords and Shields: PNP Edition"
+          ],
+          "description": [
+            "Stanley Schuster's \"A Game of Swords and Shields\" is a turn based competitive deck building card battle game for 2 players from age 12. It lasts about 30 to 60 minutes and has a high replayability.\nIt is less about luck and chance as about strategy and decisions. Its game mechanic and the fact, that you can apply card effects on almost any faced up card, will give you a very unique experience.\nAttack your opponent and defend yourself while you are building up an army of swords and shields until one of you loses all their hope or health points.\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "(Web published)"
+          ],
+          "categories": [
+            "Card Game",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Digital Implementations: Tabletopia",
+            "Players: Two-Player Only Games"
+          ],
+          "score": 4.435279
+        },
+        {
+          "id": "357071",
+          "name": [
+            "GOLDblivion"
+          ],
+          "description": [
+            "Build a colony and conquer territories in a medieval-fantasy gold rush! With a gameplay centered around double-deck-building, be the first to get 10 gold ingots to be crowned King/Queen of GOLDblivion!\n\nIn GOLDblivion, you have two decks of cards to manage: one for combat and one for development. Every turn starts by removing a card from your hand. This card is placed under a chosen section of your player board and will give a precious resource all game long! This process will also naturally clean your deck from bad cards.\n\nCombat is made by conquering territories represented by hexagonal tiles. The number of free spaces around a tile is the number of cards you draw from your combat deck to defeat the enemy under this territory. They get increasingly stronger and are more rewarding too!\n\nBased on the ever-changing cards in the market, develop a long-term strategy and find the best combinations between Elf, Dwarf, Human and Building cards to maximize your gold and be crowned King/Queen of GOLDblivion!\n\n"
+          ],
+          "publishers": [
+            "Goblivion Games"
+          ],
+          "categories": [
+            "Economic",
             "Fantasy"
           ],
           "mechanics": [
             "Deck",
             "Bag",
             "and Pool Building",
-            "Dice Rolling",
-            "Team-Based Game",
-            "Variable Player Powers"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter",
-            "Game: Warage"
-          ],
-          "score": 259.3365
-        },
-        {
-          "id": "342444",
-          "name": "Black Rose Wars: Rebirth",
-          "description": "Black Rose Wars: Rebirth is a highly competitive fantasy game of combat, strategy, and deck-building set in ancient Italy. Black Rose Wars: Rebirth is the second chapter in the Black Rose Wars series. Even though 25 years have passed after the Lodge was destroyed, Mages have not forgotten the Old Ways. The Black Rose calls to them. They return to the Lodge to repair and rebuild the glory of the Black Rose who still imbues every inch of the place, to hold their tournament to name the Crown Holder of the lodge for the following century. The Black Rose demands a champion.\n\nEvery player represents a Mage in this struggle to prove themselves as the true beholder of the Black Rose's power. The mages will program spells to their board and execute them in turn order. Those spells may disable other mages spells, arm traps, arm powerful defensive moves, deal damage, or summon otherworldly beasts. The battle is played out on a hexagonal arena that requires tactics and planning to ensure each mage can pull off the perfect move. When a mage finally succumbs to their wounds, they will die and return to their room. This disrupts position and planning but no mage is ever out of the fight!\n\nBlack Rose Wars: Rebirth plays well with 1-4 players and is best played with lots of players for even more interaction. The expansions add a very large amount of options for replayability as well. This game is a stand alone game as well as an expansion for the original Black Rose Wars game.\n\n",
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Miniatures"
-          ],
-          "mechanics": [
-            "Card Play Conflict Resolution",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "End Game Bonuses",
-            "Hand Management",
-            "Modular Board",
-            "Scenario / Mission / Campaign Game",
-            "Simultaneous Action Selection",
+            "Income",
             "Solo / Solitaire Game",
-            "Variable Player Powers"
+            "Tags",
+            "Turn Order: Progressive"
           ],
           "families": [
-            "Components: Miniatures",
-            "Crowdfunding: Gamefound",
-            "Crowdfunding: Kickstarter",
-            "Players: Games with Solitaire Rules",
-            "Setting: Nova Aetas Chronicles"
+            "Creatures: Dragons",
+            "Digital Implementations: Board Game Arena"
           ],
-          "score": 256.98813
+          "score": 4.3877873
         },
         {
-          "id": "113456",
-          "name": "POWER",
-          "description": "Packs Of War Each Rank \n NON-Collectible Deck-building Tactical Military Card Game ==\n\n \"INTRODUCING THE BUILD QUEUE\" \n REPLAYABLE \nInstead of a hand of cards, units come into play after being flipped faceup and waiting a certain number of turns in a Build Queue (BQ), think of an assembly line of four stacks of cards manufacturing forces. The way players manage their BQ greatly affects what units come out and when, which then affects their opponent\u2019s decisions in <i>their</I> BQ. We are very proud of this innovation and how many strategies arise when deck-building. The more cards you flip, the more you reveal to your opponent.\n\n PORTABLE \nPOWER is a card game played on a Battlefield, a 4\u00d78 grid where unit cards are used as game pieces with movement and range as they engage in combat and advance towards the opponent\u2019s Headquarters to victory. No board or mat is necessary to play, just your P.O.W.E.R. \u2013 Packs Of War Each Rank.\n\n SCALABLE \n5 GAME RANKS!! Earn your stripes as you ascend in level of experience and POWER\u00ae, starting at the Private Rank game all the way to Master Sergeant Rank \u2013 each Game Rank offering new ways to choose your cards and compete. Several expansion packs are already designed and ready for print!\n\n A.S.A.P. \nAs SIMPLE As Possible! No rulers, no protractors, no terrain constraints (yet) \u2013 just a 6-way rock-paper-scissor-lizard-Spock mechanic and the BQ is all the complexity it needs to appeal to all gamers.\n\n >>> 2015 - DICE VARIANT ADDED \nWe listened. Did the math. And responded. Look for the POWER DICE RULES VAR#1 card.\n\nThe Air/Sea Expansion packs will be released as print-on-demand through Drive Thru Cards.\nMore expansion packs planned come with equipment cards, different themes, time periods, nationalities, and realism.\n\n",
-          "categories": [
-            "Aviation / Flight",
-            "Card Game",
-            "Modern Warfare",
-            "Wargame"
+          "id": "298831",
+          "name": [
+            "Battle Babies"
           ],
-          "mechanics": [
-            "Area Majority / Influence",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Open Drafting",
-            "Push Your Luck",
-            "Rock-Paper-Scissors"
+          "description": [
+            "Battle Babies is a comically themed deck-building card game for 2-4 players.\n\nIn this baby packed strategy game, you use ration cards to recruit and expand your infantry army. Craft the perfect baby army and lead them to victory.\n\nThroughout the game, each player will be expanding their army by recruiting cute (and sometimes less than cute) babies and pitting them against the opposing armies for ultimate baby power.\n\n\u2014description from the pbulsiher\n\n"
           ],
-          "families": [
-            "Players: Wargames with Rules Supporting Only Two Players",
-            "Theme: Helicopters"
+          "publishers": [
+            "Stuffed Horse Games"
           ],
-          "score": 255.60576
-        },
-        {
-          "id": "330499",
-          "name": "Way of the Samurai: Definitive Edition",
-          "description": "In Way of the Samurai you play the famous swordsman Miyamoto Musashi, to live epic battles. This is a solo card game with simple and fluid mechanics.\n\nWay of the Samurai offers strategy, risk taking, deck building and combinations.\n\nThe definitive edition includes Blood and Bushido.\n\nBlood and Bushido is an expansion for Way of the samurai. It allows you to integrate new modules. Modules can be played individually or in combination. This expansion brings new game experiences and many strategic approaches.\nBlood and Bushido includes 5 modules, a new opponent, 2 new surroundings, 2 new weapons, and a new random event map for campaign mode.\n\n",
           "categories": [
             "Card Game",
             "Fighting",
-            "Medieval"
-          ],
-          "mechanics": [
-            "Hand Management",
-            "Solo / Solitaire Game"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter",
-            "Players: Solitaire Only Games",
-            "Theme: Samurai"
-          ],
-          "score": 253.70427
-        },
-        {
-          "id": "294275",
-          "name": "Way of the Samurai",
-          "description": "In Way of the Samurai you play the famous swordsman Miyamoto Musashi, to live epic battles. This is a solo card game with simple and fluid mechanics.\n\nWay of the samurai offers strategy, risk taking, deck building and combinations.\n\nA game lasts on average 20 minutes, but can vary between 1 and 30 minutes. The set-up is extremely fast and the game has a high replay value.\n\nThe game is offered in a compact box and easy to carry. The rules will be in English and French. There is no text on the cards.\n\nA game takes place in several rounds. Each round allows you to make two attacks. Each attack is represented by playing a sequence of three action cards. Cards allow you to gain strength, technique or guard. It's up to you to establish a strategy for each attack. Will you attack your opponent, distract him or defend yourself ?\n\nKi tokens help deepen your strategy. By using them you'll develop skills that will make the difference.\n\nDepending on your attacks you will have the opportunity to create combos to unlock special action cards.\n\nThere are several different opponents, as well as a competition mode. This one will propose you to try, like Miyamoto musashi, to defeat dozens of samurai during one memorable fight ...\n\n\u2014description from the publisher\n\n",
-          "categories": [
-            "Card Game",
-            "Fighting",
-            "Medieval"
-          ],
-          "mechanics": [
-            "Hand Management",
-            "Solo / Solitaire Game"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter",
-            "Players: Solitaire Only Card Games",
-            "Players: Solitaire Only Games",
-            "Theme: Samurai"
-          ],
-          "score": 249.98709
-        },
-        {
-          "id": "178931",
-          "name": "Sky Dynasty",
-          "description": "Lead your dynasty to control the skies over planet Lumia IV, a critical choke point for intergalactic commerce. With strategic use of force and resources, rise above your foes and grow the most influential dynasty.\n\nSky Dynasty is a deck builder game where players draw a 10 card hand at the beginning of each round from their decks.  Players compete for control over seven different locations which each offer unique advantages such as purchasing cards, gaining money, or earning influence (victory points).\n\nIn addition to the tradition strategy associated with deck building games, Sky Dynasty is unique in that players must make decisions on where and when to dispatch their cards without knowledge of other players decisions.  In this way Sky Dynasty involves much higher player interaction then other games of the sort.\n\n",
-          "categories": [
-            "Bluffing",
-            "Card Game",
-            "Science Fiction",
-            "Space Exploration"
-          ],
-          "mechanics": [
-            "Area Majority / Influence",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Open Drafting",
-            "Simultaneous Action Selection"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter",
-            "Digital Implementations: Tabletopia"
-          ],
-          "score": 244.627
-        },
-        {
-          "id": "406799",
-          "name": "Arctic Ignited",
-          "description": "In Arctic Ignited, immerse yourself in a dieselpunk saga set in the frozen expanse of 1921. Navigate the frigid battlegrounds where every move shapes the destiny of the icy continent. Construct a formidable unit deck featuring Infantry, rivet Mechs, and Artillery cards. Handpick your starting deck and units, aligning them with your strategic vision for the Arctic.\n\nEngage in strategic Actions\u2014attack, move, conquer, and purchase units\u2014against the relentless Arctic storms. Roll the dice to determine the outcome, shift units strategically, and convert the base of the opponent to your faction's control. Optimize your deck's composition, thinning it at strategic intervals to ensure a finely tuned draw deck for the challenges that lie ahead.\n\nArctic Ignited promises a riveting blend of strategy, chance, and deck-building finesse in a dieselpunk dystopia. Will you conquer the territories and emerge as the master tactician of the frozen battlefield? Your destiny awaits amidst the howling winds and icy landscapes of Arctic Ignited!\n\n\u2014description from the designer\n\n",
-          "categories": [
-            "Wargame",
-            "World War I"
+            "Humor"
           ],
           "mechanics": [
             "Deck",
             "Bag",
             "and Pool Building",
-            "Dice Rolling",
-            "Zone of Control"
+            "Hand Management",
+            "Player Elimination"
+          ],
+          "score": 4.3839445
+        },
+        {
+          "id": "419481",
+          "name": [
+            "Inroads"
+          ],
+          "description": [
+            "An easy to play, competitive road building table top card game suitable for families and fun for everyone.\n\nEach player tries to build a road from one end of the playing area to the other. The deck is made up of a variety of road cards that must connect, and action cards which have different effects.\n\nThe game is combination of chance and strategy and suitable for all ages.\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Transportation"
           ],
           "families": [
             "Admin: Upcoming Releases",
-            "Theme: Dieselpunk"
+            "Crowdfunding: Kickstarter"
           ],
-          "score": 243.89552
-        },
-        {
-          "id": "406060",
-          "name": "Convergence Alpha",
-          "description": "In Convergence Alpha you step into a deckbuliding cyberpunk dystopia. Dive into the gritty underbelly of Convergence Alpha, where every move is a calculated risk and every decision could reshape the destiny of this world.\n\nConstruct your unit deck wisely, comprising Infantry, Range, and Armor cards with numbers. Choose your strategic depth and pick your starting deck and units suitable for this mission.\n\nEngage in the Actions to attack, move, conquer, and purchase units strategically. Roll the dice to determine the outcome of an attack, shift units across rows, and flip territories to your faction's side. Be mindful of your deck composition and choose the opportune moment to thin it, ensuring your draw deck remains finely tuned for the challenges ahead.\n\nConvergence Alpha offers a dynamic blend of strategy, luck, and deck-building mastery. Will you seize control of the territories and emerge as the ultimate tactician? The battlefield awaits your command!\n\n-description from designer\n\n",
-          "categories": [
-            "Wargame"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Dice Rolling"
-          ],
-          "families": [
-            "Admin: Upcoming Releases"
-          ],
-          "score": 243.03056
-        },
-        {
-          "id": "138026",
-          "name": "Critical Mass: Raijin vs Archon",
-          "description": "Critical Mass is a fast-paced mech combat game. Players go head-to-head in this fighting-strategy game with deck-building aspects. Players choose their favorite mech to battle it out, with each mech offering a different loadout of cards to start the game and unique powers.\n\nEach turn, players play a card face-down. When both players have chosen a card, they reveal them. Cards resolve based on their speed if they haven't been interrupted. Weapons deal damage and interrupt the enemy, while defending avoids weapon hits. Upgrading offers you additional cards to add to your arsenal but is vulnerable to being interrupted. Lastly, recharge reloads spent cards.\n\nAs cards are played, they go to their owner's cool-down pile, where they remain until they're reloaded. As players take damage, the armor on their mech is destroyed. When enough armor is destroyed, an armor core becomes vulnerable and can be destroyed to stun that mech for the next turn. The game ends when a mech's armor is completely destroyed down to the last core.\n\n",
-          "categories": [
-            "Card Game",
-            "Fighting",
-            "Science Fiction"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Rock-Paper-Scissors",
-            "Simultaneous Action Selection",
-            "Variable Player Powers"
-          ],
-          "families": [
-            "Players: Two-Player Only Games",
-            "Series: Dice Tower Essentials"
-          ],
-          "score": 242.1436
+          "score": 4.3839445
         }
       ]
     }

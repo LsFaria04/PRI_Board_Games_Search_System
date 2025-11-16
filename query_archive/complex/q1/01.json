@@ -1,13 +1,18 @@
+
 {
-  "query": "strategy^5 deck^2 construction",
-  "fields": ["id","score","name","alt_names","description","categories","mechanics","families","averageweight"],
-  "sort": "score desc, averageweight desc",
-  "filter": "averageweight:[3 TO *]",
   "limit": 30,
+  "fields": ["id,score, name,description,mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str"],
   "params": {
     "defType": "edismax",
-    "qf": "categories^2 mechanics^2 description",
-    "pf": "mechanics^2",
+    "sort": "score desc",
+    "q": "strategy deck building",
+    "q.op": "AND",
+    "qf": "name^5 alt_names^2 description^4 categories^4 mechanics^4 publishers^4 designers^3 artists^1 families^2 expansions^2 minage_str^3 yearpublished_str^3 playingtime_str^3 minplayers_str^3",
+    "pf": "name^4 description^2 alt_names^2",
+    "pf2": "categories^4 mechanics^4 families^2 description^2",
+    "pf3": "publishers^4 designers^4 artists^4",
+    "bf": "recip(bayesaverage,1,10,10)^3 recip(owned,1,1000,1000)^1 recip(trading,1,1000,1000)^1 recip(wanting,1,1000,1000)^1 recip(wishing,1,1000,1000)^3",
     "ps" : 2
   }
 }
+
