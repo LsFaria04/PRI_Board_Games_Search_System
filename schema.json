@@ -92,7 +92,6 @@
     {"name":"name","type":"text_exact_boost","stored":true,"indexed":true},
     {"name":"alt_names","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"description","type":"text_boost","stored":true,"indexed":true},
-
     {"name":"yearpublished","type":"pint","stored":true,"indexed":true},
     {"name":"minplayers","type":"pint","stored":true,"indexed":true},
     {"name":"maxplayers","type":"pint","stored":true,"indexed":true},
@@ -107,9 +106,9 @@
     {"name":"families","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
     {"name":"expansions","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
 
-    {"name":"poll_suggested_numplayers","type":"string","stored":true,"indexed":true,"multiValued":false},
-    {"name":"poll_playerage","type":"string","stored":true,"indexed":true,"multiValued":false},
-    {"name":"poll_language_dependence","type":"string","stored":true,"indexed":true,"multiValued":false},
+    {"name":"poll_suggested_numplayers","type":"string","stored":true,"indexed":false,"multiValued":false},
+    {"name":"poll_playerage","type":"string","stored":true,"indexed":false,"multiValued":false},
+    {"name":"poll_language_dependence","type":"string","stored":true,"indexed":false,"multiValued":false},
 
     {"name":"usersrated","type":"plong","stored":false,"indexed":true},
     {"name":"average","type":"pfloat","stored":false,"indexed":true},
