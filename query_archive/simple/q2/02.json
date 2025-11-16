@@ -1,12 +1,13 @@
+
 {
-    "query": "fantasy game dice rolling",
-    "limit": 30,
-    "fields": "id, score, name, playingtime, maxplayers, categories, families, mechanics, description, averageweight",
-    "params": {
-        "defType": "edismax",
-        "qf": "name description categories^4 families mechanics^4",
-        "boost": "if(and(gte(field(maxplayers,max),7),gte(field(playingtime,max),21)),2,1)",
-        "fq": "averageweight:[1 TO *]",
-        "ps": 2
-    }
+  "limit": 30,
+  "fields": ["id,score, name,description,mechanics, categories, families, minage, publishers, yearpublished, playingtime, minplayers, maxplayers"],
+  "params": {
+    "defType": "edismax",
+    "sort": "score desc",
+    "q": "Fantasy dice rolling 2 players",
+    "qf": "name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str", 
+    "q.op": "AND"
+  }
 }
+
