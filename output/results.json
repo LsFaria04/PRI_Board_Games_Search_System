@@ -1,485 +1,250 @@
 {
-  "1": {
+  "4": {
     "responseHeader": {
       "status": 0,
-      "QTime": 156,
+      "QTime": 188,
       "params": {
-        "json": "{\"limit\": 30, \"fields\": [\"id,score, name,description,mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"strategy deck building\", \"qf\": \"name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str\", \"q.op\": \"AND\"}}"
+        "json": "{\"limit\": 30, \"fields\": [\"id, score, name, description, mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str\"], \"params\": {\"defType\": \"edismax\", \"sort\": \"score desc\", \"q\": \"card (cooperative OR deck building) (2020 OR 2021)\", \"qf\": \"name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str\", \"q.op\": \"AND\"}}"
       }
     },
     "response": {
-      "numFound": 277,
+      "numFound": 59,
       "start": 0,
-      "maxScore": 5.17955,
+      "maxScore": 10.090333,
       "numFoundExact": true,
       "docs": [
         {
-          "id": "449589",
+          "id": "286549",
           "name": [
-            "Terra Indomita"
+            "Caty Mini"
           ],
           "description": [
-            "Terra Indomita is a dynamic deck-building strategy board game that blends the tactical depth of real-time strategy (RTS) games with the strategic card play of trading card games (TCGs). Choose your faction\u2014or combine factions\u2014to build a customized deck. Deploy your forces, outmaneuver your rivals, and dominate the battlefield as you strive to conquer your enemies and emerge victorious.\n\n\u2014description from the designer\n\n"
+            "In Caty Mini, first released as Kociaki \u00c5\u0081obuziaki, each player has their own unique game board that represents a children's room where a cat is playing; the cat is chasing twine that goes from one piece of furniture to another, with the game board having cutouts for twine to run through. The object of the game is to guide your cat so that it can grab as many toys as possible while running in the room.\n\nEach round, the round's starting player chooses a furniture card from their hand and places it face-up on the pile of cards in the middle of play. Each player then takes a turn in clockwise order to move their string and score, if possible. \"Moving the string\" means stretching your string across your board and through a slot on either side of the furniture that matches the card played. If the string touches the object on the floor, that player scores chip tokens. Whoever collects the most points wins!\n\n\u2014description from the publisher\n\nNominations and Awards:\n- 2020 - Boardlive Awards 2020 Children's Game Winner (South Korea)\n- 2021 - EducaFlip 2021 Winner - The Best Educational Game (France)\n- 2021 - Jokers 2021 - The Best Game for age 6+ Nominee (Belgium)\n\n"
           ],
           "publishers": [
-            "(Self-Published)"
+            "Nasza Ksi\u0119garnia",
+            "Broadway Toys LTD",
+            "HANALL M&C",
+            "Kaissa Chess & Games",
+            "Mandoo Games",
+            "MJ Games",
+            "Reflexshop"
           ],
           "categories": [
-            "Card Game",
-            "Fantasy"
+            "Animals",
+            "Children's Game"
           ],
           "mechanics": [
-            "Action Queue",
-            "Deck Construction",
-            "Worker Placement"
-          ],
-          "score": 5.17955
-        },
-        {
-          "id": "244943",
-          "name": [
-            "Machines of War"
-          ],
-          "description": [
-            "Machines of War is a military strategy game, using the elements of area-control and deck-building. As you build your machine (deck), you must strive to overpower your enemies, decimate their armies, take their lands, and conquer the city.\n\n\u2014description from the publisher\n\n"
-          ],
-          "publishers": [
-            "Practical Sloth"
-          ],
-          "categories": [
-            "City Building",
-            "Fighting",
-            "Miniatures",
-            "Modern Warfare",
-            "Wargame"
-          ],
-          "mechanics": [
-            "Area Majority / Influence",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Player Elimination"
-          ],
-          "score": 5.1123767
-        },
-        {
-          "id": "69789",
-          "name": [
-            "Ascension: Deckbuilding Game"
-          ],
-          "description": [
-            "Ascension: Deckbuilding Game \u2014 originally released as Ascension: Chronicle of the Godslayer \u2014 is a fast-paced deck-building game designed by Magic: The Gathering Pro Tour champions Justin Gary, Rob Dougherty, and Brian Kibler, with artwork by Eric Sabee.\n\nAscension is a deck-building game in which players spend Runes to acquire more powerful cards for their deck. It offers a dynamic play experience where players have to react and adjust their strategy accordingly. Each player starts with a small deck of cards, and uses those cards to acquire more and better cards for their deck, with the goal of earning the most Honor Points by gaining cards and defeating monsters.\n\n"
-          ],
-          "publishers": [
-            "Stone Blade Entertainment",
-            "Arclight Games",
-            "FunBox Jogos",
-            "Marabunta"
-          ],
-          "categories": [
-            "Card Game",
-            "Fantasy"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
+            "Network and Route Building",
             "Open Drafting"
           ],
           "families": [
-            "Components: Gems/Crystals",
-            "Digital Implementations: Steam",
-            "Digital Implementations: VASSAL",
-            "Game: Ascension Deck Building",
-            "Mechanics: Pure Deckbuilding",
-            "Players: Games with Solitaire Rules"
+            "Animals: Cats"
           ],
-          "score": 5.108912
+          "score": 10.090333
         },
         {
-          "id": "146815",
+          "id": "368104",
           "name": [
-            "Noir Nights:Blood on the Badge"
+            "Peer-to-Peer"
           ],
           "description": [
-            "\n            Noir Nights is a Kickstarter Project coming very soon***\n        \n    \n\n\nNoir Nights:Blood on the Badge is a fast paced deck building game designed by Joseph Bridges and John Gannon with artwork by John Gannon Commisions and Concepts. Noir Nights is a deck building game where players use Leads and Arrest Evidence points on cards in their deck to arrest Mobsters. It offers a dynamic play experience where players have to react and adjust their strategy accordingly.\n\nGame play is similar to other deck building games, with the player adding cards to their deck by \"purchasing\" them from a central deck, which has the top three cards revealed and available for purchase. When cards are removed, they are replaced with a new one from the top of the deck. Badge Honor points are earned in two ways: 1)Some Assets/Policemen cards acquired during game play are worth one or more Badge Honor points; 2) Badge Honor points can be gained by arresting Mobsters with Arrest Evidence Points featured on several of the Asset/Policeman cards.\n\n"
-          ],
-          "publishers": [
-            "Ockham's Razor Games"
-          ],
-          "categories": [
-            "Card Game",
-            "Movies / TV / Radio theme"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Open Drafting"
-          ],
-          "score": 4.941882
-        },
-        {
-          "id": "91773",
-          "name": [
-            "Resident Evil Deck Building Game: Alliance"
-          ],
-          "description": [
-            "In Resident Evil, a deadly virus has caused the dead to rise and infect any living thing they encounter!  Fleeing to a mysterious mansion, you must gather any materials you can find to protect yourself and fight for your survival against a legion of infected beings!\n\nThe Resident Evil Deck Building Game brings the story to life in a game of strategy where players construct their cards decks while they play.  Choose one of your favorite characters from Resident Evil such as: Chris Redfield, Jill Valentine, or Albert Wesker among others. Players start with only the most basic of items and weapons. As the game progresses, players build their arsenal with additional Weapons, Ammunition, Action or Item cards to customize their deck and improve their ability in defeating 'the Infected'! Your deck will be your lifeline to survival.  How will you survive the zombie outbreak?\n\nResident Evil DBG: Alliance is a stand-alone expansion that can be played on its own or with the top selling Resident Evil Deck Building Game.  Play with new additional Characters such as Hunk, Carlos Oliveira, Steve Burnside, Josh Stone or Billy Coen.  New Weapons, Actions and Infected have been added to this set to create even more powerful combinations and dangers.  Alliance also introduces the new partner mode of play where you take on the mansion with not just one character but two!\n\nGame Contents\n\n     250 cards\n     Game Manual\n\n\nIntegrates with:\n\n    Resident Evil Deck Building Game\n    Resident Evil Deck Building Game: Mercenaries\n\n\nExpanded by:\n\n    Resident Evil Deck Building Game: Outbreak\n    Resident Evil Deck Building Game: Nightmare\n\n\n"
-          ],
-          "publishers": [
-            "Bandai Co.",
-            "Ltd."
-          ],
-          "categories": [
-            "Card Game",
-            "Exploration",
-            "Horror",
-            "Video Game Theme",
-            "Zombies"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Open Drafting",
-            "Team-Based Game",
-            "Variable Player Powers"
-          ],
-          "families": [
-            "Creatures: Zombies",
-            "Video Game Theme: Resident Evil"
-          ],
-          "score": 4.917426
-        },
-        {
-          "id": "248673",
-          "name": [
-            "Dobbers: Quest for the Key"
-          ],
-          "description": [
-            "Dobbers: Quest for the Key is a whimsical, family friendly board game for 2-4 players. It is a deck building, encounter building, strategy board game.\n\nCreate surprise encounters for your opponent while building your deck and equipping your hero.\n\n\n     The mechanics are simple enough for most children to enjoy, while having strategies that are complex enough that even the most seasoned gamer will feel engaged. \n     It usually takes an hour or less to play. It will take longer while you learn card details and how they may effect your strategy.\n     It has a high fantasy theme, with comic-book style, bold illustrations.\n     The objective is to move your hero along your chosen path to the final space on the board, represented by \u201cthe Key\u201d. The first player to reach the key with their hero wins!\n\n\nThere are two strategies essential to winning the game:\nFirst, placing challenging encounters on the board, preventing other players and their heroes from being able to advance along their chosen path.  Second, equipping your hero and building up your personal deck so that you can more easily overcome any encounters that have been placed along your path. Player will have to do both well if they expect to reach the key first and win the game!\n\n\u2014description from the publisher\n\n"
-          ],
-          "publishers": [
-            "Splattered Ink Games"
-          ],
-          "categories": [
-            "Adventure",
-            "Card Game",
-            "Fantasy",
-            "Memory"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Secret Unit Deployment"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.910663
-        },
-        {
-          "id": "142852",
-          "name": [
-            "DC Deck-Building Game: Heroes Unite"
-          ],
-          "description": [
-            "In the DC Comics Deck-Building Game: Heroes Unite, each player takes on the role of a Super Hero such as Shazam!, Hawkman, Red Tornado, Nightwing, Black Canary, Batgirl, or Booster Gold. Your Super Hero has an ability that will guide your strategy throughout the game. Each player starts with his own basic ten-card deck and draws a hand of five cards each turn. Power is the currency you will use to buy new, stronger cards to add to your deck. There are five different types of cards that can be acquired: Villains, Heroes, Equipment, Super Powers, and Locations. Unlock special abilities, like Force Field or the Helmet of Fate, and unleash devastating card combos against your opponents! Craft your hero deck into a well-oiled machine to take on the most vile villains in the DC Universe in your quest for Victory (Points)! Mix the cards from Heroes Unite with the core DC Comics Deck-Building Game set to wage the ultimate showdown!\n\nIntegrates with:\n\n    DC Deck-Building Game\n\n\n"
-          ],
-          "publishers": [
-            "Cryptozoic Entertainment"
-          ],
-          "categories": [
-            "Card Game",
-            "Comic Book / Strip"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building"
-          ],
-          "families": [
-            "Comic Books: DC Universe",
-            "Comic Books: Superman",
-            "Game: Cerberus Engine \u2013 Heroes",
-            "Theme: Superheroes"
-          ],
-          "score": 4.8982396
-        },
-        {
-          "id": "413921",
-          "name": [
-            "Heart of Crown: Second Edition"
-          ],
-          "description": [
-            "Heart of Crown: Second Edition brings modern updates both in graphic design and gameplay to the deck-building game. Many cards have updated texts, some cards have been removed, and new cards (Attendant Maids) have been added.\n\nSeven Princess in line for succession, but with only one coronation, who will be the one to save the Empire from chaos?\n\nIn a deck-building game, every player starts with the same deck of cards, but your individual strategy will determine the cards you purchase to strengthen your deck. Be the first to crown your princess in the Coronation Ceremony.\n\nEverything you need to play Heart of Crown comes in this stand-alone box, but the game is compatible with all previous Heart of Crown releases!\n\n"
-          ],
-          "publishers": [
-            "FLIPFLOPs",
-            "Japanime Games"
-          ],
-          "categories": [
-            "Card Game"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Open Drafting",
-            "Variable Player Powers",
-            "Variable Set-up"
-          ],
-          "families": [
-            "Admin: Upcoming Releases",
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.8963594
-        },
-        {
-          "id": "187114",
-          "name": [
-            "Election: The Game"
-          ],
-          "description": [
-            "Election: The Game captures the excitement of a political election, and all the vote-buying and back-stabbing you love so much. Don't just watch it...live it!\n\nElection is a strategy game. It is  a combination Deck Building, Empire Building, and Land Capture game. The game has three phases: Gerrymandering, The Campaign, and The Election.\n\nDuring the game, you will build your personal deck, build your organization, and purchase votes on the Districts that make up the game board.\n\nBuild your personal Deck, build your Organization, and purchase votes on the Districts that make up the game board to win Electoral votes. The player with the most Electoral Votes wins the game.\n\n"
-          ],
-          "publishers": [
-            "(Self-Published)",
-            "S5 Solutions"
-          ],
-          "categories": [
-            "Political"
-          ],
-          "mechanics": [
-            "Area Majority / Influence",
-            "Deck",
-            "Bag",
-            "and Pool Building"
-          ],
-          "families": [
-            "Political: Elections"
-          ],
-          "score": 4.8681903
-        },
-        {
-          "id": "155460",
-          "name": [
-            "The Hobbit: An Unexpected Journey Deck-Building Game"
-          ],
-          "description": [
-            "Game description from the publisher:\n\nIn The Hobbit: An Unexpected Journey Deck-Building Game, each player takes on the role of a member of The Company as they set out on the long and treacherous path to Lonely Mountain. Play as Bilbo Baggins, Gandalf the Grey, Thorin Oakenshield, or others. Your Hero card will guide your strategy throughout the game, or you can break away with a plan of your own.\n\nEach player starts with his own basic ten-card deck and draws a hand of five cards each turn. Power is the currency you will use to buy new, stronger cards to add to your deck. The goal of a deck-building game is to craft your personal deck into a well-oiled machine, and five types of cards can be acquired: Enemies, Allies, Artifacts, Maneuvers, and Locations. A large, central stack of cards supplies a five-card \"Path\" from which players make their purchases. Each player always has five face-up cards from which to choose each turn, so new options and surprises await each turn.\n\nWhen you have amassed enough Power, you can take on an Archenemy! Each Archenemy has Loot cards you can acquire. Defeat a Troll and you might find Sting, Orcrist, or Glamdring! Take on The Goblin King and you might find the maneuvers you need to escape from the Misty Mountains. Azog is the final Archenemy, and he has unfinished business...\n\nIn the end, the player who has accumulated the most Victory Points from the cards in his deck wins.\n\nCryptozoic's The Lord of the Rings/The Hobbit deck-builder series:\n\n\n     The Lord of the Rings: The Fellowship of the Ring Deck-Building Game\n     The Lord of the Rings: The Two Towers Deck-Building Game\n     The Lord of the Rings: The Return of the King Deck-Building Game\n     The Hobbit: An Unexpected Journey Deck-Building Game\n     The Hobbit: The Desolation of Smaug Deck-Building Game Expansion Pack\n\n\n"
-          ],
-          "publishers": [
-            "Cryptozoic Entertainment"
-          ],
-          "categories": [
-            "Card Game",
-            "Movies / TV / Radio theme",
-            "Novel-based"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building"
-          ],
-          "families": [
-            "Authors: J.R.R. Tolkien",
-            "Game: Cerberus Engine \u2013 Middle Earth"
-          ],
-          "score": 4.8520126
-        },
-        {
-          "id": "438961",
-          "name": [
-            "Joker's Court"
-          ],
-          "description": [
-            "Joker\u2019s Court is a solo or two-player roguelike deck-building game where players must survive 10 unpredictable Court Trials using a deck of 32 powerful Joker cards. Each round, the Court presents a new challenge, forcing players to adapt their strategy, manipulate the rules, and outwit the game itself.\nYour goal? Complete all 10 Trials without running out of cards or failing a required challenge.\n\n"
+            "Peer-to-Peer is a team vs team semi-cooperative deck-building game using the Second generation (2021) Tech Deck, a 21st century deck of playing cards. Players divide into two teams and share a play deck and group hand. Each individual player has asymmetric abilities from their venture (Tech Deck cards) that can develop over time. Teams compete to assist customers from the Customer deck. Successfully assisted customers can be used to: 1. build up their team's deck, 2. develop individual ventures, or 3. score. Rules for odd-number of players and solo-play are included. The theme of the game is a 21st century modern setting. Players on a team cooperate together. Teams may choose to cooperate and negotiate and assist customers (semi-cooperative) leading to lively group discussion and dynamics. The game uses simple math and card melds to determine who successfully assists customers. There are three mutually-exclusive competing objectives: 1. to develop your team's deck, 2. to develop individual player's venture and 3. to score customers. Teams compete to assist customers and then the team must choose how to use that customer card towards these three objectives.\n\nOBJECTIVE \u2013 Teams are trying to score points from assisting customers while building up their team\u2019s deck and ventures.\nGAME PLAY \u2013 During a turn, players can uses game effects from their hand cards and their ventures. Both teams try to assist customers in the customer row drawn from the customer deck. The game ends when there are no more cards left in the customer deck.\n\n-description from designer\n\n"
           ],
           "publishers": [
             "(Self-Published)"
           ],
           "categories": [
-            "Action / Dexterity",
-            "Bluffing",
-            "Card Game"
-          ],
-          "mechanics": [
-            "Action Drafting",
-            "Move Through Deck"
-          ],
-          "families": [
-            "Admin: Upcoming Releases",
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.816035
-        },
-        {
-          "id": "279419",
-          "name": [
-            "Eternal: Chronicles of the Throne"
-          ],
-          "description": [
-            "The Eternal Throne sits empty as scions of the royal family struggle for control. Dispatch those who oppose you by recruiting allies to your cause, researching powerful spells, and acquiring valuable relics!\n\nFrom the makers of the award-winning Clank! A Deck-Building Adventure, Eternal: Chronicles of the Throne combines deck-building games and strategy card battlers into an intense strategic experience. Summon powerful allies to attack your opponents, or build an unbreakable defense. Will you exhibit patience and seek the power of the Eternal Throne, or forgo such a risky path? The decisions are yours in Eternal: Chronicles of the Throne!\n\n\u2014description from the publisher\n\n"
-          ],
-          "publishers": [
-            "Dire Wolf",
-            "Renegade Game Studios"
-          ],
-          "categories": [
             "Card Game",
-            "Fantasy"
+            "Number"
           ],
           "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Take That"
-          ],
-          "families": [
-            "Digital Implementations: Dire Wolf Game Room"
-          ],
-          "score": 4.7798944
-        },
-        {
-          "id": "189265",
-          "name": [
-            "RobotiCS strategic card game"
-          ],
-          "description": [
-            "You've come to the arena stunning with its dominance over the city. There is no building, which would overshadow it. From the battlefield to the ceiling it is crowded with spectators dressed in the color of the programmer clans. The inner ring is simple. Floor filled with sand, the only apparent thing is the ellipse, which always turns on the power shield protecting the spectators. There are usually fighting two teams in such battlefield, at least one robot at each side led by a programmer. Will you become one of those famous programmers who shout commands to their robots and fight for the title? Build your deck so you can use your strategy toward winning in tournaments of RobotiCS.\n\nRobotiCS strategic deck-building card game offers to every player an opportunity to become a Programmer of majestic robots which are fighting with each other in a battle duels. Every player starts with the same starting deck and develops it and its strategy during the game (= deck-building system).\n\nRobotiCS card game is about strategic combat of \u03b1-Robots supported by their Programmers. \u03b1-Robots are loosing their hit and shield points, whilst Programmers are receiving exhaustion counters. During the game players are combining their powerful abilities. But \u03b1-Robots can carry only one piece of each equipment, therefore players need to purchase \u03b2-Robots. The game can be influenced by Action and Reaction Program cards with immediate effects. There are being arisen many strategies during the games such as discard, healing, multiplication of \u03b2-Robots, agro, etc. 203 cards guarantee always countless different combinations.\n\nRobotiCS card game is optimized for 2 players. But families or friends could play it also in a group of 3 or 4 players. Easy understandable structure of game play is based on building the strategy of the deck during the game. It enables the player to react to the tactical actions of his/her opponent. It is not needed to purchase additional booster packs to construct decks before play (strongest advantage in comparison to trading card games). All strategic potential of the game is in one box. The game offers many different tactical situations to solve, free-time fun with friends and possibility to meet people during organized play events.\n\n"
-          ],
-          "publishers": [
-            "TAC-TAC agency s.r.o."
-          ],
-          "categories": [
-            "Card Game",
-            "Fighting",
-            "Science Fiction"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Role Playing",
-            "Variable Phase Order",
-            "Variable Player Powers"
-          ],
-          "families": [
-            "Theme: Robots"
-          ],
-          "score": 4.743892
-        },
-        {
-          "id": "176980",
-          "name": [
-            "Helionox: The Last Sunset"
-          ],
-          "description": [
-            "Helionox: The Last Sunset is a deck-building strategy game set in the distant future. Players compete for \u201cinfluence\u201d by obtaining powerful technology and operatives, overcoming social and environmental events, and establishing embassies on a variety of different worlds. On their turn, players purchase cards from the market with \u201ccredits\u201d and integrate these cards into their deck for use later in the game. Players can also choose to overcome one or more of the disastrous events spreading across the human colonies by spending \u201cdefense\u201d points gained by the cards that they purchase.  Players continue building increasingly powerful combinations of cards to acquire influence points on subsequent turns.  But time is limited! Once the last card of the \u201cevent deck\u201d is played, the game is over. The player with the most influence at the end wins.\n\n"
-          ],
-          "publishers": [
-            "Mr. B Games"
-          ],
-          "categories": [
-            "Card Game",
-            "Science Fiction"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Variable Player Powers",
-            "Worker Placement"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.7197227
-        },
-        {
-          "id": "378074",
-          "name": [
-            "Castle Up"
-          ],
-          "description": [
-            "CastleUp is a competitive card game for 2-4 players set in the bustling era of the middle ages. Each player embarks on an ambitious journey to establish and grow their own city, vying for influence and supremacy in a world where strategy and cunning are key. The game intricately blends elements of moderate complexity strategy with engaging mechanics of deck building and tableau building.\n\nIn CastleUp, every card action is a strategic choice, revealing layers of depth as players carefully construct their city. The game features innovative mechanics, such as cards that turn when damaged, maintaining full visibility to all players and adding a layer of tactical foresight. Resource management plays a crucial role, as players must judiciously allocate their assets to outmaneuver their rivals.\n\nDesigned for competitive players, CastleUp eschews the randomness of dice, focusing instead on skillful planning and execution. As the game progresses through multiple rounds, players take consecutive turns, each action building upon the last towards an intricate web of potential victory. The game concludes when the drawing deck is depleted, with the player amassing the most victory points declared the winner. This title not only challenges the strategic acumen of its players but also invites them to immerse themselves in a richly crafted medieval experience.\n\n"
-          ],
-          "publishers": [
-            "Wolley Games"
-          ],
-          "categories": [
-            "Card Game",
-            "City Building",
-            "Medieval"
-          ],
-          "mechanics": [
-            "Action Drafting",
             "Deck Construction",
-            "Investment",
-            "Market"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.6428437
-        },
-        {
-          "id": "290860",
-          "name": [
-            "Sodalis"
-          ],
-          "description": [
-            "A deck building strategy game inspired by tarot.\n\nIn a solar system of planets, each player becomes the champion of their home world, competing for the light of their star, Sodalis.\n\nTeams of players take pre-built decks of cards and their Champions and customize them before competing against each other on a playing field.\n\n\u2014description from the publisher\n\n"
-          ],
-          "publishers": [
-            "(Self-Published)"
-          ],
-          "categories": [
-            "Abstract Strategy",
-            "Fantasy",
-            "Miniatures"
-          ],
-          "mechanics": [
-            "Action Points",
-            "Dice Rolling",
-            "Hexagon Grid",
-            "Roles with Asymmetric Information",
+            "Matching",
+            "Melding and Splaying",
+            "Semi-Cooperative Game",
             "Team-Based Game",
-            "Turn Order: Pass Order",
-            "Variable Player Powers"
+            "Turn Order: Pass Order"
           ],
           "families": [
             "Crowdfunding: Kickstarter",
-            "Misc: LongPack Games"
+            "Series: Tech Deck"
           ],
-          "score": 4.6222396
+          "score": 10.040317
         },
         {
-          "id": "304531",
+          "id": "266381",
           "name": [
-            "Ascension Tactics: Miniatures Deckbuilding Game"
+            "ZU Tiles: Hime \u2013 Starter Set 1"
           ],
           "description": [
-            "Ascension Tactics is a revolutionary new game, pioneering a brand-new genre by combining the best of tactical miniatures games with the fast-paced strategy of deck-building games.  Ascension Tactics brings the most iconic characters from the award-winning deck-building game to life as highly-detailed paintable 3D miniatures.\n \n     Many ways to play! Battle through the campaign mode or try the various PvP, Cooperative, and Solo Scenarios.\n     PvP drafting mode allows players to build their armies before a battle. \n     Players acquire cards from the ever-changing center row to power up their forces. \n     Even the smallest miniature can take down mighty beasts by gaining command points and equipping magical constructs. \n     No dice rolling required!\n\n\n\u2014description from the publisher\n\n"
+            "ZU Tiles: Hime is a strategic tile placement game based loosely on the creatures of the Chinese Zodiac. Players choose a creature (or creatures) to build customized decks around in order to out think and out play their opponent(s). Players earn points by creating patterns of \u201ccompatible squares\u201d using creatures or by battling and capturing opposing creatures. The first player to 12 points wins! Think Collectable Card Game meets Dominoes...but with amazing anime inspired art and super fun tile interactions.\n\nZU Tiles: Hime is a quick and easy game for the whole family, focusing more on its unique compatibility mechanics than it does on combat. We're hoping you have more fun and more genuine enjoyment of playing vs. the sometimes cutthroat competition that other more competitive deck building games can become. Relax. Take your time. Smile more. Laugh a bit. Enjoy yourself.\n\nStarter Set 1 consists of the Pig, Rabbit, Ram, Tiger, Horse, and Dog tiles.\nStarter Set 2 consists of the Dragon, Snake, Rooster, Rat, Ox, and Monkey tiles.\n\nAWARDS AND HONORS\n2020 Board Game Spotlight Top Game of 2020 Silver Spotlight Award\nTop 5 Game of 2020: Minimum Player Count\n\n"
           ],
           "publishers": [
-            "Stone Blade Entertainment",
-            "GaGa Games",
-            "IELLO"
+            "ZU Studios"
           ],
           "categories": [
+            "Abstract Strategy",
+            "Animals",
+            "Humor",
+            "Puzzle"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Pattern Building",
+            "Tile Placement"
+          ],
+          "families": [
+            "Digital Implementations: Tabletopia",
+            "Theme: Astrology"
+          ],
+          "score": 7.3183937
+        },
+        {
+          "id": "361204",
+          "name": [
+            "The Singaporean Dream: The New Normal"
+          ],
+          "description": [
+            "The Singaporean Dream: The New Normal is the latest edition of The Singaporean Dream, an interactive card game that lets you pay, steal, and sabo your way to be the perfect Singaporean.\n\nYou play a classic Singaporean Personality (different for each player) that grants you special powers.\n\nThe game goal is to collect as many dream as you can before the dream pile runs out. You can buy the Dream Cards with Cash Cards in the bank or gain them with Action Cards.\n\nDuring your turn, you draw two cards and play up to 3 actions:\n\n     play an action card from your hand; \n     place money in bank (cards from hand to table);\n     buy a dream using money in bank;\n     use personality special power.\n\n\nKeep doing this until the dreams runs out.\n\n"
+          ],
+          "publishers": [
+            "SYNT Studio LLP"
+          ],
+          "categories": [
+            "Party Game"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Country: Singapore"
+          ],
+          "score": 7.019759
+        },
+        {
+          "id": "338086",
+          "name": [
+            "Dancing Queen"
+          ],
+          "description": [
+            "Dancing Queen is a 2-player, 9-card game about bringing friends to a dance party. You and your opponent both have in mind a particular dance to perform. Will you get your way? How many boys and girls should you bring? Will you bring a girl secretly dressed up as a boy to foil your opponent's plans?\n\nBoth players start with a secret goal, and need to manipulate the gender mix in play to fulfil their goals. There are opportunities to swap your secret goal and to change the gender of a dancer. When a round ends, you reveal your goals to compare who has done better. There are instant-win conditions on some cards. If you manage to achieve these feats, you win a round immediately.\n\nThis short and tricky card game features bluffing, setting traps, pushing your luck and reading your opponent.\n\n\u2014description from the designer\n\n2021 BGG 9-Card Nanogame Print-and-Play Design Contest Best Overall Game\n2021 BGG 9-Card Nanogame Print-and-Play Design Contest Best 2-player Game\n2021 BGG 9-Card Nanogame Print-and-Play Design Contest Best New Designer\n2021 BGG 9-Card Nanogame Print-and-Play Design Contest Best Rule Book\n\n"
+          ],
+          "publishers": [
+            "(Web published)",
+            "Cili Padi Games",
+            "Matagot"
+          ],
+          "categories": [
+            "Bluffing",
+            "Card Game",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Pattern Building",
+            "Sudden Death Ending"
+          ],
+          "families": [
+            "Contests: 9 Card Nanogame PnP",
+            "Digital Implementations: Tabletopia",
+            "Players: Two-Player Only Games",
+            "Series: Micro Game (Matagot)",
+            "Sports: Dancing"
+          ],
+          "score": 6.9980526
+        },
+        {
+          "id": "232656",
+          "name": [
+            "Take The Kingdom"
+          ],
+          "description": [
+            "\"A blast - Take The Kingdom combines the weight of epic medieval fantasy with a speed rarely seen in the genre.\" - Blogcritics.org\n\nA medieval-themed card game for 2, 3 or 4 players. Build your Kingdom, damage everyone else's: The winner is the last Kingdom standing - or the strongest one at the end of the game (when all cards have been played).\n\nEach player starts with a Fort and some Land, which they can fortify with Walls, Moats, Battlements, Hills, Archers, Knights and Traps. Using the cards in the deck, you then defend your Kingdom, attack the defences of other Kingdoms with weapons, and aim to control the fate of your opponents with Earthquakes, Sabotage, Mutiny, Spies and more. Mercy cards also allow a lifeline for each player. 20-30 minutes to play.\n\nRelaunching on Kickstarter in March 2021, and available to play now on Tabletop Simulator.\n\n"
+          ],
+          "publishers": [
+            "Walnut Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Medieval",
+            "Territory Building"
+          ],
+          "mechanics": [
+            "Campaign / Battle Card Driven",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Open Drafting",
+            "Take That"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Digital Implementations: Tabletopia"
+          ],
+          "score": 6.5596995
+        },
+        {
+          "id": "245994",
+          "name": [
+            "The Dead Eye"
+          ],
+          "description": [
+            "Buckle up your Rad Suit.\nFire up the Rig.\nBeware the Tox.\n\nThe Dead Eye is an adventure card game for one player.\n\nAssume the role of a lone thermo-bandit downed on a hostile backwater planet. \nYour mission? Find the next safe haven before you lose all hope and strength\u2026 and maybe, just maybe, find a way off of this desolate rock.\n\nCards in The Dead Eye represent Encounters that can have one of two Outcomes: Good or Bad. A Bad Outcome is triggered by a buildup of dangerous Heat while a Good Outcome is triggered by a buildup of valuable Juice.  Your starting Draw Deck includes 6 cards with Juice and 6 cards with Heat. As you play through the deck, some of these cards will raise your Heat and Juice levels, while at other times the cards will be used as the Encounter itself.\n\nFace dangerous Encounters, salvage useful Parts and reach safe Haven.\n\nThe Dead Eye includes a 12 page prelude comic book, 20 page rule-book, 1-fold double-sided game board, 2 pairs of stereoscopic-3D glasses, 1 pair of \u201chook-behind\u201d stereoscopic-3D glasses and 54 unique cards.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "Pleasant Company Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Comic Book / Strip",
+            "Environmental",
+            "Science Fiction"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management",
+            "Multi-Use Cards"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Digital Implementations: Tabletopia",
+            "Players: Solitaire Only Card Games",
+            "Players: Solitaire Only Games"
+          ],
+          "score": 6.460823
+        },
+        {
+          "id": "199042",
+          "name": [
+            "Harry Potter: Hogwarts Battle"
+          ],
+          "description": [
+            "The forces of evil are threatening to overrun Hogwarts castle in Harry Potter: Hogwarts Battle, a cooperative deck-building game, and it's up to four students to ensure the safety of the school by defeating villains and consolidating their defenses. In the game, players take on the role of a Hogwarts student: Harry, Ron, Hermione or Neville, each with their own personal deck of cards that's used to acquire resources.\n\nBy gaining influence, players add more cards to their deck in the form of iconic characters, spells, and magical items. Other cards allow them to regain health or fight against villains, keeping them from gaining power. The villains set back players with their attacks and Dark Arts. Only by working together will players be able to defeat all of the villains, securing the castle from the forces of evil.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "The Op Games",
+            "Gal\u00e1pagos Jogos",
+            "Gameology (Gameology Romania)",
+            "iHRYsko",
+            "KOSMOS",
+            "Lavka Games",
+            "Rebel Sp. z o.o.",
+            "Reflexshop",
+            "REXhry",
+            "Tabletop KZ"
+          ],
+          "categories": [
+            "Card Game",
             "Fantasy",
-            "Miniatures"
+            "Movies / TV / Radio theme",
+            "Novel-based"
           ],
           "mechanics": [
             "Cooperative Game",
@@ -487,379 +252,676 @@
             "Bag",
             "and Pool Building",
             "Scenario / Mission / Campaign Game",
+            "Variable Player Powers"
+          ],
+          "families": [
+            "Books: Harry Potter",
+            "Game: Harry Potter: Hogwarts Battle (The OP)",
+            "Mechanism: Campaign Games"
+          ],
+          "score": 6.3104825
+        },
+        {
+          "id": "304605",
+          "name": [
+            "Shadow Gates"
+          ],
+          "description": [
+            "Presentation on Essen Spiel 2021\n\nShadow Gates is an asymmetrical card-based boardgame for 2 to 4 players.\n\nThe action takes place in an age of constant clan wars in an alternative-history 16th century Japan.\nAiming to make their warriors invincible, ambitious warlords turn to forbidden magic: shadow gates. The gates lend unhuman strength to the warlords and their armies, while distorting their bodies and their minds. The corruption streams forth from the gates, consuming more and more provinces.\nThe few remaining clans have to unite to make a stand against the forces of darkness.\n\nThe players will side with one of the warring factions: the Keepers of the Gates or the Free Clans.\nThe game is utilizing the following features: hidden agenda, territory control and hand management. Each side has its own unique asymmetrical card-based mechanics for performing actions: moving forces, conducting rituals, initiating battles, building defences etc. The objective of the game is carrying out personal hidden agendas. The game uses highly detailed miniatures and a large playing board.\n\n"
+          ],
+          "publishers": [
+            "Jet Games Studio",
+            "Lavka Games"
+          ],
+          "categories": [
+            "Fantasy",
+            "Medieval"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Card Play Conflict Resolution",
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Hand Management"
+          ],
+          "score": 6.2545056
+        },
+        {
+          "id": "348807",
+          "name": [
+            "Treasures, Traps and Mummies"
+          ],
+          "description": [
+            "Treasures, Traps and Mummies is a deckbuilding-roguelite solo game where you have to face the dangers of the pyramid, defeat the mummies, defuse traps and solve secrets to reach the treasure! Your assistant will help you in your quest, and strange relics can either help you or make your life hell!\n\nYour goal is to reach the exit of the pyramid, without getting exhausted in the meantime.\nIn your turn you can play cards from your hand to defeat challenges and/or get cards from the assistant to improve your backpack (your deck).\n\nEvery challenges has its own reward!\n\nThe game comes with 5 scenarios and you can also create your own very easily! (Just contact me and I will add those to the rulebook!)\n\nEntry for 2021 Solitaire Print and Play Contest\n\n"
+          ],
+          "publishers": [
+            "(Web published)"
+          ],
+          "categories": [
+            "Card Game",
+            "Exploration",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
             "Solo / Solitaire Game"
           ],
           "families": [
-            "Category: MOBA",
-            "Crowdfunding: Kickstarter",
-            "Game: Ascension Deck Building"
+            "Ancient: Egypt",
+            "Category: Dungeon Crawler",
+            "Constructions: Pyramids",
+            "Country: Egypt",
+            "Creatures: Mummies",
+            "Players: Solitaire Only Games"
           ],
-          "score": 4.6189117
+          "score": 6.097004
         },
         {
-          "id": "187377",
+          "id": "314751",
           "name": [
-            "Vikings Gone Wild"
+            "Malacca 1511"
           ],
           "description": [
-            "Each turn in Vikings Gone Wild \u2014 a deck-building, resource management game based on the online real-time strategy game \u2014 players can either buy permanent buildings sitting in front of them (resource factories, resources containers, etc) or buy units, towers and special cards that improve their deck and offense/defense capacity.\n\nThe only way to win is by successfully attacking each other, and each attack involves interesting bluffing mechanisms in which the attacker doesn't know the defense capacity of their opponent...\n\n"
-          ],
-          "publishers": [
-            "Corax Games",
-            "Games Factory",
-            "Hobby World",
-            "Last Level",
-            "Lucky Duck Games"
-          ],
-          "categories": [
-            "Card Game",
-            "City Building",
-            "Fantasy",
-            "Humor",
-            "Medieval",
-            "Mythology",
-            "Video Game Theme"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter",
-            "Crowdfunding: Spieleschmiede",
-            "Digital Implementations: Tabletopia",
-            "Theme: Vikings"
-          ],
-          "score": 4.6034894
-        },
-        {
-          "id": "161064",
-          "name": [
-            "Duel of the Magi"
-          ],
-          "description": [
-            "Duel of the Magi is a deck-building game that combines fantasy board games, drafting, and TCG fighting mechanics for a complete and unique experience. Players start by choosing one of the four magi classes, each of which have a unique ability to be used during the game. While taking turns players choose sets of spells to include or exclude in the game. Once this phase is complete, the chosen cards of each spell type are then shuffled together and placed on the board in the appropriately labeled spots. Staged face-up, the cards are drafted one at a time from the board as each player builds their own customized deck of spells. Once deck building is complete, the game board is flipped over to the dueling ground side and players engage in a spell casting fight to determine the winner. Part of the dueling strategy is gamesmanship in the form of alliances and negotiations. Do what you must to ensure you survive to the end.\n\n"
-          ],
-          "publishers": [
-            "Panda Game Manufacturing (PandaGM)"
-          ],
-          "categories": [
-            "Fantasy",
-            "Print & Play"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Open Drafting",
-            "Player Elimination"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.5143948
-        },
-        {
-          "id": "349177",
-          "name": [
-            "Vikings Gone Wild"
-          ],
-          "description": [
-            "Each turn in Vikings Gone Wild \u2014 a deck-building, resource management game based on the online real-time strategy game \u2014 players can either buy permanent buildings sitting in front of them (resource factories, resources containers, etc) or buy units, towers and special cards that improve their deck and offense/defense capacity.\n\nThe only way to win is by successfully attacking each other, and each attack involves interesting bluffing mechanisms in which the attacker doesn't know the defense capacity of their opponent...\n\nNOTE: This contains the 5th player expansion\n\n"
-          ],
-          "publishers": [
-            "Last Level",
-            "Lucky Duck Games"
-          ],
-          "categories": [
-            "Card Game",
-            "City Building",
-            "Fantasy",
-            "Humor",
-            "Medieval",
-            "Mythology",
-            "Video Game Theme"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management"
-          ],
-          "families": [
-            "Theme: Vikings"
-          ],
-          "score": 4.5043545
-        },
-        {
-          "id": "454523",
-          "name": [
-            "Peanuts Talent Show"
-          ],
-          "description": [
-            "In Peanuts Talent Show, 2\u20134 players compete in a fast and lively card game that combines trick-taking with light deck-building. Each round, you\u2019ll lead your cast of performers like Snoopy, Charlie Brown, Woodstock, and more, into the spotlight. Win tricks to earn Coins, then use them to recruit new acts and expand your deck with bigger talents.\n\nPeanuts Talent Show! plays in about 30 minutes, is easy to learn, and offers the perfect mix of familiar characters, light strategy, and playful competition.\n\n\u2014description from the publisher\n\n"
-          ],
-          "publishers": [
-            "CMON Global Limited"
-          ],
-          "categories": [
-            "Card Game",
-            "Children's Game"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Trick-taking"
-          ],
-          "families": [
-            "Admin: Better Description Needed!",
-            "Admin: Upcoming Releases",
-            "Comic Strips: Peanuts"
-          ],
-          "score": 4.5043545
-        },
-        {
-          "id": "433437",
-          "name": [
-            "Future Invaders"
-          ],
-          "description": [
-            "Future Invaders is a physical card game set in a war-torn future Solar System, where four factions are caught in a needless war: Humans, Invaders, Organics, and Pirates.\n\nDesigned to be beginner-friendly, the game features simple rules and straightforward gameplay. For seasoned card game enthusiasts, it offers rich tactical depth, challenging your strategy, deck building, and drafting skills.\n\n\u2014description from the designer\n\n"
+            "It is the year 1511 and the Portuguese Empire rules the seas.  Far in the east, the port city of Malacca makes the mistake of backstabbing them, sparking a war at their doorstep. As Admiral of the Portuguese Empire, you arrive at Malacca to punish the Sultan's foolish betrayal by laying waste to his city. Meanwhile, as Laksamana of the Sultanate, you must repel the invaders and save your home from certain doom.\n\nMalacca 1511 is a 1-2 player game of the Portuguese conquest of Malacca in 54 cards - with 2 Solo Modes: a Solo game as the Portuguese Empire, and a Solo Campaign as the Sultanate.\n\nIn a two-player game, each player leads one side, fighting over the city and against each other's armies in this unique Deck Builder vs Engine Builder card game. The cards are double-sided, with one side being the Empire Attackers besieging Malacca, while the flip side is the Sultanate's Defenders trying to hold them at bay. The game also uses a creative area control mechanic that simulates the Frontline of battle. This makes vying for the right cards and spaces on the battlefield key to winning the war.\n\nThe Portuguese Empire plays as a Deck Builder, building up their strength to unleash increasingly deadly attacks against the city. The Sultanate plays as a Set Collection, Tableau + Engine Builder, adding Fighters to their city to bolster up defenses and making it easier to defeat enemies on future turns.\n\nAwards:\n\nFrom the 2020 54-Card Game Design Contest.\n-Best War Themed Game: 1st Place!\n-Best Solo Game: 2nd Place!\n-Best Euro Game: 2nd Place!\n-Best Overall Game: 3rd Place!\n-Jury Prize: 3rd Place!\n-Best 2 Player Game: 3rd place!\n\n\u2014description from the designer\n\n"
           ],
           "publishers": [
             "(Web published)"
           ],
           "categories": [
             "Card Game",
+            "Medieval",
             "Print & Play",
-            "Science Fiction"
-          ],
-          "score": 4.4999394
-        },
-        {
-          "id": "391045",
-          "name": [
-            "Alpaca"
-          ],
-          "description": [
-            "Admit it, you've always wanted to farm soft, cute, cuddly, adorable alpacas. This is your chance! \n  \nAlpaca is a competitive deck-building game that pits players against one another in the competitive world of alpaca farming. Players each begin with an identical deck of alpaca cards and fence materials. Customize your deck with alpacas from the market, and build a strategy to take advantage of each alpaca's special ability. You score points for each alpaca on your farm and any purchased endgame bonus cards. The interaction with other players will get tighter as soon as the rules are clearer... run to buy a new alpaca!\n\n\u2014description from the publisher\n\n"
-          ],
-          "publishers": [
-            "GateOnGames",
-            "4GAMES",
-            "Game Factory",
-            "Geronimo Games",
-            "Nasza Ksi\u0119garnia",
-            "Pegasus Spiele"
-          ],
-          "categories": [
-            "Animals",
-            "Card Game"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building"
-          ],
-          "families": [
-            "Series: Fluffy Animals (GateOnGames)"
-          ],
-          "score": 4.485182
-        },
-        {
-          "id": "115474",
-          "name": [
-            "Expell"
-          ],
-          "description": [
-            "\"When two wizards test their strengths against eachother in a magic duel several factors decides the outcome; the ability to learn and adapt fast to changes, flexibility in strategy and tactics when necessary, master of both attack and defense, courage to try the unknown and wits to outsmart the other combatant.\" \nAll these things matter when playing Expell.\n\nExpell is a deck building game set in a magical environment. Two or more players compete for survival as wizards. Make the best use of the Grimoire to optimize your deck of spells to defeat your enemies. The objective of the game is to exhaust the opponent(s) willpower with a good combination of spells and magical items.\n\n\"No strategy is good but the strategy to observe, adapt and act faster than your enemy.\"\n\nThe game components:\n\n     216 Spell cards (24 different spells with 9 cards each)\n     48 Power cards\n     48 Darkness cards\n     Willpower tokens\n\n\n"
-          ],
-          "publishers": [
-            "beta Brain Games"
-          ],
-          "categories": [
-            "Card Game",
-            "Fantasy",
-            "Movies / TV / Radio theme",
-            "Novel-based"
+            "Wargame"
           ],
           "mechanics": [
             "Deck",
             "Bag",
             "and Pool Building",
             "Hand Management",
-            "Open Drafting"
-          ],
-          "families": [
-            "Books: Harry Potter"
-          ],
-          "score": 4.474498
-        },
-        {
-          "id": "357040",
-          "name": [
-            "Kazuni"
-          ],
-          "description": [
-            "Kazuni is a board game that brings all the strategy of building and maintaining supply chains to life in a way that is fun and refreshing.\n\nPlayers begin by building factories that are used to produce supply crates for a starving city. These crates are delivered as player explore a dynamic, mystery board and purchase the transportation needed to move those crates.\n\nPlayers are faced with economic challenges while also handling the randomness of an Opportunity Deck that furthers their chains or inhibits their opponents.\n\nPlayers collect their income for the turn, then take two actions which can be map exploration, supply chain construction, and/or drawing a card from the deck. After performing their actions, any supply crates that currently exist within a player's supply chain will move according to their capacity.  After cargo crates have moved along the supply line, players end their turn by building additional supply crates at any and all factories the player has constructed.\n\nOnce a player has successfully delivered 25 crates from their factories to the center tile (City tile) they win the game!\n\n"
-          ],
-          "publishers": [
-            "Whaleback Games"
-          ],
-          "categories": [
-            "Economic",
-            "Exploration",
-            "Industry / Manufacturing",
-            "Transportation"
-          ],
-          "mechanics": [
-            "Events",
-            "Modular Board",
-            "Pick-up and Deliver",
-            "Point to Point Movement",
-            "Race"
-          ],
-          "families": [
-            "Crowdfunding: Kickstarter"
-          ],
-          "score": 4.4522877
-        },
-        {
-          "id": "135521",
-          "name": [
-            "Tanks of War: Third Reich Rising"
-          ],
-          "description": [
-            "Tanks of War (TOW) is a fast playing 2-4-player WW2 deck building board game of strategy, skill and maneuver of massive tank battles on the Eastern Front designed to play in about an hour. Using new and innovative deck building and battle mechanics, TOW pits the Germans vs. the Soviet Union during the opening salvos of World War 2.  Each vehicle has been painstakingly  researched and then converted into game play terms to ensure maximum realism without being bogged down in game play minutia. When your fighting a T-34 with your Panzer 4, it will be based on historical technical info!\n\nTOW is a unique combination of a board game, miniatures game (without the minis) and deck building game. The strategies are endless and the turns are tense with each shot making a difference!\n\nTOW brings the intensity of WW2 tank battles into an easy-to-understand and play format which will delight historical buffs and casual gamers looking for deep strategy, explosive turns, and pitch battles.\n\nGAME PLAY OVERVIEW\n\nPlayers customize their own unique battle deck which includes cards that alter game play and vehicles such as mighty KV-1s, Panzers, and tank destroyers. Played over a massive game board, both sides must purchase the right action cards and vehicles to win.\n\nCOMPONENTS\n\nTanks of War comes with 2 decks that both the Germans and Soviet Union/Russians can customize, game board, tokens, dice and much more.\n\nOne massive 23 inch game board representing the plains of Russia\n    2 Player Reference Cards\n    Battle Dice including d4, d6, d8, and d10 dice\n    Over 100 double sided full color tokens\n    Over 200 double sided full color game cards with authentic photos representing various models of Panzers, T-34s, KV1s and many more. Also included are Force Cards which can alter game rules and give your tank commanders the edge they need on the battlefield\n    20+ page full color rulebook with variants and historical scenarios that create endless re-playability\n    10 Terrain Cards\n    Note: components are being finalized and may change\n\nDECK BUILDING\n\nUnique to Tanks of War is the ability for players to customize their deck prior to the game. This allows gamers to field the right mix of vehicles and Force Cards to meet the challenges they\u2019ll face on the battlefield!\n\nPLAY TIME\n\nPlayers can choose to play a quick 30 minute game or set up a mighty clash lasting upwards to 1.5 hours.\n\n"
-          ],
-          "publishers": [
-            "(Self-Published)",
-            "Giant Goblin Games"
-          ],
-          "categories": [
-            "Card Game",
-            "Wargame",
-            "World War II"
-          ],
-          "mechanics": [
-            "Area Movement",
-            "Memory",
             "Open Drafting",
-            "Simulation"
+            "Set Collection",
+            "Solo / Solitaire Game",
+            "Variable Player Powers",
+            "Variable Set-up"
           ],
           "families": [
-            "Crowdfunding: Kickstarter",
-            "Players: Two-Player Only Games"
+            "Contests: 54-Card Game Design"
           ],
-          "score": 4.446197
+          "score": 5.9786754
         },
         {
-          "id": "282782",
+          "id": "207407",
           "name": [
-            "A Game of Swords and Shields: PNP Edition"
+            "ELECTION!: The Presidential Campaign Game"
           ],
           "description": [
-            "Stanley Schuster's \"A Game of Swords and Shields\" is a turn based competitive deck building card battle game for 2 players from age 12. It lasts about 30 to 60 minutes and has a high replayability.\nIt is less about luck and chance as about strategy and decisions. Its game mechanic and the fact, that you can apply card effects on almost any faced up card, will give you a very unique experience.\nAttack your opponent and defend yourself while you are building up an army of swords and shields until one of you loses all their hope or health points.\n\n\u2014description from the designer\n\n"
+            "A game of trivia, teamwork, & campaign strategy. Ages 10 and up, for 2-8 players.\nELECTION! The Presidential Campaign Game\n2nd Edition\nOverview:\nCitizens vote to elect our president. In this game, you can lead the campaign! ELECTION! is a game of trivia, teamwork, & campaign strategy. Players compete to be the first party to claim the most electoral votes in an American Presidential election campaign. Players lead their party\u2019s campaign for president by raising funds and purchasing Town Hall, Advertise, and Charisma cards to earn votes. Then with votes in hand, they strategically claim State's electoral votes and ensure their party's victory. Game Play:\n\nEach turn involves three actions.\n1 Roll dice\n2 Buy Cards\n3 Claim States\nACTION 1: Players can choose to roll the dice to raise funds. ACTION 2: They can opt to buy cards to build their campaign and earn popular votes. For example, buy a Town Hall trivia card to test your knowledge of history, State Capitals, State nicknames, and more. A correct response earns the votes. ACTION 3: With popular votes in hand, the players use them to win selected States on the score ballot.\n\nPlayers may also \"endorse\" a teammate after their three actions. This is done by forwarding cards to a teammate's hand, pooling cards and votes to claim more States during their turn. Can the party now claim enough electoral votes to win the election?\n\nGame progress is kept on the score ballot. The score ballot lists all 50 states and DC, and is sorted based on presidential election results from 1988 through 2008. There are states that lean red, states that lean blue, and swing states in the middle. States that lean toward the player's political party require fewer popular votes to claim. The swing states are equal for each party, and are more difficult for both. By claiming states with earned votes, players win electoral votes for their party and work toward victory. The electoral votes listed are current for the 2012, 2016, and 2020 presidential elections.\n\n"
           ],
           "publishers": [
-            "(Web published)"
+            "Trio Games"
           ],
           "categories": [
-            "Card Game",
-            "Print & Play"
+            "Educational",
+            "Political",
+            "Trivia"
           ],
           "mechanics": [
+            "Cooperative Game",
             "Deck",
             "Bag",
             "and Pool Building"
           ],
           "families": [
+            "Category: Print-on-Demand",
+            "Country: USA",
+            "Political: Elections"
+          ],
+          "score": 5.9778924
+        },
+        {
+          "id": "307245",
+          "name": [
+            "Curmudgeon"
+          ],
+          "description": [
+            "You\u2019re a cantankerous crank,a surly grump, a crusty grouch, and an ill-tempered malcontent all in one body! This game rewards you for being the biggest Curmudgeon on the block because it\u2019s pretty great.\n\nUse word cards to invent and throw silly insults at opponents' life cards. Star retort battles with fill-in-the-blank and prompted cards. Match colors or symbols on those retort cards to keep the battle going. Last one to play a retort, wins that life card and scores points.\n\nYou create the funny, even if you're not. Unlike other party games that have other players judge you, anything you say goes. Where other games provide the funny and you just string it together, this game provides the prompts to let your creativity shine through. It's like a game of mad libs...with insults.\n\nThe biggest curmudgeon wins the game!\n\nGAME OBJECTIVE:\nCurmudgeon is a game of insults! Use your own creativity to build insults from keywords. Throw those insults on other players\u2019 life cards, engage in retort battles, win the battles and earn points. After the final round, all players have died and the game ends. The person with the most points wins and dies the biggest Curmudgeon!\n\nGAME CONTENTS:\n89 \u2013 Life Cards (4 blank for customization)\n94 \u2013 Insult Cards\n96 \u2013 Retort Cards\n38 \u2013 Curmudgeon Cards\n1 \u2013 Rulebook\n6 \u2013 Lame Cards\n6 - Cheat sheet cards\n1 - Last Breath card\n1 \u2013 Player Indicator\n\n-description from publisher\n\n"
+          ],
+          "publishers": [
+            "25th Century Games"
+          ],
+          "categories": [
+            "Humor",
+            "Mature / Adult",
+            "Party Game"
+          ],
+          "mechanics": [
+            "Acting",
+            "Chaining",
+            "Pattern Building"
+          ],
+          "families": [
+            "Digital Implementations: TableTop Simulator Mod (TTS)"
+          ],
+          "score": 5.834313
+        },
+        {
+          "id": "336847",
+          "name": [
+            "Tyrants of the Underdark: Board Game"
+          ],
+          "description": [
+            "Tyrants of the Underdark is a territory control game with a deck-building element.\n\nEach player leads a house of Drow in a section of the Underdark below the Sword Coast. The Drow house is represented by a deck of cards, with each card being a minion in that player's deck. Each minion belongs to one of five aspects of Drow society, and those aspects correspond to different strategies in the game, e.g., malice minions excel at assassinating opponents' troops, while ambition minions are best at recruiting additional minions and promoting minions to your \"inner circle\", which is a special zone that increases their value at the end of the game.\n\nWhen you set up the game, you create an 80-card deck by shuffling two 40-card half-decks together, with the half-decks being Drow, Dragons, Demons, and Elementals.\n\nA central marketplace has new minions that can be recruited through influence, one of two resources in the game; purchased cards are placed in your discard pile, then shuffled together with other cards in your deck when needed. The other resource is power, which allows you to place troops on the game board, expand your forces across the map of the Underdark, manipulate happenings in the city, and assassinate enemy troops.\n\nPlayers gain points by controlling sites, recruiting valuable minions, promoting minions to your inner circle, and assassinating troops, and whoever ends the game with the most points wins.\n\nNOTE: This 2021 printing includes the Aberrations & Undead expansion.\n\n"
+          ],
+          "publishers": [
+            "Gale Force Nine",
+            "LLC",
+            "Across the Board",
+            "Hasbro",
+            "Lavka Games",
+            "Wizards of the Coast"
+          ],
+          "categories": [
+            "Fantasy",
+            "Fighting"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "Deck",
+            "Bag",
+            "and Pool Building"
+          ],
+          "families": [
+            "Game: Tyrants of the Underdark",
+            "Setting: Dungeons & Dragons",
+            "Versions & Editions: Big Box Versions of Individual Games"
+          ],
+          "score": 5.7840195
+        },
+        {
+          "id": "199561",
+          "name": [
+            "Sagrada"
+          ],
+          "description": [
+            "Draft dice and use the tools-of-the-trade in Sagrada to carefully construct your stained glass window masterpiece.\n\nIn more detail, each player builds a stained glass window by building up a grid of dice on their player board. Each board has some restrictions on which color or shade (value) of die can be placed there. Dice of the same shade or color may never be placed next to each other. Dice are drafted in player order, with the start player rotating each round, snaking back around after the last player drafts two dice. Scoring is variable per game based on achieving various patterns and varieties of placement...as well as bonus points for dark shades of a particular hidden goal color.\n\nSpecial tools can be used to help you break the rules by spending skill tokens; once a tool is used, it then requires more skill tokens for the other players to use them.\n\nThe highest scoring window artisan wins!\n\n"
+          ],
+          "publishers": [
+            "Floodgate Games",
+            "Cranio Creations",
+            "CrowD Games",
+            "Devir",
+            "Engames",
+            "FoxGames",
+            "Gal\u00e1pagos Jogos",
+            "Geekach LLC",
+            "Lanlalen",
+            "Lex Games",
+            "Mandoo Games",
+            "Matagot",
+            "MEBO Games",
+            "MINDOK",
+            "MIPL",
+            "One Moment Games",
+            "Pegasus Spiele",
+            "Reflexshop",
+            "Yes Papa Games"
+          ],
+          "categories": [
+            "Dice",
+            "Puzzle"
+          ],
+          "mechanics": [
+            "Contracts",
+            "Dice Rolling",
+            "End Game Bonuses",
+            "Grid Coverage",
+            "Open Drafting",
+            "Pattern Building",
+            "Set Collection",
+            "Solo / Solitaire Game",
+            "Turn Order: Progressive",
+            "Variable Set-up"
+          ],
+          "families": [
+            "Category: Dized Tutorial",
+            "Cities: Barcelona (Spain)",
+            "Components: Dice as Playing Units",
+            "Crowdfunding: Kickstarter",
+            "Digital Implementations: Apple App Store",
+            "Digital Implementations: Dire Wolf Game Room",
+            "Digital Implementations: Google Play",
+            "Digital Implementations: Steam",
+            "Game: Sagrada",
+            "Mechanism: Dice Drafting",
+            "Misc: Watch It Played How To Videos",
+            "Organizations: The Game Artisans of Canada",
+            "Players: Games with Solitaire Rules",
+            "Theme: Art",
+            "Theme: Art style \u2013 Art Nouveau",
+            "Theme: Stained Glass"
+          ],
+          "score": 5.7776856
+        },
+        {
+          "id": "254888",
+          "name": [
+            "High Rise"
+          ],
+          "description": [
+            "High Rise is a strategic city-building game with a bit of corruption. You can get bonuses on your actions by gaining Corruption, but the game will periodically penalize the most corrupt players, and everyone loses VP for Corruption at the end of the game.\n\nYou'll perform all your actions \u2014 like collecting resources, constructing buildings, and repaying favors \u2014 on a one-way track. Like other one-way track games, you can go as far as you'd like, but you'll only get another turn when everyone else passes you. You gain 1 VP per floor for each building you construct. Tenants offer powerful actions that change each game. You can collect a tenant power by landing on its space or constructing a building on its card.\n\nThe round ends after everyone makes a lap around the one-way track. Players score bonus points for tallest buildings in each neighborhood and the game. You'll play 2 rounds in the Standard Game (about 90-120 minutes for 3-4 players) and 3 rounds (about 2.5 hours) in the Full game. After the appropriate number of rounds, players lose points for Corruption, and the player with most VP wins.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "Formal Ferret Games"
+          ],
+          "categories": [
+            "City Building"
+          ],
+          "mechanics": [
+            "Area Majority / Influence",
+            "End Game Bonuses",
+            "Solo / Solitaire Game",
+            "Turn Order: Time Track"
+          ],
+          "families": [
+            "Components: Map (City Scale)",
             "Crowdfunding: Kickstarter",
             "Digital Implementations: Tabletopia",
-            "Players: Two-Player Only Games"
+            "Players: Games with Solitaire Rules",
+            "Theme: Construction"
           ],
-          "score": 4.435279
+          "score": 5.6832137
         },
         {
-          "id": "357071",
+          "id": "348947",
           "name": [
-            "GOLDblivion"
+            "Robot Rising"
           ],
           "description": [
-            "Build a colony and conquer territories in a medieval-fantasy gold rush! With a gameplay centered around double-deck-building, be the first to get 10 gold ingots to be crowned King/Queen of GOLDblivion!\n\nIn GOLDblivion, you have two decks of cards to manage: one for combat and one for development. Every turn starts by removing a card from your hand. This card is placed under a chosen section of your player board and will give a precious resource all game long! This process will also naturally clean your deck from bad cards.\n\nCombat is made by conquering territories represented by hexagonal tiles. The number of free spaces around a tile is the number of cards you draw from your combat deck to defeat the enemy under this territory. They get increasingly stronger and are more rewarding too!\n\nBased on the ever-changing cards in the market, develop a long-term strategy and find the best combinations between Elf, Dwarf, Human and Building cards to maximize your gold and be crowned King/Queen of GOLDblivion!\n\n"
-          ],
-          "publishers": [
-            "Goblivion Games"
-          ],
-          "categories": [
-            "Economic",
-            "Fantasy"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Income",
-            "Solo / Solitaire Game",
-            "Tags",
-            "Turn Order: Progressive"
-          ],
-          "families": [
-            "Creatures: Dragons",
-            "Digital Implementations: Board Game Arena"
-          ],
-          "score": 4.3877873
-        },
-        {
-          "id": "298831",
-          "name": [
-            "Battle Babies"
-          ],
-          "description": [
-            "Battle Babies is a comically themed deck-building card game for 2-4 players.\n\nIn this baby packed strategy game, you use ration cards to recruit and expand your infantry army. Craft the perfect baby army and lead them to victory.\n\nThroughout the game, each player will be expanding their army by recruiting cute (and sometimes less than cute) babies and pitting them against the opposing armies for ultimate baby power.\n\n\u2014description from the pbulsiher\n\n"
-          ],
-          "publishers": [
-            "Stuffed Horse Games"
-          ],
-          "categories": [
-            "Card Game",
-            "Fighting",
-            "Humor"
-          ],
-          "mechanics": [
-            "Deck",
-            "Bag",
-            "and Pool Building",
-            "Hand Management",
-            "Player Elimination"
-          ],
-          "score": 4.3839445
-        },
-        {
-          "id": "419481",
-          "name": [
-            "Inroads"
-          ],
-          "description": [
-            "An easy to play, competitive road building table top card game suitable for families and fun for everyone.\n\nEach player tries to build a road from one end of the playing area to the other. The deck is made up of a variety of road cards that must connect, and action cards which have different effects.\n\nThe game is combination of chance and strategy and suitable for all ages.\n\n\u2014description from the designer\n\n"
+            "The AI takeover is upon us. It's as bad as we feared.\n\nRobot Rising is a solo deck-building game where you must program the bots (cards) in your hand to quell the AI takeover. Each turn, new bots may join the uprising, making it more difficult to regain control. Use Config Settings to maintain your bot population, keep your Code clean to avoid compromising CPUs, and Install USBs with data patches to regain control of mutinous bots. Can you find a way to keep the robots from rising to power? Humankind depends on it...\n\nYour objective is to regain control of all the bot cards in the Uprising deck to quell the rebellion before the bots compromise ten CPU chips and take control of the world.\n\nEach bot card in Robot Rising has a helpful ability when you control the bot, and a separately harmful effect when the bot instead joins the uprising.  The game is played in rounds until you've either defeated all bots in the uprising or the bots have hacked all your CPU control.\n\nEach round, you start by rolling a die - the Bot Roll - any card in the population with a matching value will join the uprising, and is another bot you will have to regain control of in order to win.  Next, the active bots in the uprising take actions based on the bottom of the card. After the uprising bots have finished their turn, you may use the bots in your control to fight back.  You can Code lines (improve your health), Install patches in uprising bots (each bot requires a certain amount of USBs before falling), gain Configuration Settings (the game's currency), and lots more!  At the conclusion of each turn, you may acquire bots from the population if you have adequate Config to do so.\n\nRobot Rising was designed for the 2021 54-Card Game Design Contest on BGG\n\n"
           ],
           "publishers": [
             "(Self-Published)"
           ],
           "categories": [
             "Card Game",
-            "Children's Game",
-            "Transportation"
+            "Dice",
+            "Print & Play",
+            "Science Fiction"
+          ],
+          "mechanics": [
+            "Deck Construction",
+            "Dice Rolling",
+            "Push Your Luck",
+            "Solo / Solitaire Game"
+          ],
+          "families": [
+            "Contests: 54-Card Game Design",
+            "Players: Solitaire Only Games",
+            "Theme: Robots"
+          ],
+          "score": 5.6008563
+        },
+        {
+          "id": "408596",
+          "name": [
+            "Salad Master: Smoothie"
+          ],
+          "description": [
+            "Salad Master Smoothie is a board game that allows modern individuals facing a vegetable deficiency to easily consume vegetables. Building on the previous game, \"Sarada Master,\" it includes carefully selected vegetables.\n\nThe rules involve deducing and pointing to vegetables with the correct quantity according to a given theme. However, some vegetables are only visible by name, requiring a bit of attention.\n\nThe nutritional content of the vegetables on the cards is based on the Ministry of Education, Culture, Sports, Science, and Technology's Japanese Food Standard Composition Table 2020 (8th edition).\n\n"
+          ],
+          "publishers": [
+            "WAZAgames"
+          ],
+          "categories": [
+            "Card Game",
+            "Educational"
+          ],
+          "families": [
+            "Theme: Food / Cooking"
+          ],
+          "score": 5.552507
+        },
+        {
+          "id": "336112",
+          "name": [
+            "BreakFast & Furious"
+          ],
+          "description": [
+            "The Hungry Trucker Cafe is under new management and you\u2019ve being hired as its chef. The new menu features all the greasy spoon favourites, as well as a few healthier dishes in an attempt to attract the more discerning clientele.\n\nYou'll need to make regular visits to the local market to ensure that your fridge is well stocked with the best ingredients. And Get all the food orders out on time, otherwise you\u2019ll be faced with very hungry, even furious, customers!\n\nThe game uses different coloured dice to represent different ingredients. The value of a die will indicate how fresh the ingredient is and this reduces each turn.\n\nChoose ingredients from a pool of dice (the market) to add to your fridge (a bag). Randomly draw ingredients and place them onto the cards to complete orders, avoid penalties and gain rewards. A completed order also gives you a single use special action.\n\nCan you complete enough orders to be awarded \"Employee of the Month?\".\n\nAn entry in the 2021 9-Card Nanogame Print and Play Design Contest\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "(Web published)",
+            "Banana Games"
+          ],
+          "categories": [
+            "Dice",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Deck",
+            "Bag",
+            "and Pool Building",
+            "Dice Rolling",
+            "Solo / Solitaire Game"
+          ],
+          "families": [
+            "Players: Games with Solitaire Rules",
+            "Players: Solitaire Only Games",
+            "Theme: Food / Cooking"
+          ],
+          "score": 5.533255
+        },
+        {
+          "id": "214132",
+          "name": [
+            "Cloud Control"
+          ],
+          "description": [
+            "Cloud Control is a fun and fast paced game of creative imagination where you try to score the most points by shaping clouds into recognizable objects before time runs out.\n\nLet your imagination run free as you turn, twist, overlap and animate cloud cards in unlimited creative ways of communication.\n\nThe sky is your canvas!\n\nThe game is simple to play and fun for all ages. On your turn:\n1) Draw a word card and flip the timer\n2) Use cloud cards to craft shapes for the words on your card\n3) Other players try to guess the word and if they do, both of you earn points!\n\nComponents:\n300 Shape Cards\n64 Cloud Cards\n50 Point Tokens\n1 90 Second Timer\n1 Card Holder\nRulebook\n\n"
+          ],
+          "publishers": [
+            "25th Century Games"
+          ],
+          "categories": [
+            "Party Game"
+          ],
+          "mechanics": [
+            "Pattern Building",
+            "Pattern Recognition"
+          ],
+          "families": [
+            "Digital Implementations: TableTop Simulator Mod (TTS)"
+          ],
+          "score": 5.522514
+        },
+        {
+          "id": "439438",
+          "name": [
+            "Energetic 2.0"
+          ],
+          "description": [
+            "Energetic 2.0 is a new edition of Energetic, the 4-6 player cooperative board game about the future of New York City that's now used at 27 universities around the world.\n\nYou play from 2021 to 2035, a turn each year. Your team must work together to balance your budget, your grid stability, and your public opinion to keep the lights on, win elections, overcome climate impacts, and build 16 gigawatts of clean power for the city. Then you will have replaced all fossil fuels, provided there is a matching reduction in demand from behavior change and efficiency.\n\nOur objective is to give players a quick grounding in what solving climate change actually means, in a physical and social sense, based on demand of energy and the types of renewable or carbon neutral generation that can supply 8 million New Yorkers.\n\nWe hope playing this game can make your role in the coming decade more effective, better informed, and more powerful, and that by providing a tangible vision of what part of the solution looks like, society can begin the necessary step of reorienting itself towards this larger goal. It's a lot of fun, too!\n\nEnergetic 2.0 is factory-produced and beautifully made, with a very large folding board and additional cards for Wildfire Smoke and Extreme Precipitation in the Event decks. Sets come with a 52 page guide to the cards and information in the game, as well as a map board, three card decks, 142 infrastructure pieces, and more.\n\nDuring development, Energetic 1.0 was tested and enjoyed by people ages 11 to 60, including middle school students, MIT energy PhDs, former commodity traders, and leaders at environmental NGOs. The game is in use at organizations including Yale University; Carnegie Mellon University; Nature Energy; NYSERDA; Con Edison; Federal Energy Regulatory Commission (FERC); and the British Government's Department for Business, Energy, and Industrial Strategy.\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "City Atlas"
+          ],
+          "categories": [
+            "City Building",
+            "Educational",
+            "Environmental"
+          ],
+          "mechanics": [
+            "Action / Event",
+            "Cooperative Game"
+          ],
+          "score": 5.410805
+        },
+        {
+          "id": "166854",
+          "name": [
+            "Dark Domains"
+          ],
+          "description": [
+            "In Dark Domains each player takes on the role of a city leader attempting to expand the frontier of Harrows into the hinterland. Unbeknownst to the powers in Harrows some of those leaders, namely the players, are secretly evil to the core and in the thrall of the Necromancer. Once away from the bustling city and the oversight of the courts, these overlords create domains that outwardly appear to be beacons of light and hope. Eventually however, their true colors will come through and those upstanding pillars of the community will retreat to their lairs as the masquerade ends and their lands begin to decay into wastelands overrun by foul monsters and nefarious henchmen.\n\nBut all is not peaches and cream in the lands of darkness. Harrows is home to the famous Torin Company and its never-ending supply of heroes and adventurers. Once the word reaches Harrows that darkness is afoot in the Domains, it is only a matter of time before these nosy adventurers begin to seek out the dens of horror to stop the evil.\n\nDark Domains is a worker placement game where 2-5 players attempt to create a Domain that provides them the most evil, depicted in the game by skulls. Players must use Minions, Henchmen, Monsters & Magic to stamp out the good, repel the Torin Company and cover their land in darkness.\n\nTarot cards are used in the game as events to live up each turn and to regulate the phases of the game.\n\n"
+          ],
+          "publishers": [
+            "Laboratory H",
+            "Mr. B Games"
+          ],
+          "categories": [
+            "Card Game",
+            "City Building",
+            "Fantasy",
+            "Fighting"
+          ],
+          "mechanics": [
+            "Dice Rolling",
+            "Worker Placement"
+          ],
+          "families": [
+            "Crowdfunding: Kickstarter",
+            "Digital Implementations: Tabletopia",
+            "Theme: Villainy"
+          ],
+          "score": 5.328758
+        },
+        {
+          "id": "322705",
+          "name": [
+            "H\u00f3rreos"
+          ],
+          "description": [
+            "It is the 18th century in Galicia, Spain. Elaborate raised granaries known as h\u00f3rreos are garnering acclaim for their agricultural importance and aesthetic beauty. Now the neighboring towns of Carnota and Lira are engaged in a competition to create the best h\u00f3rreo. Can you build the longest, most ornate structure that keeps the mice out?\n\nA game of building and rivalries. In the game you represent the neighboring villages of Lira and Carnota facing against each other to build the best h\u00f3rreo.\n\nYou will use simultaneous selection of actions to try to get the best plans to build your h\u00f3rreo, stealing them from your opponent, building them or sabotaging your enemy's actions, always keeping in mind that some actions go first than others and your plans might end up being disrupted.\n\nGet the most points by by cleverly building your h\u00f3rreo from different parts, trying to have the most ornate one, the longest and to prevent mice.\n\n\nWinner of Button Shy's 18 Card Challenge: Design a game about a real life location.\n\nReleased in the January 2021 Board Game of the Month Club $20+ package.\n\n"
+          ],
+          "publishers": [
+            "Button Shy"
+          ],
+          "categories": [
+            "Card Game",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Simultaneous Action Selection",
+            "Take That"
+          ],
+          "families": [
+            "Containers: Wallets",
+            "Contests: Button Shy Game Design Contests and Challenges",
+            "Country: Spain",
+            "Mechanism: Partially overlapping cards",
+            "Players: Two-Player Only Games",
+            "Series: Wallet Games (Button Shy)"
+          ],
+          "score": 5.309406
+        },
+        {
+          "id": "274512",
+          "name": [
+            "Hindsight"
+          ],
+          "description": [
+            "Hindsight: 2020 is a real-time cooperative dice-drafting puzzle game for 1 to 4 players. On your turn, you will select two dice of the same color from a grid of 36--the first, the ACTION DIE, determines your main action by its position and your bonus action by its value; the second die, the POWER DIE, determines the strength of first action. You will use the actions to manipulate the puzzle tiles, to alter the dice in the grid (for future turns), and to manage the timer. The adjustable difficulty level will keep you on your toes for play after play as your team gets better at solving the puzzle quickly. Thinky and frantic, saving the world has never been so fun.\n\nTheme:\nThe apocalypse is upon us! If only we\u2019d seen it coming. Luckily for the rest of humanity, you\u2019ve just finished the prototype for your new time-intervention device. Alas, it\u2019s a little unstable and unreliable--it is a prototype, after all. You\u2019ve figured out what intervention is needed to stop the apocalypse, but it takes some tinkering to get the machine aligned so your operatives can make those changes. You have just a couple minutes to find the right configuration of your machine to send back our intervention agents and save the world. Can you finish before the apocalypse arrives? Time to find out.\n\nSaving the world, as fast as you can. The game has two play areas, a 6 by 6 dice grid, and a tile tableau. The dice grid has twelve actions you may take, one for each row and one for each column. At the top of the tile area are six \u201ckeystone\u201d tiles numbered 1-6, representing the code you need to match. In an array of 36 tiles below the keystone line are columns of similar tiles.\n\nWhen you select your Action die, you place it at the end of either the row or the column, indicating which action you intend to take. Then you select your Power die, another die of the same color, and place it on the Power die space outside the grid. The action you selected is augmented by the Power die, and allows you to manipulate the tile tableau or the dice grid. After you take your main action, you get a secondary action determined by the value of the action die you took. These secondary actions allow you to flip the sand timer and add more dice to the grid, among other things.\n\nTo solve the puzzle, you need to manipulate the tiles so that the top of each column matches the keystone number above it. When the number matches, you can \u201clock\u201d that combination in place, triggering the bonus (or penalty) card attached to that column. You win if you are able to lock all six columns before you run out of dice or timer flips. Of course, if you ever let the timer run out, you also lose.\n\nThis is how the world ends:\nAccompanying Hindsight: 2020 is a thematic website that uses your six-digit keystone code to reveal what happened to cause the apocalypse, and how your team did or did not succeed in preventing the end of the world.\n\n-description from designer\n\n"
+          ],
+          "publishers": [
+            "XYZ Game Labs",
+            "Inc"
+          ],
+          "categories": [
+            "Dice",
+            "Puzzle",
+            "Real-time"
+          ],
+          "mechanics": [
+            "Cooperative Game",
+            "Pattern Building"
           ],
           "families": [
             "Admin: Upcoming Releases",
             "Crowdfunding: Kickstarter"
           ],
-          "score": 4.3839445
+          "score": 5.2256236
+        },
+        {
+          "id": "329088",
+          "name": [
+            "Magician's Market"
+          ],
+          "description": [
+            "Created for the 2020 Children's Game Print and Play Design Contest, winner of the Best Educational Game category.\n\nMagician's Market is a Print and Play educational game for children and families that teaches colors and color mixing in a fun and exciting way.\n\nYou are magicians, trying to make potions to sell at the market. There are limited ingredients available. Rolling two colored dice determines what options you have available to draft each round. You can split or combine colors to make new ingredients, or buy a new recipe card to try making a different potion. The game ends when one player completes a certain number of potion cards (dependent on player count). The player with the highest combined potion values is the winner.\n\n-description from designer\n\n"
+          ],
+          "publishers": [
+            "(Web published)"
+          ],
+          "categories": [
+            "Card Game",
+            "Children's Game",
+            "Educational",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Pattern Building"
+          ],
+          "score": 5.1899385
+        },
+        {
+          "id": "336109",
+          "name": [
+            "Buds and Blooms"
+          ],
+          "description": [
+            "Rival gardeners compete to see who can grow the best flowers for the annual flower show.\nWill your sunflowers be spectacular or simply second-rate?\nWill your marigolds be magnificent or merely mediocre?\nWhoever grows the tallest and most attractive flowers will be awarded Best in Show!\n\nPlayers play cards to their flower beds to increase the height of their flowers and attract bees and butterflies. The taller the flower, and the more attractive it is to insects, the more points it will be awarded. The gardener whose flowers score the highest at the end of the game wins.\n\nAn entry in the 2021 54-Card Game Design Contest\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "(Self-Published)",
+            "(Web published)",
+            "Banana Games",
+            "Tuck Games"
+          ],
+          "categories": [
+            "Card Game",
+            "Print & Play"
+          ],
+          "mechanics": [
+            "Matching",
+            "Pattern Building",
+            "Solo / Solitaire Game"
+          ],
+          "families": [
+            "Animals: Bees",
+            "Animals: Butterflies",
+            "Category: Print-on-Demand",
+            "Players: Games with Solitaire Rules",
+            "Theme: Flowers",
+            "Theme: Gardening",
+            "Theme: Nature"
+          ],
+          "score": 5.1039248
+        },
+        {
+          "id": "321325",
+          "name": [
+            "The Powers That Be"
+          ],
+          "description": [
+            "The time is now for dark secrets to come to light. The world is in chaos and only an elite few know the truth behind the scenes. There is an invisible and powerful force working in the shadows, manipulating the masses to control our world.\n\nPlaying as a global elite ruler in 2020, in this hybrid, deck-building / worker placement game, you must first build your cabal by acquiring assets. Then, use your best strategy to attack your enemies and successfully stage events on the global scale. Your goal is to stay invisible, while gaining power over the masses using your best strategy and card based, dice battles.\n\nThe winner is the first player to enter the \"eye in the triangle\" with 13 power points, where you rule the world and no one knows you exist.\n\nThe board works like a clock from above, with three dice rolled simultaneously to move the 3 main Board Pieces. The lower level of the board contains the assets, the middle level holds the special cards and the top, zodiac level is for pyramid activation, betting and scoring.\n Do you have what it takes to reach the top\nof the pyramid and become, The Powers That Be?\n\n\u2014description from the designer\n\n"
+          ],
+          "publishers": [
+            "ENLTN"
+          ],
+          "categories": [
+            "Economic",
+            "Educational",
+            "Modern Warfare",
+            "Political",
+            "Wargame"
+          ],
+          "mechanics": [
+            "Action / Event",
+            "Action Points",
+            "Betting and Bluffing",
+            "Connections",
+            "Dice Rolling",
+            "Moving Multiple Units",
+            "Open Drafting",
+            "Roll / Spin and Move",
+            "Turn Order: Role Order",
+            "Worker Placement with Dice Workers"
+          ],
+          "families": [
+            "Admin: Upcoming Releases",
+            "Crowdfunding: Kickstarter"
+          ],
+          "score": 5.0240173
+        },
+        {
+          "id": "305383",
+          "name": [
+            "Energetic"
+          ],
+          "description": [
+            "Energetic is a 4-6 player cooperative board game about the future of New York City. It comes with a map board, three card decks, 142 infrastructure pieces, and more. You play from 2021 to 2035, a turn each year. Your team must work together to balance your budget, your grid stability, and your public opinion to keep the lights on, win elections, overcome climate impacts, and build 16 gigawatts of clean power for the city. Then you will have replaced all fossil fuels, provided there is a matching reduction in demand from behavior change and efficiency.\n\nOur objective is to give players a quick grounding in what solving climate change actually means, in a physical and social sense, based on demand of energy and the types of renewable or carbon neutral generation that can supply 8 million New Yorkers.\n\nAs you play, one thing you'll realize is that this problem is big, and our response must be too. This means, among other things, that it will be visible. Playing a single Solar piece represents building a piece of infrastructure nearly half the size of Manhattan. Playing a single Wind piece represents the construction of 167 metal structures, each nearly as tall as the Eiffel Tower, miles off the Long Island coast.\n\nWe hope playing this game can make your role in the coming decade more effective, better informed, and more powerful, and that by providing a tangible vision of what part of the solution looks like, society can begin the necessary step of reorienting itself towards this larger goal. It's a lot of fun, too!\n\nDuring development, Energetic was tested and enjoyed by people ages 11 to 60, including middle school students, MIT energy PhDs, former commodity traders, and leaders at environmental NGOs. The game is in use at organizations including Yale University; Carnegie Mellon University; Nature Energy; NYSERDA; Con Edison; Federal Energy Regulatory Commission (FERC); and the British Government's Department for Business, Energy, and Industrial Strategy.\n\n\u2014description from the publisher\n\n"
+          ],
+          "publishers": [
+            "City Atlas"
+          ],
+          "categories": [
+            "Economic",
+            "Educational",
+            "Environmental",
+            "Industry / Manufacturing"
+          ],
+          "mechanics": [
+            "Cooperative Game"
+          ],
+          "families": [
+            "Digital Implementations: TableTop Simulator Mod (TTS)",
+            "Theme: Climate Change"
+          ],
+          "score": 4.999877
+        },
+        {
+          "id": "314745",
+          "name": [
+            "Now or Never"
+          ],
+          "description": [
+            "Far to the south of The Last Ruin lies a cliffside village called The Monument. For generations, it protected an ancient shrine until the day a crystal meteorite descended. The meteor's denizens slowly crept out into the world\u2014bizarre monstrosities from nightmare, attacking all in their path. As they spread across the land, there was no intelligent malice nor grand invasion strategy; the creatures acted like a fungus\u2014spreading into new territory sporadically. After many fruitless attempts to expel the monsters, the people of The Monument fled as their village crumbled, exiled to distant lands, resigned to a nomadic existence.\n\nTwenty years later, there are rumors that the bizarre monsters are growing weak. They\u2019re slower, less impervious to attack, some undergoing a gradual petrification until they crumble to dust. Is it the atmosphere? Are they dying of old age? Do they suffer from a strange disease? No one is certain, but as the news spreads, various factions set their eyes on the vacant, ruined village of The Monument. The original villagers, now refugees, are desperate to return and rebuild. But they must do it quickly, before someone else claims their home. This is their chance. It\u2019s now or never.\n\nIn Now or Never, you and up to three friends compete to best rebuild your ancestral village and guide the rest of the villagers on their journey home. Although the creatures of the meteorite have lost much of their strength, many of them remain, and you must fight them off to protect traveling villagers. Now or Never is the third game in the Arzium storybook series that includes Above and Below and Near and Far.\n\nNow or Never is a competitive strategy game that allows you to:\n\n\n     Choose one of four asymmetrical characters to play.\n     Rebuild the village so that returning villagers have a place to live. You must carefully choose what and where to build to maintain an advantage, earning the biggest rewards for long-term planning.\n     Interact with other players by hiring their specialists to perform special actions.\n     Combat dangerous creatures to rescue villagers.\n     Explore a fantasy landscape filled with bizarre places, technology, and peoples.\n\n\nNow or Never includes two modes of play: standard and story. When playing in story mode, you read from a storybook when you explore, making choices and learning more about the characters and the world. Each character has their own set of stories, unique to the locations they explore and diverse in plot, perspective, and motive, allowing you to choose what direction your own story will take.\n\nJourney to The Monument and help rebuild your ancient home!\n\n-description from publisher\n\n"
+          ],
+          "publishers": [
+            "Red Raven Games",
+            "Devir",
+            "DV Games",
+            "Keep Exploring Games",
+            "Lucky Duck Games",
+            "Schwerkraft-Verlag"
+          ],
+          "categories": [
+            "City Building",
+            "Exploration",
+            "Fantasy",
+            "Science Fiction"
+          ],
+          "mechanics": [
+            "Action Drafting",
+            "Hand Management",
+            "Narrative Choice / Paragraph",
+            "Solo / Solitaire Game",
+            "Tile Placement",
+            "Variable Player Powers"
+          ],
+          "families": [
+            "Digital Implementations: Tabletopia",
+            "Mechanism: Tableau Building",
+            "Misc: Forteller Audio Narration",
+            "Misc: LongPack Games",
+            "Setting: World of Arzium"
+          ],
+          "score": 4.9524016
+        },
+        {
+          "id": "287898",
+          "name": [
+            "\u4ef2\u6728\u6238\u21d4\u65b0\u9017\u5b50\u3078\u306e\u65c5 (Nakakido Shinzushi heno Tabi)"
+          ],
+          "description": [
+            "\u00e4\u00bb\u00b2\u00e6\u0153\u00a8\u00e6\u02c6\u00b8\u21d4\u00e6\u2013\u00b0\u00e9\u20ac\u2014\u00e5\u00ad\u0090\u00e3\u0081\u00b8\u00e3\u0081\u00ae\u00e6\u2014\u2026 (Nakakido Shinzushi heno Tabi) is a Japanese train game, designed quickly to celebrate the 3rd anniversary of Gamifi (a group that helps promote JPgames).\n\nThe designer wanted to capture the names of two railway stations, Nakakido and Shinzushi, on the private Keikyu line, before they are renamed in March 2020.\n\nIn the game, players try and build their own train journeys using the different decks of cards and dice to make a route on the Keikyu network. The four types of cards allow the different train speeds (normal, express, limited express, express special).\n\nThe game was made in a simple draw bag, and includes a blank d6 for a special undisclosed function.\nuser summary\n\n"
+          ],
+          "publishers": [
+            "Career30.net (\u30ad\u30e3\u30ea\u30a2\u30b5\u30fc\u30c6\u30a3\u30fc\u30c9\u30c3\u30c8\u30cd\u30c3\u30c8)"
+          ],
+          "categories": [
+            "Card Game",
+            "Dice",
+            "Trains",
+            "Travel"
+          ],
+          "mechanics": [
+            "Network and Route Building"
+          ],
+          "score": 4.8988533
         }
       ]
     }

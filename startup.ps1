@@ -7,8 +7,12 @@ $pwd = (Get-Location).Path -replace '\\', '/'
 $dockerPath = "/$($pwd -replace ':', '')"
 
 # Run Solr container with volume mount
-docker run -p 8983:8983 --name meic_solr -v "${dockerPath}:/data" -d solr:9 solr-precreate board_games
-
+docker run -p 8983:8983 `
+  --name meic_solr `
+  -v "${dockerPath}:/data" `
+  -e "SOLR_OPTS=-Dsolr.max.booleanClauses=2048" `
+  -d solr:9 solr-precreate board_games
+  
 # Wait for container to initialize
 Start-Sleep -Seconds 20
 
