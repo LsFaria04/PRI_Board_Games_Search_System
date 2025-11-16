@@ -1,3 +1,4 @@
+
 {
   "limit": 30,
   "fields": ["id, score, name, description, mechanics, categories, families, minage_str, publishers, yearpublished_str, playingtime_str, minplayers_str"],
@@ -9,3 +10,4 @@
     "q.op": "AND"
   }
 }
+
