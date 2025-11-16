@@ -7,10 +7,15 @@ $pwd = (Get-Location).Path -replace '\\', '/'
 $dockerPath = "/$($pwd -replace ':', '')"
 
 # Run Solr container with volume mount
-docker run -p 8983:8983 --name meic_solr -v "${dockerPath}:/data" -d solr:9 solr-precreate board_games
+# Run Solr container with volume mount and custom clause limit
+docker run -p 8983:8983 --name meic_solr `
+  -v "${dockerPath}:/data" `
+  -e SOLR_OPTS="-Dsolr.max.booleanClauses=2048" `
+  -d solr:9 solr-precreate board_games
+
 
 # Wait for container to initialize
-Start-Sleep -Seconds 20
+Start-Sleep -Seconds 10
 
 # Copy synonym and stopword files into Solr core config
 docker cp synonyms.txt meic_solr:/var/solr/data/board_games/conf

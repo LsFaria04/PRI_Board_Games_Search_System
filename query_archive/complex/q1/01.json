@@ -8,9 +8,7 @@
     "q": "strategy deck building",
     "q.op": "AND",
     "qf": "name^5 alt_names^2 description^4 categories^4 mechanics^4 publishers^4 designers^3 artists^1 families^2 expansions^2 minage_str^3 yearpublished_str^3 playingtime_str^3 minplayers_str^3",
-    "pf": "name^4 description^2 alt_names^2",
-    "pf2": "categories^4 mechanics^4 families^2 description^2",
-    "pf3": "publishers^4 designers^4 artists^4",
+    "pf": "name^4 description^2 alt_names^2 publishers^4 designers^2 artists^2 categories^4 mechanics^4 families^2",
     "bf": "recip(bayesaverage,1,10,10)^3 recip(owned,1,1000,1000)^1 recip(trading,1,1000,1000)^1 recip(wanting,1,1000,1000)^1 recip(wishing,1,1000,1000)^3",
     "ps" : 2
   }
