@@ -31,6 +31,12 @@ To start evaluation process of the queries you need to follow these steps:
 
 - Run ./evaluation.sh to run the evaluation pipeline
 
+- For semantic search, install the following python package (more informaton will be added regarding semantic search):
+    ```shell
+    pip install sentence-transformers
+    ```
+
+
 All queries are stored in the queries folder. To add a new query, simply place a JSON file in this directory and name it using an integer (e.g., 0001.json, 0002.json). This numeric naming determines the execution order when running the evaluation scripts.
 
 The qrels_trec.txt file must be created manually. It contains the relevance judgments for each query, indicating whether a document is relevant (1) or not (0). The easiest way to generate candidates for labeling is to run the evaluation_half script, which executes the first half of the full evaluation pipeline and produces a file with the raw query results. You can then inspect these results to assign relevance labels accordingly.
