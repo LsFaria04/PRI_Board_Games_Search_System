@@ -5,3 +5,7 @@ output/
 *.pyc
 __pycache__/
 semantic_games.json
+
+node_modules/
+frontend/node_modules/
+frontend/dist/
