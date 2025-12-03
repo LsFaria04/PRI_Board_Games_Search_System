@@ -1,0 +1,147 @@
+{
+  "add-field-type":[
+    {
+      "name": "text_boost",
+      "class": "solr.TextField",
+      "analyzer": {
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          {
+            "class": "solr.LowerCaseFilterFactory"
+          },
+          {
+            "class": "solr.PorterStemFilterFactory"
+          },
+          {
+            "class": "solr.SynonymFilterFactory",
+            "synonyms": "synonyms.txt",
+            "ignoreCase": "true",
+            "expand": "true"
+          },
+          {
+            "class" : "solr.StopFilterFactory", 
+            "words" : "stopwords.txt",
+            "ignoreCase" : "true"
+          },
+          {
+            "class": "solr.ASCIIFoldingFilterFactory",
+            "preserveOriginal":true
+          }
+        ]
+      }
+    },
+    {
+      "name": "text_exact_extra_boost",
+      "class": "solr.TextField",
+      "positionIncrementGap": "10",
+      "analyzer": {
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          {
+            "class": "solr.LowerCaseFilterFactory"
+          },
+          {
+            "class": "solr.EnglishMinimalStemFilterFactory"
+          },
+          {
+            "class": "solr.SynonymFilterFactory",
+            "synonyms": "synonyms.txt",
+            "ignoreCase": "true",
+            "expand": "true"
+          },
+          {
+            "class" : "solr.StopFilterFactory", 
+            "words" : "stopwords.txt",
+            "ignoreCase" : "true"
+          },
+          {
+            "class": "solr.ASCIIFoldingFilterFactory",
+            "preserveOriginal":true
+          }
+        ]
+      }
+    },
+    {
+      "name": "text_exact_boost",
+      "class": "solr.TextField",
+      "positionIncrementGap": "10",
+      "analyzer": {
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          {
+            "class": "solr.LowerCaseFilterFactory"
+          },
+          {
+            "class": "solr.EnglishMinimalStemFilterFactory"
+          },
+          {
+            "class": "solr.ASCIIFoldingFilterFactory",
+            "preserveOriginal":true
+          }
+        ]
+      }
+    },
+    {
+        "name": "gameVector",
+        "class": "solr.DenseVectorField",
+        "vectorDimension": 200,
+        "similarityFunction": "cosine",
+        "knnAlgorithm": "hnsw"
+    }
+  ],
+  "add-field": [
+    {"name":"name","type":"text_exact_boost","stored":true,"indexed":true},
+    {"name":"alt_names","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"description","type":"text_boost","stored":true,"indexed":true},
+    {"name":"yearpublished","type":"pint","stored":true,"indexed":true},
+    {"name": "yearpublished_str","type": "string","stored": true,"indexed": true},
+    {"name":"minplayers","type":"pint","stored":true,"indexed":true},
+    {"name":"minplayers_str","type":"string","stored":true,"indexed":true},
+    {"name":"maxplayers","type":"pint","stored":true,"indexed":true},
+    {"name":"playingtime","type":"pint","stored":true,"indexed":true},
+    {"name":"playingtime_str","type":"string","stored":true,"indexed":true},
+    {"name":"minage","type":"pint","stored":true,"indexed":true},
+    {"name":"minage_str","type":"string","stored":true,"indexed":true},
+
+    {"name":"publishers","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"designers","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"artists","type":"text_exact_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"categories","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"mechanics","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"families","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+    {"name":"expansions","type":"text_exact_extra_boost","stored":true,"indexed":true,"multiValued":true},
+
+    {"name":"poll_suggested_numplayers","type":"string","stored":true,"indexed":false,"multiValued":false},
+    {"name":"poll_playerage","type":"string","stored":true,"indexed":false,"multiValued":false},
+    {"name":"poll_language_dependence","type":"string","stored":true,"indexed":false,"multiValued":false},
+
+    {"name":"usersrated","type":"plong","stored":false,"indexed":true},
+    {"name":"average","type":"pfloat","stored":false,"indexed":true},
+    {"name":"bayesaverage","type":"pfloat","stored":true,"indexed":true},
+    {"name":"stddev","type":"pfloat","stored":false,"indexed":true},
+
+    {"name":"owned","type":"plong","stored":true,"indexed":true},
+    {"name":"trading","type":"plong","stored":true,"indexed":true},
+    {"name":"wanting","type":"plong","stored":true,"indexed":true},
+    {"name":"wishing","type":"plong","stored":true,"indexed":true},
+
+    {"name":"numweights","type":"plong","stored":false,"indexed":true},
+    {"name":"averageweight","type":"pfloat","stored":true,"indexed":true},
+
+    {"name": "combined_vector","type": "gameVector","indexed": true,"stored": true, "multiValued":true}
+
+  ],
+  "add-copy-field": 
+  [
+    {"source": "yearpublished","dest": "yearpublished_str"},
+    {"source": "minplayers","dest": "minplayers_str"},
+    {"source": "playingtime","dest": "playingtime_str"},
+    {"source": "minage","dest": "minage_str"}
+  ]
+}

@@ -1,0 +1,34 @@
+# Stop and remove existing container
+docker stop meic_solr
+docker rm meic_solr
+
+# Get current directory in Docker-compatible format
+$pwd = (Get-Location).Path -replace '\\', '/'
+$dockerPath = "/$($pwd -replace ':', '')"
+
+# Run Solr container with volume mount
+# Run Solr container with volume mount and custom clause limit
+docker run -p 8983:8983 --name meic_solr `
+  -v "${dockerPath}:/data" `
+  -e SOLR_OPTS="-Dsolr.max.booleanClauses=2048" `
+  -d solr:9 solr-precreate board_games
+
+
+# Wait for container to initialize
+Start-Sleep -Seconds 10
+
+# Copy synonym and stopword files into Solr core config
+docker cp synonyms.txt meic_solr:/var/solr/data/board_games/conf
+Start-Sleep -Seconds 3
+
+docker cp stopwords.txt meic_solr:/var/solr/data/board_games/conf
+Start-Sleep -Seconds 3
+
+# Load schema
+Invoke-WebRequest -Uri "http://localhost:8983/solr/board_games/schema" `
+    -Method POST `
+    -ContentType "application/json" `
+    -InFile "./schema_semantic.json"
+
+# Post data to Solr
+docker exec -it meic_solr solr post -c board_games /data/final_data.json

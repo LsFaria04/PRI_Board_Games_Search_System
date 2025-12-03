@@ -4,3 +4,4 @@ bgg_*
 output/
 *.pyc
 __pycache__/
+semantic_games.json
