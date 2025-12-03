@@ -13,8 +13,8 @@ def solr_knn_query(endpoint, collection, embedding):
     url = f"{endpoint}/{collection}/select"
 
     data = {
-        "q": f"{{!knn f=vector topK=10}}{embedding}",
-        "fl": "id,title,score",
+        "q": f"{{!knn f=combined_vector topK=10}}{embedding}",
+        "fl": "id,name,score",
         "rows": 10,
         "wt": "json"
     }
@@ -38,7 +38,7 @@ def display_results(results):
 
 def main():
     solr_endpoint = "http://localhost:8983/solr"
-    collection = "semantic_courses"
+    collection = "board_games"
     
     query_text = input("Enter your query: ")
     embedding = text_to_embedding(query_text)

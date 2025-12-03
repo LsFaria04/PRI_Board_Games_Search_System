@@ -90,7 +90,7 @@
     {
         "name": "gameVector",
         "class": "solr.DenseVectorField",
-        "vectorDimension": 200,
+        "vectorDimension": 384,
         "similarityFunction": "cosine",
         "knnAlgorithm": "hnsw"
     }
@@ -134,7 +134,7 @@
     {"name":"numweights","type":"plong","stored":false,"indexed":true},
     {"name":"averageweight","type":"pfloat","stored":true,"indexed":true},
 
-    {"name": "combined_vector","type": "gameVector","indexed": true,"stored": true, "multiValued":true}
+    {"name": "combined_vector","type": "gameVector","indexed": true,"stored": true, "multiValued": false}
 
   ],
   "add-copy-field": 
