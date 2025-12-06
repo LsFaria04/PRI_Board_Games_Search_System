@@ -40,3 +40,21 @@ To start evaluation process of the queries you need to follow these steps:
 All queries are stored in the queries folder. To add a new query, simply place a JSON file in this directory and name it using an integer (e.g., 0001.json, 0002.json). This numeric naming determines the execution order when running the evaluation scripts.
 
 The qrels_trec.txt file must be created manually. It contains the relevance judgments for each query, indicating whether a document is relevant (1) or not (0). The easiest way to generate candidates for labeling is to run the evaluation_half script, which executes the first half of the full evaluation pipeline and produces a file with the raw query results. You can then inspect these results to assign relevance labels accordingly.
+
+## For the semantic_games.zip
+
+After extracting the zip, there might be a mismatch between the encoding of the file and the encoding needed for Solr. To fix this, run these commands in WSL/Ubuntu:
+
+```shell
+# 1. Convert from UTF-16 to UTF-8
+iconv -f UTF-16LE -t UTF-8 semantic_games.json > semantic_games_utf8.json
+mv semantic_games_utf8.json semantic_games.json
+
+# 2. Remove BOM (Byte Order Mark)
+tail -c +4 semantic_games.json > semantic_games_fixed.json && mv semantic_games_fixed.json semantic_games.json
+
+# 3. Rename combined_vectors to combined_vector
+sed -i "s/combined_vectors/combined_vector/g" semantic_games.json
+```
+
+After running these commands, update your `startup_semantic.ps1` to post `semantic_games.json` instead of `final_data.json` in the data indexing step.

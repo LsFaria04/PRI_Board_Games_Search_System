@@ -31,4 +31,4 @@ Invoke-WebRequest -Uri "http://localhost:8983/solr/board_games/schema" `
     -InFile "./schema_semantic.json"
 
 # Post data to Solr
-docker exec -it meic_solr solr post -c board_games /data/final_data.json
+docker exec -it meic_solr solr post -c board_games /data/semantic_games.json
