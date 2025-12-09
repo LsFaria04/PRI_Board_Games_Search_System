@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import GameModal from './components/gameModal'
 
 function App() {
   const [query, setQuery] = useState('')
@@ -8,55 +9,42 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [loadingMore, setLoadingMore] = useState(false)
   const [error, setError] = useState('')
-  const [searchType, setSearchType] = useState('semantic') // 'semantic' or 'keyword'
+  const [searchType, setSearchType] = useState('semantic')
   const [page, setPage] = useState(0)
+  const [selectedGame, setSelectedGame] = useState(null)
 
   const apiCommunication = async (isMore) => {
-    if (searchType === 'semantic') {
-      // Call the semantic search API
-      const response = await fetch('http://localhost:5000/api/search/semantic', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query, page: page })
-      })
-      const data = await response.json();
-      if(isMore){
-        setResults(prev => [...prev, ...data.results]);
-      }
-      else{
-        setResults(data.results || []);
-      }
-      setNumFound(data.numFound || 0);
-    } else {
-      // Call keyword search API
-      const response = await fetch('http://localhost:5000/api/search/keyword', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query, page: page })
-      })
-      const data = await response.json();
+    const endpoint =
+      searchType === 'semantic'
+        ? 'http://localhost:5000/api/search/semantic'
+        : 'http://localhost:5000/api/search/keyword'
 
-      if(isMore){
-        setResults(prev => [...prev, ...data.results]);
-      }
-      else{
-        setResults(data.results || []);
-      }
-      
-      setNumFound(data.numFound || 0);
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query, page })
+    })
+
+    const data = await response.json()
+    if (isMore) {
+      setResults(prev => [...prev, ...data.results])
+    } else {
+      setResults(data.results || [])
     }
+    setNumFound(data.numFound || 0)
   }
 
   const handleSearch = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
     if (!query.trim()) return
 
-    setLoading(true);
-    setError('');
-    setResults([]);
+    setLoading(true)
+    setError('')
+    setResults([])
+    setPage(0) // ✅ Reset page on new search
 
     try {
-      await apiCommunication(false);
+      await apiCommunication(false)
     } catch (err) {
       setError('Failed to fetch results. Make sure the backend API is running.')
       console.error(err)
@@ -65,29 +53,17 @@ function App() {
     }
   }
 
-  const handleLoadMore = async (e) => {
-    e.preventDefault();
-    if (!query.trim()) return
-    setError('');
-    setLoadingMore(true);
-
-    try {
-      await apiCommunication(true);
-    } catch (err) {
-      setError('Failed to fetch results. Make sure the backend API is running.')
-      console.error(err);
-    } finally {
-      setLoadingMore(false);
-    }
-
-  }
-
   useEffect(() => {
-    if (query) {
-      handleLoadMore(new Event("submit"));
+    if (query && page > 0) {
+      setLoadingMore(true)
+      apiCommunication(true)
+        .catch(err => {
+          setError('Failed to fetch results. Make sure the backend API is running.')
+          console.error(err)
+        })
+        .finally(() => setLoadingMore(false))
     }
-  }, [page]);
-
+  }, [page])
 
   return (
     <div className="app">
@@ -137,27 +113,47 @@ function App() {
         {error && <div className="error">{error}</div>}
 
         {results.length > 0 && (
-          <><div className="results">
-            <h2>Results ({numFound})</h2>
-            <div className="results-grid">
-              {results.map((game) => (
-                <div key={game.id} className="result-card">
-                  <h3>{game.name}</h3>
-                  {game.score && <p className="score">Score: {game.score.toFixed(2)}</p>}
-                  {game.description && (
-                    <p className="description">{game.description.substring(0, 150)}...</p>
-                  )}
-                  {game.yearpublished && (
-                    <p className="meta">Published: {game.yearpublished}</p>
-                  )}
-                  {game.average && (
-                    <p className="meta">Rating: {game.average.toFixed(2)}/10</p>
-                  )}
-                </div>
-              ))}
+          <>
+            <div className="results">
+              <h2>Results ({numFound})</h2>
+              <div className="results-grid">
+                {results.map((game) => (
+                  <div
+                    key={game.id}
+                    className="result-card"
+                    onClick={() => setSelectedGame(game)}
+                  >
+                    <h3>{game.name}</h3>
+                    {game.score && <p className="score">Score: {game.score.toFixed(2)}</p>}
+                    {game.description && (
+                      <p className="description">{game.description.substring(0, 150)}...</p>
+                    )}
+                    {game.yearpublished && (
+                      <p className="meta">Published: {game.yearpublished}</p>
+                    )}
+                    {game.average && (
+                      <p className="meta">Rating: {game.average.toFixed(2)}/10</p>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
-          </div><button onClick={() => setPage(page + 1)}> {loadingMore ? 'Loading ...' : 'Load More'} </button></>
+            <button onClick={() => setPage(page + 1)}>
+              {loadingMore ? 'Loading ...' : 'Load More'}
+            </button>
+          </>
         )}
+
+        <GameModal isOpen={!!selectedGame} onClose={() => setSelectedGame(null)}>
+          {selectedGame && (
+            <>
+              <h2>{selectedGame.name}</h2>
+              <p className='description'>{selectedGame.description}</p>
+              <p className='meta'>Published: {selectedGame.yearpublished}</p>
+              <p className='meta'>Rating: {selectedGame.average?.toFixed(2)}/10</p>
+            </>
+          )}
+        </GameModal>
 
         {!loading && query && results.length === 0 && !error && (
           <div className="no-results">No games found. Try a different search.</div>
