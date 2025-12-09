@@ -20,6 +20,12 @@ def semantic_search():
     try:
         data = request.json
         query_text = data.get('query', '')
+        page = data.get("page", "")
+
+        try:
+            page = int(page)
+        except ValueError:
+            page = 0 #page is not a number
         
         if not query_text:
             return jsonify({'error': 'Query is required'}), 400
@@ -29,12 +35,13 @@ def semantic_search():
         
         # Use the solr_knn_query function from query_embeddings.py, maybe need to adjust to get more fields
         fields = "id,name,description,yearpublished,average,score"
-        solr_data = query_embeddings.solr_knn_query(SOLR_ENDPOINT, SOLR_COLLECTION, embedding)
+        solr_data = query_embeddings.solr_knn_query(SOLR_ENDPOINT, SOLR_COLLECTION, embedding, page)
         
         # Extract results
         results = solr_data.get('response', {}).get('docs', [])
+        numFound = solr_data.get('response', {}).get('numFound', "")
         
-        return jsonify({'results': results}), 200
+        return jsonify({'results': results, 'numFound': numFound}), 200
     
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -45,6 +52,14 @@ def keyword_search():
     try:
         data = request.json
         query = data.get('query', '')
+        page = data.get("page", "")
+
+        try:
+            page = int(page)
+        except ValueError:
+            page = 0 #page is not a number
+
+        
         
         if not query:
             return jsonify({'error': 'Query is required'}), 400
@@ -55,18 +70,25 @@ def keyword_search():
         params = {
             'q': query,
             'fl': 'id,name,description,yearpublished,average,score',
-            'rows': 10,
+            'rows': 9,
+            'start': page * 9,
             'wt': 'json',
             'defType': 'edismax',
-            'qf': 'name alt_names description categories mechanics publishers'
+            "q.op": "AND",
+            "qf": "name^5 alt_names^2 description^4 categories^4 mechanics^4 publishers^4 designers^3 artists^1 families^2 expansions^2 minage_str^3 yearpublished_str^3 playingtime_str^3 minplayers_str^3",
+            "pf": "name^4 description^2 alt_names^2 publishers^4 designers^2 artists^2 categories^4 mechanics^4 families^2",
+            "bf": "recip(bayesaverage,1,10,10)^3 recip(owned,1,1000,1000)^1 recip(trading,1,1000,1000)^1 recip(wanting,1,1000,1000)^1 recip(wishing,1,1000,1000)^3",
+            "ps" : 2,
+            "sort": "score desc",
         }
         
         response = requests.post(url, data=params)
         solr_data = response.json()
         
         results = solr_data.get('response', {}).get('docs', [])
+        numFound = solr_data.get('response', {}).get('numFound', "")
         
-        return jsonify({'results': results}), 200
+        return jsonify({'results': results, 'numFound': numFound}), 200
     
     except Exception as e:
         return jsonify({'error': str(e)}), 500

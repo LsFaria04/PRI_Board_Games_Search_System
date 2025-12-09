@@ -9,13 +9,14 @@ def text_to_embedding(text):
     embedding_str = "[" + ",".join(map(str, embedding)) + "]"
     return embedding_str
 
-def solr_knn_query(endpoint, collection, embedding):
+def solr_knn_query(endpoint, collection, embedding, page):
     url = f"{endpoint}/{collection}/select"
 
     data = {
-        "q": f"{{!knn f=combined_vector topK=10}}{embedding}",
+        "q": f"{{!knn f=combined_vector topK=100}}{embedding}",
         "fl": "id,name,score",
-        "rows": 10,
+        "rows":9,
+        "start": page * 9,
         "wt": "json"
     }
     

@@ -1,41 +1,62 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
+  const [numFound, setNumFound] = useState(0)
   const [loading, setLoading] = useState(false)
+  const [loadingMore, setLoadingMore] = useState(false)
   const [error, setError] = useState('')
   const [searchType, setSearchType] = useState('semantic') // 'semantic' or 'keyword'
+  const [page, setPage] = useState(0)
+
+  const apiCommunication = async (isMore) => {
+    if (searchType === 'semantic') {
+      // Call the semantic search API
+      const response = await fetch('http://localhost:5000/api/search/semantic', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query, page: page })
+      })
+      const data = await response.json();
+      if(isMore){
+        setResults(prev => [...prev, ...data.results]);
+      }
+      else{
+        setResults(data.results || []);
+      }
+      setNumFound(data.numFound || 0);
+    } else {
+      // Call keyword search API
+      const response = await fetch('http://localhost:5000/api/search/keyword', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query, page: page })
+      })
+      const data = await response.json();
+
+      if(isMore){
+        setResults(prev => [...prev, ...data.results]);
+      }
+      else{
+        setResults(data.results || []);
+      }
+      
+      setNumFound(data.numFound || 0);
+    }
+  }
 
   const handleSearch = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     if (!query.trim()) return
 
-    setLoading(true)
-    setError('')
-    setResults([])
+    setLoading(true);
+    setError('');
+    setResults([]);
 
     try {
-      if (searchType === 'semantic') {
-        // Call the semantic search API
-        const response = await fetch('http://localhost:5000/api/search/semantic', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query })
-        })
-        const data = await response.json()
-        setResults(data.results || [])
-      } else {
-        // Call keyword search API
-        const response = await fetch('http://localhost:5000/api/search/keyword', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query })
-        })
-        const data = await response.json()
-        setResults(data.results || [])
-      }
+      await apiCommunication(false);
     } catch (err) {
       setError('Failed to fetch results. Make sure the backend API is running.')
       console.error(err)
@@ -43,6 +64,30 @@ function App() {
       setLoading(false)
     }
   }
+
+  const handleLoadMore = async (e) => {
+    e.preventDefault();
+    if (!query.trim()) return
+    setError('');
+    setLoadingMore(true);
+
+    try {
+      await apiCommunication(true);
+    } catch (err) {
+      setError('Failed to fetch results. Make sure the backend API is running.')
+      console.error(err);
+    } finally {
+      setLoadingMore(false);
+    }
+
+  }
+
+  useEffect(() => {
+    if (query) {
+      handleLoadMore(new Event("submit"));
+    }
+  }, [page]);
+
 
   return (
     <div className="app">
@@ -92,8 +137,8 @@ function App() {
         {error && <div className="error">{error}</div>}
 
         {results.length > 0 && (
-          <div className="results">
-            <h2>Results ({results.length})</h2>
+          <><div className="results">
+            <h2>Results ({numFound})</h2>
             <div className="results-grid">
               {results.map((game) => (
                 <div key={game.id} className="result-card">
@@ -111,7 +156,7 @@ function App() {
                 </div>
               ))}
             </div>
-          </div>
+          </div><button onClick={() => setPage(page + 1)}> {loadingMore ? 'Loading ...' : 'Load More'} </button></>
         )}
 
         {!loading && query && results.length === 0 && !error && (
