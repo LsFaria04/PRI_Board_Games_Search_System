@@ -26,6 +26,7 @@ function App() {
     })
 
     const data = await response.json()
+    console.log(data)
     if (isMore) {
       setResults(prev => [...prev, ...data.results])
     } else {
@@ -41,7 +42,7 @@ function App() {
     setLoading(true)
     setError('')
     setResults([])
-    setPage(0) // ✅ Reset page on new search
+    setPage(0) 
 
     try {
       await apiCommunication(false)
@@ -147,11 +148,66 @@ function App() {
         <GameModal isOpen={!!selectedGame} onClose={() => setSelectedGame(null)}>
           {selectedGame && (
             <>
-              <h2>{selectedGame.name}</h2>
-              <p className='description'>{selectedGame.description}</p>
-              <p className='meta'>Published: {selectedGame.yearpublished}</p>
-              <p className='meta'>Rating: {selectedGame.average?.toFixed(2)}/10</p>
-            </>
+              <div className="game-modal-body">
+                {/* Title & Description */}
+                <h2 className="game-title">{selectedGame.name}</h2>
+                <p className="description">{selectedGame.description}</p>
+
+                {/* Core Info */}
+                <section className="game-section">
+                  <h3>Overview</h3>
+                  <ul className="meta-list">
+                    <li><strong>Alternative Names:</strong> {selectedGame.alt_names ? selectedGame.alt_names.join(', ') : ""}</li>
+                    <li><strong>Published:</strong> {selectedGame.yearpublished}</li>
+                    <li><strong>Rating:</strong> {selectedGame.average?.toFixed(2)}/10</li>
+                    <li><strong>Weight:</strong> {selectedGame.averageweight}</li>
+                  </ul>
+                </section>
+
+                {/* Play Info */}
+                <section className="game-section">
+                  <h3>Play Details</h3>
+                  <ul className="meta-list">
+                    <li><strong>Minimum Age:</strong> {selectedGame.minage}</li>
+                    <li><strong>Players:</strong> {selectedGame.minplayers} - {selectedGame.maxplayers}</li>
+                    <li><strong>Playing Time:</strong> {selectedGame.playingtime}</li>
+                  </ul>
+                </section>
+
+                {/* Contributors */}
+                <section className="game-section">
+                  <h3>Creators</h3>
+                  <ul className="meta-list">
+                    <li><strong>Publishers:</strong> {selectedGame.publishers ? selectedGame.publishers.join(', ') : ""}</li>
+                    <li><strong>Designers:</strong> {selectedGame.designers ? selectedGame.designers.join(', ') : ""}</li>
+                    <li><strong>Artists:</strong> {selectedGame.artists ? selectedGame.artists.join(', ') : ""}</li>
+                  </ul>
+                </section>
+
+                {/* Classification */}
+                <section className="game-section">
+                  <h3>Categories & Mechanics</h3>
+                  <ul className="meta-list">
+                    <li><strong>Categories:</strong> {selectedGame.categories ? selectedGame.categories.join(', ') : ""}</li>
+                    <li><strong>Mechanics:</strong> {selectedGame.mechanics ? selectedGame.mechanics.join(', ') : ""}</li>
+                    <li><strong>Families:</strong> {selectedGame.families ? selectedGame.families.join(', ') : ""}</li>
+                    <li><strong>Expansions:</strong> {selectedGame.expansions ? selectedGame.expansions.join(', ') : ""}</li>
+                  </ul>
+                </section>
+
+                {/* Community Info */}
+                <section className="game-section">
+                  <h3>Community</h3>
+                  <ul className="meta-list">
+                    <li><strong>Owned by:</strong> {selectedGame.owned}</li>
+                    <li><strong>Trading:</strong> {selectedGame.trading}</li>
+                    <li><strong>Wanting to Trade:</strong> {selectedGame.wanting}</li>
+                    <li><strong>Wishing to Buy:</strong> {selectedGame.wishing}</li>
+                  </ul>
+                </section>
+              </div>
+              </>
+
           )}
         </GameModal>
 

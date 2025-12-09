@@ -69,7 +69,7 @@ def keyword_search():
         
         params = {
             'q': query,
-            'fl': 'id,name,description,yearpublished,average,score',
+            'fl': 'id,score,name,alt_names,yearpublished,description,minplayers,maxplayers,playingtime,minage,publishers,designers,artists,categories,mechanics,families,expansions,average,owned,trading,wanting,wishing,averageweight',
             'rows': 9,
             'start': page * 9,
             'wt': 'json',
