@@ -14,7 +14,7 @@ def solr_knn_query(endpoint, collection, embedding, page):
 
     data = {
         "q": f"{{!knn f=combined_vector topK=100}}{embedding}",
-        "fl": "id,name,score",
+        "fl": "id,score,name,alt_names,yearpublished,description,minplayers,maxplayers,playingtime,minage,publishers,designers,artists,categories,mechanics,families,expansions,average,owned,trading,wanting,wishing,averageweight",
         "rows":9,
         "start": page * 9,
         "wt": "json"
