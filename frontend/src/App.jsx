@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [loadingMore, setLoadingMore] = useState(false)
   const [error, setError] = useState('')
-  const [searchType, setSearchType] = useState('semantic')
+  const [searchType, setSearchType] = useState('hybrid')
   const [page, setPage] = useState(0)
   const [selectedGame, setSelectedGame] = useState(null)
 
@@ -17,7 +17,7 @@ function App() {
     const endpoint =
       searchType === 'semantic'
         ? 'http://localhost:5000/api/search/semantic'
-        : 'http://localhost:5000/api/search/keyword'
+        : (searchType === "hybrid" ? 'http://localhost:5000/api/search/hybrid' : 'http://localhost:5000/api/search/keyword') 
 
     const response = await fetch(endpoint, {
       method: 'POST',
@@ -90,6 +90,15 @@ function App() {
           </div>
 
           <div className="search-type">
+             <label>
+              <input
+                type="radio"
+                value="hybrid"
+                checked={searchType === 'hybrid'}
+                onChange={(e) => setSearchType(e.target.value)}
+              />
+              Hybrid Search
+            </label>
             <label>
               <input
                 type="radio"

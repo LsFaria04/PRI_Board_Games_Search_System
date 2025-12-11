@@ -15,7 +15,7 @@ SOLR_ENDPOINT = "http://localhost:8983/solr"
 SOLR_COLLECTION = "board_games"
 
 @app.route('/api/search/hybrid', methods=['POST'])
-def semantic_search():
+def hybrid_search():
     """SeCombines semantic with lexical search (keyword search)"""
     try:
         data = request.json
@@ -34,7 +34,6 @@ def semantic_search():
         embedding = query_embeddings.text_to_embedding(query_text)
         
         # Use the solr_knn_query function from query_embeddings.py, maybe need to adjust to get more fields
-        fields = "id,name,description,yearpublished,average,score"
         solr_data = query_embeddings.solr_hybrid_query(SOLR_ENDPOINT, SOLR_COLLECTION, query_text, embedding, page)
         
         print(solr_data)
@@ -67,7 +66,6 @@ def semantic_search():
         embedding = query_embeddings.text_to_embedding(query_text)
         
         # Use the solr_knn_query function from query_embeddings.py, maybe need to adjust to get more fields
-        fields = "id,name,description,yearpublished,average,score"
         solr_data = query_embeddings.solr_knn_query(SOLR_ENDPOINT, SOLR_COLLECTION,  embedding, page)
         
         print(solr_data)
