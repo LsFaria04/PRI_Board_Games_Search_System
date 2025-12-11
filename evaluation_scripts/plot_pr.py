@@ -25,14 +25,14 @@ def main(trec_eval_stdout: str):
 
         # Obtain Average Precision (AP)
         ap_score = float(metrics["map"])
-        p_10 = float(metrics["P_10"])
+        p_30 = float(metrics["P_30"])
 
         # Obtain the Area Under Curve (AUC) estimate
         auc_score = float(metrics["11pt_avg"])
 
         line_kwargs = {
             "drawstyle": "steps-post",
-            "label": f"Q{query_id}: AP={ap_score:.3f}, AUC={auc_score:.3f}, P@10={p_10:.3f}",
+            "label": f"Q{query_id}: AP={ap_score:.3f}, AUC={auc_score:.3f}, P@30={p_30:.3f}",
             "linewidth": 2,
             "markersize": 10,
         }
@@ -54,7 +54,7 @@ def main(trec_eval_stdout: str):
     plt.ylabel("Precision", fontdict=axis_kwargs)
     plt.xlim(-0.005, 1.005)
     plt.ylim(-0.005, 1.005)
-    plt.legend(loc="lower left", prop={"size": 10}, )
+    plt.legend(loc="lower left", prop={"size": 30}, )
     plt.grid(True)
     plt.grid(linestyle='--', linewidth=0.5)
     plt.tight_layout()
