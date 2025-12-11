@@ -14,6 +14,39 @@ CORS(app)
 SOLR_ENDPOINT = "http://localhost:8983/solr"
 SOLR_COLLECTION = "board_games"
 
+@app.route('/api/search/hybrid', methods=['POST'])
+def semantic_search():
+    """SeCombines semantic with lexical search (keyword search)"""
+    try:
+        data = request.json
+        query_text = data.get('query', '')
+        page = data.get("page", "")
+
+        try:
+            page = int(page)
+        except ValueError:
+            page = 0 #page is not a number
+        
+        if not query_text:
+            return jsonify({'error': 'Query is required'}), 400
+        
+        # Use the text_to_embedding function from query_embeddings.py
+        embedding = query_embeddings.text_to_embedding(query_text)
+        
+        # Use the solr_knn_query function from query_embeddings.py, maybe need to adjust to get more fields
+        fields = "id,name,description,yearpublished,average,score"
+        solr_data = query_embeddings.solr_hybrid_query(SOLR_ENDPOINT, SOLR_COLLECTION, query_text, embedding, page)
+        
+        print(solr_data)
+        # Extract results
+        results = solr_data.get('response', {}).get('docs', [])
+        numFound = solr_data.get('response', {}).get('numFound', "")
+        
+        return jsonify({'results': results, 'numFound': numFound}), 200
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/api/search/semantic', methods=['POST'])
 def semantic_search():
     """Semantic search using embeddings from query_embeddings.py"""
@@ -35,8 +68,9 @@ def semantic_search():
         
         # Use the solr_knn_query function from query_embeddings.py, maybe need to adjust to get more fields
         fields = "id,name,description,yearpublished,average,score"
-        solr_data = query_embeddings.solr_knn_query(SOLR_ENDPOINT, SOLR_COLLECTION, embedding, page)
+        solr_data = query_embeddings.solr_knn_query(SOLR_ENDPOINT, SOLR_COLLECTION,  embedding, page)
         
+        print(solr_data)
         # Extract results
         results = solr_data.get('response', {}).get('docs', [])
         numFound = solr_data.get('response', {}).get('numFound', "")
