@@ -1,4 +1,5 @@
 import requests
+import json
 from sentence_transformers import SentenceTransformer
 
 def text_to_embedding(text):
@@ -9,6 +10,7 @@ def text_to_embedding(text):
     embedding_str = "[" + ",".join(map(str, embedding)) + "]"
     return embedding_str
 
+#Used for the frontend
 def solr_knn_query(endpoint, collection, embedding, page):
     url = f"{endpoint}/{collection}/select"
 
@@ -28,6 +30,25 @@ def solr_knn_query(endpoint, collection, embedding, page):
     response.raise_for_status()
     return response.json()
 
+#Used for the evaluation process. Creates a query file using the embeddings
+def solr_knn_query_json(embedding):
+
+    data = {
+        "q": f"{{!knn f=combined_vector topK=100}}{embedding}",
+        "fl": "id,score,name,alt_names,yearpublished,description,minplayers,maxplayers,playingtime,minage,publishers,designers,artists,categories,mechanics,families,expansions,average,owned,trading,wanting,wishing,averageweight",
+        "rows":30,
+        "wt": "json"
+    }
+
+    params = {
+        "params": data
+    }
+
+    with open("queries/1.json", "w") as f:
+        json.dump(params, f, indent=2)
+    
+                      
+
 def display_results(results):
     docs = results.get("response", {}).get("docs", [])
     if not docs:
@@ -38,15 +59,14 @@ def display_results(results):
         print(f"* {doc.get('id')} {doc.get('name')} [score: {doc.get('score'):.2f}]")
 
 def main():
-    solr_endpoint = "http://localhost:8983/solr"
-    collection = "board_games"
+    #solr_endpoint = "http://localhost:8983/solr"
+    #collection = "board_games"
     
     query_text = input("Enter your query: ")
     embedding = text_to_embedding(query_text)
 
     try:
-        results = solr_knn_query(solr_endpoint, collection, embedding)
-        display_results(results)
+        solr_knn_query_json(embedding)
     except requests.HTTPError as e:
         print(f"Error {e.response.status_code}: {e.response.text}")
 
