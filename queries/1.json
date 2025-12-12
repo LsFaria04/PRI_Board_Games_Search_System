@@ -1,6 +1,6 @@
 {
   "params": {
-    "q": "(card AND (cooperative OR deck building) AND (2020 OR 2021))",
+    "q": "Card Games Hasbro",
     "fl": "id,score,name,description,mechanics,categories,families,minage_str,publishers,yearpublished_str,playingtime_str,minplayers_str",
     "rows": 30,
     "wt": "json",
