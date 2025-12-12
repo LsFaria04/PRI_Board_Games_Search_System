@@ -5,7 +5,7 @@
   "params": {
     "defType": "edismax",
     "sort": "score desc",
-    "q": "Hasbro Card",
+    "q": "Card Games Hasbro",
     "qf": "name alt_names description categories mechanics publishers designers artists families expansions minage_str yearpublished_str playingtime_str minplayers_str", 
     "q.op": "AND"
   }
