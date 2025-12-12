@@ -16,4 +16,3 @@ $qrelsLines | Out-File -FilePath qrels_trec.txt -Encoding ASCII
 
 Write-Host "Results saved to output/results.json"
 Write-Host "qrels_trec.txt template created - add 0 or 1 at the end of each line for relevance"
-Write-Host "Format: queryID 0 docID [0|1]"
