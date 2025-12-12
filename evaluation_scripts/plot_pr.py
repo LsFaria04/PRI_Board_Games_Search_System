@@ -54,7 +54,7 @@ def main(trec_eval_stdout: str):
     plt.ylabel("Precision", fontdict=axis_kwargs)
     plt.xlim(-0.005, 1.005)
     plt.ylim(-0.005, 1.005)
-    plt.legend(loc="lower left", prop={"size": 30}, )
+    plt.legend(loc="lower left", prop={"size": 9})
     plt.grid(True)
     plt.grid(linestyle='--', linewidth=0.5)
     plt.tight_layout()
