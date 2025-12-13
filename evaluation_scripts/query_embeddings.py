@@ -37,8 +37,8 @@ def solr_hybrid_query(endpoint, collection, query, embedding, page):
     params = {
         'q': query,
         'fl': 'id,score,name,alt_names,yearpublished,description,minplayers,maxplayers,playingtime,minage,publishers,designers,artists,categories,mechanics,families,expansions,average,owned,trading,wanting,wishing,averageweight',
-        #'rows': 9,
-        'rows': 30, #to do evaluation with trec eval
+        'rows': 9,
+        #'rows': 30, #to do evaluation with trec eval
         'start': page * 9,
         'wt': 'json',
 
