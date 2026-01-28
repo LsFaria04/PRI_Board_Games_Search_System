@@ -1,5 +1,7 @@
 # Board games search engine
 
+**Final Grade: 17.59**
+
 ## Development
 
 To start evaluation process of the queries you need to follow these steps:
@@ -56,5 +58,6 @@ tail -c +4 semantic_games.json > semantic_games_fixed.json && mv semantic_games_
 # 3. Rename combined_vectors to combined_vector
 sed -i "s/combined_vectors/combined_vector/g" semantic_games.json
 ```
+
 
 After running these commands, update your `startup_semantic.ps1` to post `semantic_games.json` instead of `final_data.json` in the data indexing step.
